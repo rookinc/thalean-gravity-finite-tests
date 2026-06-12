@@ -1,0 +1,392 @@
+{
+  "csv_files": [
+    {
+      "bytes": 942,
+      "path": "18-g900-kernel-admission/source/kernel_payload/carrier_signing_table.csv",
+      "sha256": "9b3cf812cc0f6d7b065666c81fa6d16fd3e3b8a98955c264709337c7f3e7efb7"
+    },
+    {
+      "bytes": 185,
+      "path": "18-g900-kernel-admission/source/kernel_payload/g15_slot_edges.csv",
+      "sha256": "7b94834d507cf2995ec6faf73e2e227a685d831894aa98f2647556d8b922b8f6"
+    },
+    {
+      "bytes": 817,
+      "path": "18-g900-kernel-admission/source/kernel_payload/g60_local_edges.csv",
+      "sha256": "c700a185fab6a5f434da09b7acb716b96c76170774bee946af8ea907e4fe7f9f"
+    },
+    {
+      "bytes": 399,
+      "path": "18-g900-kernel-admission/source/kernel_payload/sibling_candidate_signing_table.csv",
+      "sha256": "8ad921c2af2f48e220e6c1c8a3a72aaecc64f56791bbfbd15b66f2211af11eba"
+    },
+    {
+      "bytes": 636,
+      "path": "18-g900-kernel-admission/source/kernel_payload/sibling_signing_delta.csv",
+      "sha256": "e75263b7e4de2b9c491b36b81e36674131c5f658842976b75da8e3303e146a50"
+    },
+    {
+      "bytes": 40831,
+      "path": "18-g900-kernel-admission/source/kernel_payload/sibling_x_sigma_edges.csv",
+      "sha256": "13dbc8023eee15f8367d9d3309d60f2c447ac24c8ae5c43c71994705a562b425"
+    },
+    {
+      "bytes": 151574,
+      "path": "18-g900-kernel-admission/source/kernel_payload/x_sigma_edges.csv",
+      "sha256": "ea2679662f4322a9ea021fba1143c804ef73b1fae95f50c77ba76b7fe1092230"
+    }
+  ],
+  "edge_list_candidates": [],
+  "json_files": [
+    {
+      "bytes": 1221,
+      "path": "18-g900-kernel-admission/artifacts/json/algebraic_kernel_spec.json",
+      "preview": {
+        "keys": [
+          "boolean_reachability_claims",
+          "carrier_adjacency",
+          "direct_algebraic_claims",
+          "exact_comparison_claims",
+          "f2_claims",
+          "foundation",
+          "generated_adjacency",
+          "half_flip_rule",
+          "internal_adjacency",
+          "matrices",
+          "non_foundational_inputs",
+          "project",
+          "spec"
+        ],
+        "kind": "dict",
+        "ok": true,
+        "size": 13
+      },
+      "sha256": "afd8dc33d75f8b0f12da8874c573e35480e3fdee4841fa1fe9c5d8bc622153ae"
+    },
+    {
+      "bytes": 2142,
+      "path": "18-g900-kernel-admission/artifacts/json/baseline_separation_certificate.json",
+      "preview": {
+        "keys": [
+          "boundary",
+          "certificate",
+          "checks",
+          "claim",
+          "counts",
+          "hashes",
+          "method",
+          "source_files",
+          "untwisted_baseline",
+          "verification_ok",
+          "x_sigma"
+        ],
+        "kind": "dict",
+        "ok": true,
+        "size": 11
+      },
+      "sha256": "f48603d522a6bab09a1218e2d9557e277c84e5424bb2f566d525740c7773e469"
+    },
+    {
+      "bytes": 2060,
+      "path": "18-g900-kernel-admission/artifacts/json/certificate_plan.json",
+      "preview": {
+        "keys": [
+          "admission_rule",
+          "certificate_plan",
+          "certificates",
+          "minimal_bounded_qed_package",
+          "project"
+        ],
+        "kind": "dict",
+        "ok": true,
+        "size": 5
+      },
+      "sha256": "13cc80cff6efc1893d9b6d93458586245974242cbe4d574749e54de38c364792"
+    },
+    {
+      "bytes": 98048,
+      "path": "18-g900-kernel-admission/artifacts/json/connectedness_certificate.json",
+      "preview": {
+        "keys": [
+          "bfs_parent_certificate",
+          "boundary",
+          "certificate",
+          "checks",
+          "claim",
+          "edge_count",
+          "hashes",
+          "max_bfs_depth_from_root",
+          "method",
+          "reached_vertex_count",
+          "root",
+          "source_edge_file",
+          "tree_edge_count",
+          "verification_ok",
+          "vertex_count"
+        ],
+        "kind": "dict",
+        "ok": true,
+        "size": 15
+      },
+      "sha256": "62b0542c126af0e723707e572751d112e3a2793592a688a2efe07ec03e0ec066"
+    },
+    {
+      "bytes": 881,
+      "path": "18-g900-kernel-admission/artifacts/json/construction_independence_status.json",
+      "preview": {
+        "keys": [
+          "construction_independent_of_project17",
+          "kernel_payload",
+          "not_claimed",
+          "project",
+          "qed_independent",
+          "remaining_certificate_targets",
+          "source_project",
+          "source_role",
+          "source_tag",
+          "status"
+        ],
+        "kind": "dict",
+        "ok": true,
+        "size": 10
+      },
+      "sha256": "046f7b05e75ce00ea7b50e5e263e7529f6d09150aac29a624ba5d67c7981fd1c"
+    },
+    {
+      "bytes": 1168,
+      "path": "18-g900-kernel-admission/artifacts/json/exact_edge_set_identity_certificate.json",
+      "preview": {
+        "keys": [
+          "boundary",
+          "certificate",
+          "claim",
+          "counts",
+          "hashes",
+          "source_files",
+          "verification_ok"
+        ],
+        "kind": "dict",
+        "ok": true,
+        "size": 7
+      },
+      "sha256": "65509fb164b58562cc5a79bc66a464d12ca0f0a32ccb6600a9d983fdc5a6ce2c"
+    },
+    {
+      "bytes": 1357,
+      "path": "18-g900-kernel-admission/artifacts/json/generation_operator_spec.json",
+      "preview": {
+        "keys": [
+          "boundary",
+          "deterministic",
+          "edge_layers",
+          "generated_edge_count",
+          "generated_vertex_count",
+          "generated_vertex_set",
+          "input_kernel",
+          "inputs",
+          "kernel_components",
+          "non_inputs",
+          "operator",
+          "output_graph"
+        ],
+        "kind": "dict",
+        "ok": true,
+        "size": 12
+      },
+      "sha256": "dc0592c405102039f472497c446c0f9145dcb816522fc02fd87f090c8fcbb733"
+    },
+    {
+      "bytes": 3476,
+      "path": "18-g900-kernel-admission/artifacts/json/kernel_claim_ledger.json",
+      "preview": {
+        "keys": [
+          "admission_principle",
+          "certificate_required",
+          "claim_classes",
+          "direct_proof",
+          "external_boundary",
+          "ledger",
+          "not_claimed",
+          "project"
+        ],
+        "kind": "dict",
+        "ok": true,
+        "size": 8
+      },
+      "sha256": "3ddbb946b588d140b565891d90bed7d7f66dcde744e51faea4d97665718d8f4a"
+    },
+    {
+      "bytes": 2010,
+      "path": "18-g900-kernel-admission/artifacts/json/kernel_payload_manifest.json",
+      "preview": {
+        "keys": [
+          "boundary",
+          "kernel_payload_independent_of_project17",
+          "missing",
+          "project",
+          "purpose",
+          "records",
+          "source_project"
+        ],
+        "kind": "dict",
+        "ok": true,
+        "size": 7
+      },
+      "sha256": "e8d28cafe9dccacf2ab808e875b914a22cc15480ee721cf7220d9df9b1bbc76b"
+    },
+    {
+      "bytes": 307,
+      "path": "18-g900-kernel-admission/artifacts/json/manuscript_manifest.json",
+      "preview": {
+        "keys": [
+          "certificate_claims_certified",
+          "direct_kernel_claims_proved",
+          "entrypoint",
+          "not_certified_claims",
+          "qed_complete",
+          "remaining_planned_claims",
+          "tag",
+          "zip"
+        ],
+        "kind": "dict",
+        "ok": true,
+        "size": 8
+      },
+      "sha256": "b8130a1decbf351ada2219e48a1bae3265b1b7148908f09275add6e7d033f5bc"
+    },
+    {
+      "bytes": 89745,
+      "path": "18-g900-kernel-admission/artifacts/json/metric_certificate.json",
+      "preview": {
+        "keys": [
+          "boundary",
+          "center_count",
+          "center_vertices",
+          "certificate",
+          "checks",
+          "claim",
+          "diameter",
+          "diameter_vertex_count",
+          "diameter_vertices",
+          "distance_distribution",
+          "eccentricity_counts",
+          "eccentricity_table",
+          "edge_count",
+          "first_diameter_witness_pair",
+          "hashes",
+          "method",
+          "radius",
+          "sample_diameter_witness_pairs",
+          "source_edge_file",
+          "verification_ok",
+          "vertex_count"
+        ],
+        "kind": "dict",
+        "ok": true,
+        "size": 21
+      },
+      "sha256": "953dd183fad92293bcb9b712925b0d2e3b10460a89a0a64d609770d944e52135"
+    },
+    {
+      "bytes": 3873,
+      "path": "18-g900-kernel-admission/artifacts/json/qed_status_ledger.json",
+      "preview": {
+        "keys": [
+          "boundary",
+          "certified",
+          "claims",
+          "current_summary",
+          "ledger",
+          "ledger_ok",
+          "not_certified",
+          "planned",
+          "project",
+          "proved_by_kernel",
+          "status_counts",
+          "verification_checks"
+        ],
+        "kind": "dict",
+        "ok": true,
+        "size": 12
+      },
+      "sha256": "b71e534e65213029d0648a9f8b598ff308a219cf9fff01a9535eaca67ff7d9ab"
+    },
+    {
+      "bytes": 3244,
+      "path": "18-g900-kernel-admission/artifacts/json/sibling_full_graph_separation_certificate.json",
+      "preview": {
+        "keys": [
+          "boundary",
+          "canonical_metric",
+          "certificate",
+          "checks",
+          "claim",
+          "edge_set_comparison",
+          "hashes",
+          "method",
+          "separation_flags",
+          "sibling_metric",
+          "source_files",
+          "verification_ok"
+        ],
+        "kind": "dict",
+        "ok": true,
+        "size": 12
+      },
+      "sha256": "76529d2aa54f3f00bb410c9293933b647ca3fe25d7b5cfd8cc0be152a2306b56"
+    },
+    {
+      "bytes": 5087,
+      "path": "18-g900-kernel-admission/artifacts/json/sibling_non_switching_certificate.json",
+      "preview": {
+        "keys": [
+          "assignment_contradictions_sample",
+          "boundary",
+          "certificate",
+          "checks",
+          "claim",
+          "counts",
+          "interpretation",
+          "linear_obstruction",
+          "method",
+          "source_files",
+          "support",
+          "verification_ok"
+        ],
+        "kind": "dict",
+        "ok": true,
+        "size": 12
+      },
+      "sha256": "44f06c343d359c98f103a178cc340fc40b1acd45104504292fa80c7b4e0484e7"
+    },
+    {
+      "bytes": 3081,
+      "path": "18-g900-kernel-admission/source/project17_checkpoint_manifest.json",
+      "preview": {
+        "keys": [
+          "admission_use",
+          "boundary",
+          "missing_file_count",
+          "missing_files",
+          "source_branch",
+          "source_commit",
+          "source_path",
+          "source_project",
+          "source_status_short",
+          "source_tags_at_head",
+          "source_worktree_clean",
+          "tracked_file_count",
+          "tracked_files"
+        ],
+        "kind": "dict",
+        "ok": true,
+        "size": 13
+      },
+      "sha256": "1c14204f1e18a7e90eb057e1faf271d43b4010e81f46cf4d14c1d041445c43d4"
+    }
+  ],
+  "npy_files": [],
+  "project": "19-thalean-gravity-finite-tests",
+  "source_dir": "/data/data/com.termux/files/home/dev/cori/research/thalean-graph-theory/18-g900-kernel-admission",
+  "source_exists": true
+}
