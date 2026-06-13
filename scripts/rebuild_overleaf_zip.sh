@@ -4,9 +4,9 @@ set -euo pipefail
 ROOT="$(cd "$(dirname "$0")/.." && pwd)"
 PAPER="$ROOT/paper"
 DIST="$ROOT/dist"
-TMP="${TMPDIR:-/tmp}/thalean_gravity_overleaf"
+TMP="${TMPDIR:-/tmp}/odd_carrier_holonomy_zip"
 
-ZIP_NAME="thalean_gravity_overleaf.zip"
+ZIP_NAME="Odd_Carrier_Holonomy_and_Metric_Compression_in_a_Finite_Signed_Carrier_Graph_v0.1.1.zip"
 ZIP_PATH="$DIST/$ZIP_NAME"
 
 echo "== rebuild Overleaf zip =="
@@ -41,7 +41,7 @@ ls -lh "$ZIP_PATH"
 
 echo
 echo "== zip contents =="
-unzip -l "$ZIP_PATH" | sed -n '1,160p'
+unzip -l "$ZIP_PATH" | sed -n '1,180p'
 
 echo
 echo "== done =="
