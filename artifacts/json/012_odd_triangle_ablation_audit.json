@@ -1,0 +1,532 @@
+{
+  "boundary": {
+    "finite_ablation_claim": true,
+    "metric_compression_claim": true,
+    "physical_gravity_claim": false
+  },
+  "checks": {
+    "minus3_compression_removed_by_neutralization": true,
+    "neutralized_has_no_odd_triangles": true,
+    "neutralized_mean_less_compressive_than_original": true,
+    "original_has_odd_triangles": true,
+    "return_distribution_changes_after_neutralization": true
+  },
+  "claim": "odd carrier triangles are causal contributors to the strongest half-flip return compression",
+  "original": {
+    "compressed_count": 294,
+    "delta_counts": {
+      "-3": 22,
+      "-1": 272,
+      "0": 606
+    },
+    "expanded_count": 0,
+    "mean_actual_delta": -0.37555555555555553,
+    "name": "original",
+    "odd_triangle_count": 5,
+    "odd_triangle_slots": [
+      0,
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      10,
+      14
+    ],
+    "odd_triangles": [
+      {
+        "carrier_parity": 1,
+        "edges": [
+          [
+            0,
+            1
+          ],
+          [
+            0,
+            6
+          ],
+          [
+            1,
+            6
+          ]
+        ],
+        "signs": [
+          1,
+          1,
+          1
+        ],
+        "triangle": [
+          0,
+          1,
+          6
+        ]
+      },
+      {
+        "carrier_parity": 1,
+        "edges": [
+          [
+            0,
+            4
+          ],
+          [
+            0,
+            5
+          ],
+          [
+            4,
+            5
+          ]
+        ],
+        "signs": [
+          1,
+          1,
+          1
+        ],
+        "triangle": [
+          0,
+          4,
+          5
+        ]
+      },
+      {
+        "carrier_parity": 1,
+        "edges": [
+          [
+            1,
+            2
+          ],
+          [
+            1,
+            7
+          ],
+          [
+            2,
+            7
+          ]
+        ],
+        "signs": [
+          1,
+          1,
+          1
+        ],
+        "triangle": [
+          1,
+          2,
+          7
+        ]
+      },
+      {
+        "carrier_parity": 1,
+        "edges": [
+          [
+            2,
+            3
+          ],
+          [
+            2,
+            8
+          ],
+          [
+            3,
+            8
+          ]
+        ],
+        "signs": [
+          1,
+          1,
+          1
+        ],
+        "triangle": [
+          2,
+          3,
+          8
+        ]
+      },
+      {
+        "carrier_parity": 1,
+        "edges": [
+          [
+            5,
+            10
+          ],
+          [
+            5,
+            14
+          ],
+          [
+            10,
+            14
+          ]
+        ],
+        "signs": [
+          1,
+          1,
+          1
+        ],
+        "triangle": [
+          5,
+          10,
+          14
+        ]
+      }
+    ],
+    "slot_summary": {
+      "0": {
+        "best_odd_cycle_len": 3,
+        "delta_counts": {
+          "-3": 2,
+          "-1": 24,
+          "0": 34
+        },
+        "has_odd_triangle": true,
+        "mean_actual_delta": -0.5,
+        "odd_cycle_count_containing_slot": 2930
+      },
+      "1": {
+        "best_odd_cycle_len": 3,
+        "delta_counts": {
+          "-3": 2,
+          "-1": 24,
+          "0": 34
+        },
+        "has_odd_triangle": true,
+        "mean_actual_delta": -0.5,
+        "odd_cycle_count_containing_slot": 2930
+      },
+      "10": {
+        "best_odd_cycle_len": 3,
+        "delta_counts": {
+          "-3": 2,
+          "-1": 24,
+          "0": 34
+        },
+        "has_odd_triangle": true,
+        "mean_actual_delta": -0.5,
+        "odd_cycle_count_containing_slot": 2913
+      },
+      "11": {
+        "best_odd_cycle_len": 5,
+        "delta_counts": {
+          "-1": 2,
+          "0": 58
+        },
+        "has_odd_triangle": false,
+        "mean_actual_delta": -0.03333333333333333,
+        "odd_cycle_count_containing_slot": 2908
+      },
+      "12": {
+        "best_odd_cycle_len": 5,
+        "delta_counts": {
+          "-1": 2,
+          "0": 58
+        },
+        "has_odd_triangle": false,
+        "mean_actual_delta": -0.03333333333333333,
+        "odd_cycle_count_containing_slot": 2908
+      },
+      "13": {
+        "best_odd_cycle_len": 5,
+        "delta_counts": {
+          "-1": 2,
+          "0": 58
+        },
+        "has_odd_triangle": false,
+        "mean_actual_delta": -0.03333333333333333,
+        "odd_cycle_count_containing_slot": 2912
+      },
+      "14": {
+        "best_odd_cycle_len": 3,
+        "delta_counts": {
+          "-3": 2,
+          "-1": 24,
+          "0": 34
+        },
+        "has_odd_triangle": true,
+        "mean_actual_delta": -0.5,
+        "odd_cycle_count_containing_slot": 2909
+      },
+      "2": {
+        "best_odd_cycle_len": 3,
+        "delta_counts": {
+          "-3": 2,
+          "-1": 24,
+          "0": 34
+        },
+        "has_odd_triangle": true,
+        "mean_actual_delta": -0.5,
+        "odd_cycle_count_containing_slot": 2898
+      },
+      "3": {
+        "best_odd_cycle_len": 3,
+        "delta_counts": {
+          "-3": 2,
+          "-1": 24,
+          "0": 34
+        },
+        "has_odd_triangle": true,
+        "mean_actual_delta": -0.5,
+        "odd_cycle_count_containing_slot": 2913
+      },
+      "4": {
+        "best_odd_cycle_len": 3,
+        "delta_counts": {
+          "-3": 2,
+          "-1": 24,
+          "0": 34
+        },
+        "has_odd_triangle": true,
+        "mean_actual_delta": -0.5,
+        "odd_cycle_count_containing_slot": 2913
+      },
+      "5": {
+        "best_odd_cycle_len": 3,
+        "delta_counts": {
+          "-3": 2,
+          "-1": 24,
+          "0": 34
+        },
+        "has_odd_triangle": true,
+        "mean_actual_delta": -0.5,
+        "odd_cycle_count_containing_slot": 2898
+      },
+      "6": {
+        "best_odd_cycle_len": 3,
+        "delta_counts": {
+          "-3": 2,
+          "-1": 24,
+          "0": 34
+        },
+        "has_odd_triangle": true,
+        "mean_actual_delta": -0.5,
+        "odd_cycle_count_containing_slot": 2913
+      },
+      "7": {
+        "best_odd_cycle_len": 3,
+        "delta_counts": {
+          "-3": 2,
+          "-1": 24,
+          "0": 34
+        },
+        "has_odd_triangle": true,
+        "mean_actual_delta": -0.5,
+        "odd_cycle_count_containing_slot": 2913
+      },
+      "8": {
+        "best_odd_cycle_len": 3,
+        "delta_counts": {
+          "-3": 2,
+          "-1": 24,
+          "0": 34
+        },
+        "has_odd_triangle": true,
+        "mean_actual_delta": -0.5,
+        "odd_cycle_count_containing_slot": 2909
+      },
+      "9": {
+        "best_odd_cycle_len": 5,
+        "delta_counts": {
+          "-1": 2,
+          "0": 58
+        },
+        "has_odd_triangle": false,
+        "mean_actual_delta": -0.03333333333333333,
+        "odd_cycle_count_containing_slot": 2908
+      }
+    },
+    "unchanged_count": 606
+  },
+  "project": "19-thalean-gravity-finite-tests",
+  "source_payload": "/data/data/com.termux/files/home/dev/cori/research/thalean-graph-theory/18-g900-kernel-admission/source/kernel_payload",
+  "toggle_edges_to_neutralize_triangles": [
+    [
+      0,
+      1
+    ],
+    [
+      0,
+      4
+    ],
+    [
+      1,
+      2
+    ],
+    [
+      2,
+      3
+    ],
+    [
+      5,
+      10
+    ]
+  ],
+  "triangle_neutralized": {
+    "compressed_count": 30,
+    "delta_counts": {
+      "-2": 22,
+      "-1": 8,
+      "0": 870
+    },
+    "expanded_count": 0,
+    "mean_actual_delta": -0.057777777777777775,
+    "name": "triangle_neutralized",
+    "odd_triangle_count": 0,
+    "odd_triangle_slots": [],
+    "odd_triangles": [],
+    "slot_summary": {
+      "0": {
+        "best_odd_cycle_len": 5,
+        "delta_counts": {
+          "-2": 2,
+          "0": 58
+        },
+        "has_odd_triangle": false,
+        "mean_actual_delta": -0.06666666666666667,
+        "odd_cycle_count_containing_slot": 2712
+      },
+      "1": {
+        "best_odd_cycle_len": 6,
+        "delta_counts": {
+          "-2": 2,
+          "0": 58
+        },
+        "has_odd_triangle": false,
+        "mean_actual_delta": -0.06666666666666667,
+        "odd_cycle_count_containing_slot": 2480
+      },
+      "10": {
+        "best_odd_cycle_len": 5,
+        "delta_counts": {
+          "-2": 2,
+          "0": 58
+        },
+        "has_odd_triangle": false,
+        "mean_actual_delta": -0.06666666666666667,
+        "odd_cycle_count_containing_slot": 2564
+      },
+      "11": {
+        "best_odd_cycle_len": 5,
+        "delta_counts": {
+          "-1": 2,
+          "0": 58
+        },
+        "has_odd_triangle": false,
+        "mean_actual_delta": -0.03333333333333333,
+        "odd_cycle_count_containing_slot": 2564
+      },
+      "12": {
+        "best_odd_cycle_len": 5,
+        "delta_counts": {
+          "-1": 2,
+          "0": 58
+        },
+        "has_odd_triangle": false,
+        "mean_actual_delta": -0.03333333333333333,
+        "odd_cycle_count_containing_slot": 2564
+      },
+      "13": {
+        "best_odd_cycle_len": 5,
+        "delta_counts": {
+          "-1": 2,
+          "0": 58
+        },
+        "has_odd_triangle": false,
+        "mean_actual_delta": -0.03333333333333333,
+        "odd_cycle_count_containing_slot": 2564
+      },
+      "14": {
+        "best_odd_cycle_len": 5,
+        "delta_counts": {
+          "-2": 2,
+          "0": 58
+        },
+        "has_odd_triangle": false,
+        "mean_actual_delta": -0.06666666666666667,
+        "odd_cycle_count_containing_slot": 2520
+      },
+      "2": {
+        "best_odd_cycle_len": 5,
+        "delta_counts": {
+          "-2": 2,
+          "0": 58
+        },
+        "has_odd_triangle": false,
+        "mean_actual_delta": -0.06666666666666667,
+        "odd_cycle_count_containing_slot": 2712
+      },
+      "3": {
+        "best_odd_cycle_len": 5,
+        "delta_counts": {
+          "-2": 2,
+          "0": 58
+        },
+        "has_odd_triangle": false,
+        "mean_actual_delta": -0.06666666666666667,
+        "odd_cycle_count_containing_slot": 2564
+      },
+      "4": {
+        "best_odd_cycle_len": 5,
+        "delta_counts": {
+          "-2": 2,
+          "0": 58
+        },
+        "has_odd_triangle": false,
+        "mean_actual_delta": -0.06666666666666667,
+        "odd_cycle_count_containing_slot": 2564
+      },
+      "5": {
+        "best_odd_cycle_len": 5,
+        "delta_counts": {
+          "-2": 2,
+          "0": 58
+        },
+        "has_odd_triangle": false,
+        "mean_actual_delta": -0.06666666666666667,
+        "odd_cycle_count_containing_slot": 2564
+      },
+      "6": {
+        "best_odd_cycle_len": 5,
+        "delta_counts": {
+          "-2": 2,
+          "0": 58
+        },
+        "has_odd_triangle": false,
+        "mean_actual_delta": -0.06666666666666667,
+        "odd_cycle_count_containing_slot": 2712
+      },
+      "7": {
+        "best_odd_cycle_len": 5,
+        "delta_counts": {
+          "-2": 2,
+          "0": 58
+        },
+        "has_odd_triangle": false,
+        "mean_actual_delta": -0.06666666666666667,
+        "odd_cycle_count_containing_slot": 2712
+      },
+      "8": {
+        "best_odd_cycle_len": 5,
+        "delta_counts": {
+          "-2": 2,
+          "0": 58
+        },
+        "has_odd_triangle": false,
+        "mean_actual_delta": -0.06666666666666667,
+        "odd_cycle_count_containing_slot": 2564
+      },
+      "9": {
+        "best_odd_cycle_len": 5,
+        "delta_counts": {
+          "-1": 2,
+          "0": 58
+        },
+        "has_odd_triangle": false,
+        "mean_actual_delta": -0.03333333333333333,
+        "odd_cycle_count_containing_slot": 2520
+      }
+    },
+    "unchanged_count": 870
+  }
+}
