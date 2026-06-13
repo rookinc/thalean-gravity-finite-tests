@@ -1,0 +1,7162 @@
+{
+  "boundary": {
+    "finite_parity_control_claim": true,
+    "metric_compression_claim": false,
+    "physical_gravity_claim": false
+  },
+  "carrier_edge_count": 30,
+  "checks": {
+    "neutralizer_found": true,
+    "neutralizer_has_zero_odd_triangles": true,
+    "neutralizer_in_zero_odd_class": true,
+    "zero_odd_class_is_rare_under_same_size_toggles": true,
+    "zero_odd_is_minimal_odd_triangle_count": true
+  },
+  "claim": "exhaustive same-size sign parity control for odd triangle neutralization",
+  "max_odd_triangle_count": 10,
+  "min_odd_triangle_count": 0,
+  "neutralizer": {
+    "record": {
+      "is_neutralizer": true,
+      "odd_slot_count": 0,
+      "odd_triangle_count": 0,
+      "odd_triangle_slots": [],
+      "odd_triangles": [],
+      "toggle_edges": [
+        [
+          0,
+          1
+        ],
+        [
+          0,
+          4
+        ],
+        [
+          1,
+          2
+        ],
+        [
+          2,
+          3
+        ],
+        [
+          5,
+          10
+        ]
+      ]
+    },
+    "toggle_edges": [
+      [
+        0,
+        1
+      ],
+      [
+        0,
+        4
+      ],
+      [
+        1,
+        2
+      ],
+      [
+        2,
+        3
+      ],
+      [
+        5,
+        10
+      ]
+    ]
+  },
+  "odd_slot_count_distribution": {
+    "0": 243,
+    "10": 20898,
+    "11": 16443,
+    "12": 21465,
+    "13": 21276,
+    "14": 20331,
+    "15": 9504,
+    "5": 4077,
+    "6": 7938,
+    "9": 20331
+  },
+  "odd_triangle_count_distribution": {
+    "0": 243,
+    "10": 243,
+    "2": 12015,
+    "4": 58995,
+    "6": 58995,
+    "8": 12015
+  },
+  "original_odd_triangle_count": 5,
+  "original_odd_triangle_slots": [
+    0,
+    1,
+    2,
+    3,
+    4,
+    5,
+    6,
+    7,
+    8,
+    10,
+    14
+  ],
+  "project": "19-thalean-gravity-finite-tests",
+  "source_payload": "/data/data/com.termux/files/home/dev/cori/research/thalean-graph-theory/18-g900-kernel-admission/source/kernel_payload",
+  "toggle_size": 5,
+  "total_same_size_combos": 142506,
+  "triangle_count": 10,
+  "zero_odd_controls_excluding_neutralizer": 242,
+  "zero_odd_fraction": 0.0017051913603637742,
+  "zero_odd_toggle_count": 243,
+  "zero_odd_toggle_sets": [
+    {
+      "is_neutralizer": true,
+      "odd_slot_count": 0,
+      "odd_triangle_count": 0,
+      "odd_triangle_slots": [],
+      "odd_triangles": [],
+      "toggle_edges": [
+        [
+          0,
+          1
+        ],
+        [
+          0,
+          4
+        ],
+        [
+          1,
+          2
+        ],
+        [
+          2,
+          3
+        ],
+        [
+          5,
+          10
+        ]
+      ]
+    },
+    {
+      "is_neutralizer": false,
+      "odd_slot_count": 0,
+      "odd_triangle_count": 0,
+      "odd_triangle_slots": [],
+      "odd_triangles": [],
+      "toggle_edges": [
+        [
+          0,
+          1
+        ],
+        [
+          0,
+          4
+        ],
+        [
+          1,
+          2
+        ],
+        [
+          2,
+          3
+        ],
+        [
+          5,
+          14
+        ]
+      ]
+    },
+    {
+      "is_neutralizer": false,
+      "odd_slot_count": 0,
+      "odd_triangle_count": 0,
+      "odd_triangle_slots": [],
+      "odd_triangles": [],
+      "toggle_edges": [
+        [
+          0,
+          1
+        ],
+        [
+          0,
+          4
+        ],
+        [
+          1,
+          2
+        ],
+        [
+          2,
+          3
+        ],
+        [
+          10,
+          14
+        ]
+      ]
+    },
+    {
+      "is_neutralizer": false,
+      "odd_slot_count": 0,
+      "odd_triangle_count": 0,
+      "odd_triangle_slots": [],
+      "odd_triangles": [],
+      "toggle_edges": [
+        [
+          0,
+          1
+        ],
+        [
+          0,
+          4
+        ],
+        [
+          1,
+          2
+        ],
+        [
+          2,
+          8
+        ],
+        [
+          5,
+          10
+        ]
+      ]
+    },
+    {
+      "is_neutralizer": false,
+      "odd_slot_count": 0,
+      "odd_triangle_count": 0,
+      "odd_triangle_slots": [],
+      "odd_triangles": [],
+      "toggle_edges": [
+        [
+          0,
+          1
+        ],
+        [
+          0,
+          4
+        ],
+        [
+          1,
+          2
+        ],
+        [
+          2,
+          8
+        ],
+        [
+          5,
+          14
+        ]
+      ]
+    },
+    {
+      "is_neutralizer": false,
+      "odd_slot_count": 0,
+      "odd_triangle_count": 0,
+      "odd_triangle_slots": [],
+      "odd_triangles": [],
+      "toggle_edges": [
+        [
+          0,
+          1
+        ],
+        [
+          0,
+          4
+        ],
+        [
+          1,
+          2
+        ],
+        [
+          2,
+          8
+        ],
+        [
+          10,
+          14
+        ]
+      ]
+    },
+    {
+      "is_neutralizer": false,
+      "odd_slot_count": 0,
+      "odd_triangle_count": 0,
+      "odd_triangle_slots": [],
+      "odd_triangles": [],
+      "toggle_edges": [
+        [
+          0,
+          1
+        ],
+        [
+          0,
+          4
+        ],
+        [
+          1,
+          2
+        ],
+        [
+          3,
+          8
+        ],
+        [
+          5,
+          10
+        ]
+      ]
+    },
+    {
+      "is_neutralizer": false,
+      "odd_slot_count": 0,
+      "odd_triangle_count": 0,
+      "odd_triangle_slots": [],
+      "odd_triangles": [],
+      "toggle_edges": [
+        [
+          0,
+          1
+        ],
+        [
+          0,
+          4
+        ],
+        [
+          1,
+          2
+        ],
+        [
+          3,
+          8
+        ],
+        [
+          5,
+          14
+        ]
+      ]
+    },
+    {
+      "is_neutralizer": false,
+      "odd_slot_count": 0,
+      "odd_triangle_count": 0,
+      "odd_triangle_slots": [],
+      "odd_triangles": [],
+      "toggle_edges": [
+        [
+          0,
+          1
+        ],
+        [
+          0,
+          4
+        ],
+        [
+          1,
+          2
+        ],
+        [
+          3,
+          8
+        ],
+        [
+          10,
+          14
+        ]
+      ]
+    },
+    {
+      "is_neutralizer": false,
+      "odd_slot_count": 0,
+      "odd_triangle_count": 0,
+      "odd_triangle_slots": [],
+      "odd_triangles": [],
+      "toggle_edges": [
+        [
+          0,
+          1
+        ],
+        [
+          0,
+          4
+        ],
+        [
+          1,
+          7
+        ],
+        [
+          2,
+          3
+        ],
+        [
+          5,
+          10
+        ]
+      ]
+    },
+    {
+      "is_neutralizer": false,
+      "odd_slot_count": 0,
+      "odd_triangle_count": 0,
+      "odd_triangle_slots": [],
+      "odd_triangles": [],
+      "toggle_edges": [
+        [
+          0,
+          1
+        ],
+        [
+          0,
+          4
+        ],
+        [
+          1,
+          7
+        ],
+        [
+          2,
+          3
+        ],
+        [
+          5,
+          14
+        ]
+      ]
+    },
+    {
+      "is_neutralizer": false,
+      "odd_slot_count": 0,
+      "odd_triangle_count": 0,
+      "odd_triangle_slots": [],
+      "odd_triangles": [],
+      "toggle_edges": [
+        [
+          0,
+          1
+        ],
+        [
+          0,
+          4
+        ],
+        [
+          1,
+          7
+        ],
+        [
+          2,
+          3
+        ],
+        [
+          10,
+          14
+        ]
+      ]
+    },
+    {
+      "is_neutralizer": false,
+      "odd_slot_count": 0,
+      "odd_triangle_count": 0,
+      "odd_triangle_slots": [],
+      "odd_triangles": [],
+      "toggle_edges": [
+        [
+          0,
+          1
+        ],
+        [
+          0,
+          4
+        ],
+        [
+          1,
+          7
+        ],
+        [
+          2,
+          8
+        ],
+        [
+          5,
+          10
+        ]
+      ]
+    },
+    {
+      "is_neutralizer": false,
+      "odd_slot_count": 0,
+      "odd_triangle_count": 0,
+      "odd_triangle_slots": [],
+      "odd_triangles": [],
+      "toggle_edges": [
+        [
+          0,
+          1
+        ],
+        [
+          0,
+          4
+        ],
+        [
+          1,
+          7
+        ],
+        [
+          2,
+          8
+        ],
+        [
+          5,
+          14
+        ]
+      ]
+    },
+    {
+      "is_neutralizer": false,
+      "odd_slot_count": 0,
+      "odd_triangle_count": 0,
+      "odd_triangle_slots": [],
+      "odd_triangles": [],
+      "toggle_edges": [
+        [
+          0,
+          1
+        ],
+        [
+          0,
+          4
+        ],
+        [
+          1,
+          7
+        ],
+        [
+          2,
+          8
+        ],
+        [
+          10,
+          14
+        ]
+      ]
+    },
+    {
+      "is_neutralizer": false,
+      "odd_slot_count": 0,
+      "odd_triangle_count": 0,
+      "odd_triangle_slots": [],
+      "odd_triangles": [],
+      "toggle_edges": [
+        [
+          0,
+          1
+        ],
+        [
+          0,
+          4
+        ],
+        [
+          1,
+          7
+        ],
+        [
+          3,
+          8
+        ],
+        [
+          5,
+          10
+        ]
+      ]
+    },
+    {
+      "is_neutralizer": false,
+      "odd_slot_count": 0,
+      "odd_triangle_count": 0,
+      "odd_triangle_slots": [],
+      "odd_triangles": [],
+      "toggle_edges": [
+        [
+          0,
+          1
+        ],
+        [
+          0,
+          4
+        ],
+        [
+          1,
+          7
+        ],
+        [
+          3,
+          8
+        ],
+        [
+          5,
+          14
+        ]
+      ]
+    },
+    {
+      "is_neutralizer": false,
+      "odd_slot_count": 0,
+      "odd_triangle_count": 0,
+      "odd_triangle_slots": [],
+      "odd_triangles": [],
+      "toggle_edges": [
+        [
+          0,
+          1
+        ],
+        [
+          0,
+          4
+        ],
+        [
+          1,
+          7
+        ],
+        [
+          3,
+          8
+        ],
+        [
+          10,
+          14
+        ]
+      ]
+    },
+    {
+      "is_neutralizer": false,
+      "odd_slot_count": 0,
+      "odd_triangle_count": 0,
+      "odd_triangle_slots": [],
+      "odd_triangles": [],
+      "toggle_edges": [
+        [
+          0,
+          1
+        ],
+        [
+          0,
+          4
+        ],
+        [
+          2,
+          3
+        ],
+        [
+          2,
+          7
+        ],
+        [
+          5,
+          10
+        ]
+      ]
+    },
+    {
+      "is_neutralizer": false,
+      "odd_slot_count": 0,
+      "odd_triangle_count": 0,
+      "odd_triangle_slots": [],
+      "odd_triangles": [],
+      "toggle_edges": [
+        [
+          0,
+          1
+        ],
+        [
+          0,
+          4
+        ],
+        [
+          2,
+          3
+        ],
+        [
+          2,
+          7
+        ],
+        [
+          5,
+          14
+        ]
+      ]
+    },
+    {
+      "is_neutralizer": false,
+      "odd_slot_count": 0,
+      "odd_triangle_count": 0,
+      "odd_triangle_slots": [],
+      "odd_triangles": [],
+      "toggle_edges": [
+        [
+          0,
+          1
+        ],
+        [
+          0,
+          4
+        ],
+        [
+          2,
+          3
+        ],
+        [
+          2,
+          7
+        ],
+        [
+          10,
+          14
+        ]
+      ]
+    },
+    {
+      "is_neutralizer": false,
+      "odd_slot_count": 0,
+      "odd_triangle_count": 0,
+      "odd_triangle_slots": [],
+      "odd_triangles": [],
+      "toggle_edges": [
+        [
+          0,
+          1
+        ],
+        [
+          0,
+          4
+        ],
+        [
+          2,
+          7
+        ],
+        [
+          2,
+          8
+        ],
+        [
+          5,
+          10
+        ]
+      ]
+    },
+    {
+      "is_neutralizer": false,
+      "odd_slot_count": 0,
+      "odd_triangle_count": 0,
+      "odd_triangle_slots": [],
+      "odd_triangles": [],
+      "toggle_edges": [
+        [
+          0,
+          1
+        ],
+        [
+          0,
+          4
+        ],
+        [
+          2,
+          7
+        ],
+        [
+          2,
+          8
+        ],
+        [
+          5,
+          14
+        ]
+      ]
+    },
+    {
+      "is_neutralizer": false,
+      "odd_slot_count": 0,
+      "odd_triangle_count": 0,
+      "odd_triangle_slots": [],
+      "odd_triangles": [],
+      "toggle_edges": [
+        [
+          0,
+          1
+        ],
+        [
+          0,
+          4
+        ],
+        [
+          2,
+          7
+        ],
+        [
+          2,
+          8
+        ],
+        [
+          10,
+          14
+        ]
+      ]
+    },
+    {
+      "is_neutralizer": false,
+      "odd_slot_count": 0,
+      "odd_triangle_count": 0,
+      "odd_triangle_slots": [],
+      "odd_triangles": [],
+      "toggle_edges": [
+        [
+          0,
+          1
+        ],
+        [
+          0,
+          4
+        ],
+        [
+          2,
+          7
+        ],
+        [
+          3,
+          8
+        ],
+        [
+          5,
+          10
+        ]
+      ]
+    },
+    {
+      "is_neutralizer": false,
+      "odd_slot_count": 0,
+      "odd_triangle_count": 0,
+      "odd_triangle_slots": [],
+      "odd_triangles": [],
+      "toggle_edges": [
+        [
+          0,
+          1
+        ],
+        [
+          0,
+          4
+        ],
+        [
+          2,
+          7
+        ],
+        [
+          3,
+          8
+        ],
+        [
+          5,
+          14
+        ]
+      ]
+    },
+    {
+      "is_neutralizer": false,
+      "odd_slot_count": 0,
+      "odd_triangle_count": 0,
+      "odd_triangle_slots": [],
+      "odd_triangles": [],
+      "toggle_edges": [
+        [
+          0,
+          1
+        ],
+        [
+          0,
+          4
+        ],
+        [
+          2,
+          7
+        ],
+        [
+          3,
+          8
+        ],
+        [
+          10,
+          14
+        ]
+      ]
+    },
+    {
+      "is_neutralizer": false,
+      "odd_slot_count": 0,
+      "odd_triangle_count": 0,
+      "odd_triangle_slots": [],
+      "odd_triangles": [],
+      "toggle_edges": [
+        [
+          0,
+          1
+        ],
+        [
+          0,
+          5
+        ],
+        [
+          1,
+          2
+        ],
+        [
+          2,
+          3
+        ],
+        [
+          5,
+          10
+        ]
+      ]
+    },
+    {
+      "is_neutralizer": false,
+      "odd_slot_count": 0,
+      "odd_triangle_count": 0,
+      "odd_triangle_slots": [],
+      "odd_triangles": [],
+      "toggle_edges": [
+        [
+          0,
+          1
+        ],
+        [
+          0,
+          5
+        ],
+        [
+          1,
+          2
+        ],
+        [
+          2,
+          3
+        ],
+        [
+          5,
+          14
+        ]
+      ]
+    },
+    {
+      "is_neutralizer": false,
+      "odd_slot_count": 0,
+      "odd_triangle_count": 0,
+      "odd_triangle_slots": [],
+      "odd_triangles": [],
+      "toggle_edges": [
+        [
+          0,
+          1
+        ],
+        [
+          0,
+          5
+        ],
+        [
+          1,
+          2
+        ],
+        [
+          2,
+          3
+        ],
+        [
+          10,
+          14
+        ]
+      ]
+    },
+    {
+      "is_neutralizer": false,
+      "odd_slot_count": 0,
+      "odd_triangle_count": 0,
+      "odd_triangle_slots": [],
+      "odd_triangles": [],
+      "toggle_edges": [
+        [
+          0,
+          1
+        ],
+        [
+          0,
+          5
+        ],
+        [
+          1,
+          2
+        ],
+        [
+          2,
+          8
+        ],
+        [
+          5,
+          10
+        ]
+      ]
+    },
+    {
+      "is_neutralizer": false,
+      "odd_slot_count": 0,
+      "odd_triangle_count": 0,
+      "odd_triangle_slots": [],
+      "odd_triangles": [],
+      "toggle_edges": [
+        [
+          0,
+          1
+        ],
+        [
+          0,
+          5
+        ],
+        [
+          1,
+          2
+        ],
+        [
+          2,
+          8
+        ],
+        [
+          5,
+          14
+        ]
+      ]
+    },
+    {
+      "is_neutralizer": false,
+      "odd_slot_count": 0,
+      "odd_triangle_count": 0,
+      "odd_triangle_slots": [],
+      "odd_triangles": [],
+      "toggle_edges": [
+        [
+          0,
+          1
+        ],
+        [
+          0,
+          5
+        ],
+        [
+          1,
+          2
+        ],
+        [
+          2,
+          8
+        ],
+        [
+          10,
+          14
+        ]
+      ]
+    },
+    {
+      "is_neutralizer": false,
+      "odd_slot_count": 0,
+      "odd_triangle_count": 0,
+      "odd_triangle_slots": [],
+      "odd_triangles": [],
+      "toggle_edges": [
+        [
+          0,
+          1
+        ],
+        [
+          0,
+          5
+        ],
+        [
+          1,
+          2
+        ],
+        [
+          3,
+          8
+        ],
+        [
+          5,
+          10
+        ]
+      ]
+    },
+    {
+      "is_neutralizer": false,
+      "odd_slot_count": 0,
+      "odd_triangle_count": 0,
+      "odd_triangle_slots": [],
+      "odd_triangles": [],
+      "toggle_edges": [
+        [
+          0,
+          1
+        ],
+        [
+          0,
+          5
+        ],
+        [
+          1,
+          2
+        ],
+        [
+          3,
+          8
+        ],
+        [
+          5,
+          14
+        ]
+      ]
+    },
+    {
+      "is_neutralizer": false,
+      "odd_slot_count": 0,
+      "odd_triangle_count": 0,
+      "odd_triangle_slots": [],
+      "odd_triangles": [],
+      "toggle_edges": [
+        [
+          0,
+          1
+        ],
+        [
+          0,
+          5
+        ],
+        [
+          1,
+          2
+        ],
+        [
+          3,
+          8
+        ],
+        [
+          10,
+          14
+        ]
+      ]
+    },
+    {
+      "is_neutralizer": false,
+      "odd_slot_count": 0,
+      "odd_triangle_count": 0,
+      "odd_triangle_slots": [],
+      "odd_triangles": [],
+      "toggle_edges": [
+        [
+          0,
+          1
+        ],
+        [
+          0,
+          5
+        ],
+        [
+          1,
+          7
+        ],
+        [
+          2,
+          3
+        ],
+        [
+          5,
+          10
+        ]
+      ]
+    },
+    {
+      "is_neutralizer": false,
+      "odd_slot_count": 0,
+      "odd_triangle_count": 0,
+      "odd_triangle_slots": [],
+      "odd_triangles": [],
+      "toggle_edges": [
+        [
+          0,
+          1
+        ],
+        [
+          0,
+          5
+        ],
+        [
+          1,
+          7
+        ],
+        [
+          2,
+          3
+        ],
+        [
+          5,
+          14
+        ]
+      ]
+    },
+    {
+      "is_neutralizer": false,
+      "odd_slot_count": 0,
+      "odd_triangle_count": 0,
+      "odd_triangle_slots": [],
+      "odd_triangles": [],
+      "toggle_edges": [
+        [
+          0,
+          1
+        ],
+        [
+          0,
+          5
+        ],
+        [
+          1,
+          7
+        ],
+        [
+          2,
+          3
+        ],
+        [
+          10,
+          14
+        ]
+      ]
+    },
+    {
+      "is_neutralizer": false,
+      "odd_slot_count": 0,
+      "odd_triangle_count": 0,
+      "odd_triangle_slots": [],
+      "odd_triangles": [],
+      "toggle_edges": [
+        [
+          0,
+          1
+        ],
+        [
+          0,
+          5
+        ],
+        [
+          1,
+          7
+        ],
+        [
+          2,
+          8
+        ],
+        [
+          5,
+          10
+        ]
+      ]
+    },
+    {
+      "is_neutralizer": false,
+      "odd_slot_count": 0,
+      "odd_triangle_count": 0,
+      "odd_triangle_slots": [],
+      "odd_triangles": [],
+      "toggle_edges": [
+        [
+          0,
+          1
+        ],
+        [
+          0,
+          5
+        ],
+        [
+          1,
+          7
+        ],
+        [
+          2,
+          8
+        ],
+        [
+          5,
+          14
+        ]
+      ]
+    },
+    {
+      "is_neutralizer": false,
+      "odd_slot_count": 0,
+      "odd_triangle_count": 0,
+      "odd_triangle_slots": [],
+      "odd_triangles": [],
+      "toggle_edges": [
+        [
+          0,
+          1
+        ],
+        [
+          0,
+          5
+        ],
+        [
+          1,
+          7
+        ],
+        [
+          2,
+          8
+        ],
+        [
+          10,
+          14
+        ]
+      ]
+    },
+    {
+      "is_neutralizer": false,
+      "odd_slot_count": 0,
+      "odd_triangle_count": 0,
+      "odd_triangle_slots": [],
+      "odd_triangles": [],
+      "toggle_edges": [
+        [
+          0,
+          1
+        ],
+        [
+          0,
+          5
+        ],
+        [
+          1,
+          7
+        ],
+        [
+          3,
+          8
+        ],
+        [
+          5,
+          10
+        ]
+      ]
+    },
+    {
+      "is_neutralizer": false,
+      "odd_slot_count": 0,
+      "odd_triangle_count": 0,
+      "odd_triangle_slots": [],
+      "odd_triangles": [],
+      "toggle_edges": [
+        [
+          0,
+          1
+        ],
+        [
+          0,
+          5
+        ],
+        [
+          1,
+          7
+        ],
+        [
+          3,
+          8
+        ],
+        [
+          5,
+          14
+        ]
+      ]
+    },
+    {
+      "is_neutralizer": false,
+      "odd_slot_count": 0,
+      "odd_triangle_count": 0,
+      "odd_triangle_slots": [],
+      "odd_triangles": [],
+      "toggle_edges": [
+        [
+          0,
+          1
+        ],
+        [
+          0,
+          5
+        ],
+        [
+          1,
+          7
+        ],
+        [
+          3,
+          8
+        ],
+        [
+          10,
+          14
+        ]
+      ]
+    },
+    {
+      "is_neutralizer": false,
+      "odd_slot_count": 0,
+      "odd_triangle_count": 0,
+      "odd_triangle_slots": [],
+      "odd_triangles": [],
+      "toggle_edges": [
+        [
+          0,
+          1
+        ],
+        [
+          0,
+          5
+        ],
+        [
+          2,
+          3
+        ],
+        [
+          2,
+          7
+        ],
+        [
+          5,
+          10
+        ]
+      ]
+    },
+    {
+      "is_neutralizer": false,
+      "odd_slot_count": 0,
+      "odd_triangle_count": 0,
+      "odd_triangle_slots": [],
+      "odd_triangles": [],
+      "toggle_edges": [
+        [
+          0,
+          1
+        ],
+        [
+          0,
+          5
+        ],
+        [
+          2,
+          3
+        ],
+        [
+          2,
+          7
+        ],
+        [
+          5,
+          14
+        ]
+      ]
+    },
+    {
+      "is_neutralizer": false,
+      "odd_slot_count": 0,
+      "odd_triangle_count": 0,
+      "odd_triangle_slots": [],
+      "odd_triangles": [],
+      "toggle_edges": [
+        [
+          0,
+          1
+        ],
+        [
+          0,
+          5
+        ],
+        [
+          2,
+          3
+        ],
+        [
+          2,
+          7
+        ],
+        [
+          10,
+          14
+        ]
+      ]
+    },
+    {
+      "is_neutralizer": false,
+      "odd_slot_count": 0,
+      "odd_triangle_count": 0,
+      "odd_triangle_slots": [],
+      "odd_triangles": [],
+      "toggle_edges": [
+        [
+          0,
+          1
+        ],
+        [
+          0,
+          5
+        ],
+        [
+          2,
+          7
+        ],
+        [
+          2,
+          8
+        ],
+        [
+          5,
+          10
+        ]
+      ]
+    },
+    {
+      "is_neutralizer": false,
+      "odd_slot_count": 0,
+      "odd_triangle_count": 0,
+      "odd_triangle_slots": [],
+      "odd_triangles": [],
+      "toggle_edges": [
+        [
+          0,
+          1
+        ],
+        [
+          0,
+          5
+        ],
+        [
+          2,
+          7
+        ],
+        [
+          2,
+          8
+        ],
+        [
+          5,
+          14
+        ]
+      ]
+    },
+    {
+      "is_neutralizer": false,
+      "odd_slot_count": 0,
+      "odd_triangle_count": 0,
+      "odd_triangle_slots": [],
+      "odd_triangles": [],
+      "toggle_edges": [
+        [
+          0,
+          1
+        ],
+        [
+          0,
+          5
+        ],
+        [
+          2,
+          7
+        ],
+        [
+          2,
+          8
+        ],
+        [
+          10,
+          14
+        ]
+      ]
+    },
+    {
+      "is_neutralizer": false,
+      "odd_slot_count": 0,
+      "odd_triangle_count": 0,
+      "odd_triangle_slots": [],
+      "odd_triangles": [],
+      "toggle_edges": [
+        [
+          0,
+          1
+        ],
+        [
+          0,
+          5
+        ],
+        [
+          2,
+          7
+        ],
+        [
+          3,
+          8
+        ],
+        [
+          5,
+          10
+        ]
+      ]
+    },
+    {
+      "is_neutralizer": false,
+      "odd_slot_count": 0,
+      "odd_triangle_count": 0,
+      "odd_triangle_slots": [],
+      "odd_triangles": [],
+      "toggle_edges": [
+        [
+          0,
+          1
+        ],
+        [
+          0,
+          5
+        ],
+        [
+          2,
+          7
+        ],
+        [
+          3,
+          8
+        ],
+        [
+          5,
+          14
+        ]
+      ]
+    },
+    {
+      "is_neutralizer": false,
+      "odd_slot_count": 0,
+      "odd_triangle_count": 0,
+      "odd_triangle_slots": [],
+      "odd_triangles": [],
+      "toggle_edges": [
+        [
+          0,
+          1
+        ],
+        [
+          0,
+          5
+        ],
+        [
+          2,
+          7
+        ],
+        [
+          3,
+          8
+        ],
+        [
+          10,
+          14
+        ]
+      ]
+    },
+    {
+      "is_neutralizer": false,
+      "odd_slot_count": 0,
+      "odd_triangle_count": 0,
+      "odd_triangle_slots": [],
+      "odd_triangles": [],
+      "toggle_edges": [
+        [
+          0,
+          1
+        ],
+        [
+          1,
+          2
+        ],
+        [
+          2,
+          3
+        ],
+        [
+          4,
+          5
+        ],
+        [
+          5,
+          10
+        ]
+      ]
+    },
+    {
+      "is_neutralizer": false,
+      "odd_slot_count": 0,
+      "odd_triangle_count": 0,
+      "odd_triangle_slots": [],
+      "odd_triangles": [],
+      "toggle_edges": [
+        [
+          0,
+          1
+        ],
+        [
+          1,
+          2
+        ],
+        [
+          2,
+          3
+        ],
+        [
+          4,
+          5
+        ],
+        [
+          5,
+          14
+        ]
+      ]
+    },
+    {
+      "is_neutralizer": false,
+      "odd_slot_count": 0,
+      "odd_triangle_count": 0,
+      "odd_triangle_slots": [],
+      "odd_triangles": [],
+      "toggle_edges": [
+        [
+          0,
+          1
+        ],
+        [
+          1,
+          2
+        ],
+        [
+          2,
+          3
+        ],
+        [
+          4,
+          5
+        ],
+        [
+          10,
+          14
+        ]
+      ]
+    },
+    {
+      "is_neutralizer": false,
+      "odd_slot_count": 0,
+      "odd_triangle_count": 0,
+      "odd_triangle_slots": [],
+      "odd_triangles": [],
+      "toggle_edges": [
+        [
+          0,
+          1
+        ],
+        [
+          1,
+          2
+        ],
+        [
+          2,
+          8
+        ],
+        [
+          4,
+          5
+        ],
+        [
+          5,
+          10
+        ]
+      ]
+    },
+    {
+      "is_neutralizer": false,
+      "odd_slot_count": 0,
+      "odd_triangle_count": 0,
+      "odd_triangle_slots": [],
+      "odd_triangles": [],
+      "toggle_edges": [
+        [
+          0,
+          1
+        ],
+        [
+          1,
+          2
+        ],
+        [
+          2,
+          8
+        ],
+        [
+          4,
+          5
+        ],
+        [
+          5,
+          14
+        ]
+      ]
+    },
+    {
+      "is_neutralizer": false,
+      "odd_slot_count": 0,
+      "odd_triangle_count": 0,
+      "odd_triangle_slots": [],
+      "odd_triangles": [],
+      "toggle_edges": [
+        [
+          0,
+          1
+        ],
+        [
+          1,
+          2
+        ],
+        [
+          2,
+          8
+        ],
+        [
+          4,
+          5
+        ],
+        [
+          10,
+          14
+        ]
+      ]
+    },
+    {
+      "is_neutralizer": false,
+      "odd_slot_count": 0,
+      "odd_triangle_count": 0,
+      "odd_triangle_slots": [],
+      "odd_triangles": [],
+      "toggle_edges": [
+        [
+          0,
+          1
+        ],
+        [
+          1,
+          2
+        ],
+        [
+          3,
+          8
+        ],
+        [
+          4,
+          5
+        ],
+        [
+          5,
+          10
+        ]
+      ]
+    },
+    {
+      "is_neutralizer": false,
+      "odd_slot_count": 0,
+      "odd_triangle_count": 0,
+      "odd_triangle_slots": [],
+      "odd_triangles": [],
+      "toggle_edges": [
+        [
+          0,
+          1
+        ],
+        [
+          1,
+          2
+        ],
+        [
+          3,
+          8
+        ],
+        [
+          4,
+          5
+        ],
+        [
+          5,
+          14
+        ]
+      ]
+    },
+    {
+      "is_neutralizer": false,
+      "odd_slot_count": 0,
+      "odd_triangle_count": 0,
+      "odd_triangle_slots": [],
+      "odd_triangles": [],
+      "toggle_edges": [
+        [
+          0,
+          1
+        ],
+        [
+          1,
+          2
+        ],
+        [
+          3,
+          8
+        ],
+        [
+          4,
+          5
+        ],
+        [
+          10,
+          14
+        ]
+      ]
+    },
+    {
+      "is_neutralizer": false,
+      "odd_slot_count": 0,
+      "odd_triangle_count": 0,
+      "odd_triangle_slots": [],
+      "odd_triangles": [],
+      "toggle_edges": [
+        [
+          0,
+          1
+        ],
+        [
+          1,
+          7
+        ],
+        [
+          2,
+          3
+        ],
+        [
+          4,
+          5
+        ],
+        [
+          5,
+          10
+        ]
+      ]
+    },
+    {
+      "is_neutralizer": false,
+      "odd_slot_count": 0,
+      "odd_triangle_count": 0,
+      "odd_triangle_slots": [],
+      "odd_triangles": [],
+      "toggle_edges": [
+        [
+          0,
+          1
+        ],
+        [
+          1,
+          7
+        ],
+        [
+          2,
+          3
+        ],
+        [
+          4,
+          5
+        ],
+        [
+          5,
+          14
+        ]
+      ]
+    },
+    {
+      "is_neutralizer": false,
+      "odd_slot_count": 0,
+      "odd_triangle_count": 0,
+      "odd_triangle_slots": [],
+      "odd_triangles": [],
+      "toggle_edges": [
+        [
+          0,
+          1
+        ],
+        [
+          1,
+          7
+        ],
+        [
+          2,
+          3
+        ],
+        [
+          4,
+          5
+        ],
+        [
+          10,
+          14
+        ]
+      ]
+    },
+    {
+      "is_neutralizer": false,
+      "odd_slot_count": 0,
+      "odd_triangle_count": 0,
+      "odd_triangle_slots": [],
+      "odd_triangles": [],
+      "toggle_edges": [
+        [
+          0,
+          1
+        ],
+        [
+          1,
+          7
+        ],
+        [
+          2,
+          8
+        ],
+        [
+          4,
+          5
+        ],
+        [
+          5,
+          10
+        ]
+      ]
+    },
+    {
+      "is_neutralizer": false,
+      "odd_slot_count": 0,
+      "odd_triangle_count": 0,
+      "odd_triangle_slots": [],
+      "odd_triangles": [],
+      "toggle_edges": [
+        [
+          0,
+          1
+        ],
+        [
+          1,
+          7
+        ],
+        [
+          2,
+          8
+        ],
+        [
+          4,
+          5
+        ],
+        [
+          5,
+          14
+        ]
+      ]
+    },
+    {
+      "is_neutralizer": false,
+      "odd_slot_count": 0,
+      "odd_triangle_count": 0,
+      "odd_triangle_slots": [],
+      "odd_triangles": [],
+      "toggle_edges": [
+        [
+          0,
+          1
+        ],
+        [
+          1,
+          7
+        ],
+        [
+          2,
+          8
+        ],
+        [
+          4,
+          5
+        ],
+        [
+          10,
+          14
+        ]
+      ]
+    },
+    {
+      "is_neutralizer": false,
+      "odd_slot_count": 0,
+      "odd_triangle_count": 0,
+      "odd_triangle_slots": [],
+      "odd_triangles": [],
+      "toggle_edges": [
+        [
+          0,
+          1
+        ],
+        [
+          1,
+          7
+        ],
+        [
+          3,
+          8
+        ],
+        [
+          4,
+          5
+        ],
+        [
+          5,
+          10
+        ]
+      ]
+    },
+    {
+      "is_neutralizer": false,
+      "odd_slot_count": 0,
+      "odd_triangle_count": 0,
+      "odd_triangle_slots": [],
+      "odd_triangles": [],
+      "toggle_edges": [
+        [
+          0,
+          1
+        ],
+        [
+          1,
+          7
+        ],
+        [
+          3,
+          8
+        ],
+        [
+          4,
+          5
+        ],
+        [
+          5,
+          14
+        ]
+      ]
+    },
+    {
+      "is_neutralizer": false,
+      "odd_slot_count": 0,
+      "odd_triangle_count": 0,
+      "odd_triangle_slots": [],
+      "odd_triangles": [],
+      "toggle_edges": [
+        [
+          0,
+          1
+        ],
+        [
+          1,
+          7
+        ],
+        [
+          3,
+          8
+        ],
+        [
+          4,
+          5
+        ],
+        [
+          10,
+          14
+        ]
+      ]
+    },
+    {
+      "is_neutralizer": false,
+      "odd_slot_count": 0,
+      "odd_triangle_count": 0,
+      "odd_triangle_slots": [],
+      "odd_triangles": [],
+      "toggle_edges": [
+        [
+          0,
+          1
+        ],
+        [
+          2,
+          3
+        ],
+        [
+          2,
+          7
+        ],
+        [
+          4,
+          5
+        ],
+        [
+          5,
+          10
+        ]
+      ]
+    },
+    {
+      "is_neutralizer": false,
+      "odd_slot_count": 0,
+      "odd_triangle_count": 0,
+      "odd_triangle_slots": [],
+      "odd_triangles": [],
+      "toggle_edges": [
+        [
+          0,
+          1
+        ],
+        [
+          2,
+          3
+        ],
+        [
+          2,
+          7
+        ],
+        [
+          4,
+          5
+        ],
+        [
+          5,
+          14
+        ]
+      ]
+    },
+    {
+      "is_neutralizer": false,
+      "odd_slot_count": 0,
+      "odd_triangle_count": 0,
+      "odd_triangle_slots": [],
+      "odd_triangles": [],
+      "toggle_edges": [
+        [
+          0,
+          1
+        ],
+        [
+          2,
+          3
+        ],
+        [
+          2,
+          7
+        ],
+        [
+          4,
+          5
+        ],
+        [
+          10,
+          14
+        ]
+      ]
+    },
+    {
+      "is_neutralizer": false,
+      "odd_slot_count": 0,
+      "odd_triangle_count": 0,
+      "odd_triangle_slots": [],
+      "odd_triangles": [],
+      "toggle_edges": [
+        [
+          0,
+          1
+        ],
+        [
+          2,
+          7
+        ],
+        [
+          2,
+          8
+        ],
+        [
+          4,
+          5
+        ],
+        [
+          5,
+          10
+        ]
+      ]
+    },
+    {
+      "is_neutralizer": false,
+      "odd_slot_count": 0,
+      "odd_triangle_count": 0,
+      "odd_triangle_slots": [],
+      "odd_triangles": [],
+      "toggle_edges": [
+        [
+          0,
+          1
+        ],
+        [
+          2,
+          7
+        ],
+        [
+          2,
+          8
+        ],
+        [
+          4,
+          5
+        ],
+        [
+          5,
+          14
+        ]
+      ]
+    },
+    {
+      "is_neutralizer": false,
+      "odd_slot_count": 0,
+      "odd_triangle_count": 0,
+      "odd_triangle_slots": [],
+      "odd_triangles": [],
+      "toggle_edges": [
+        [
+          0,
+          1
+        ],
+        [
+          2,
+          7
+        ],
+        [
+          2,
+          8
+        ],
+        [
+          4,
+          5
+        ],
+        [
+          10,
+          14
+        ]
+      ]
+    },
+    {
+      "is_neutralizer": false,
+      "odd_slot_count": 0,
+      "odd_triangle_count": 0,
+      "odd_triangle_slots": [],
+      "odd_triangles": [],
+      "toggle_edges": [
+        [
+          0,
+          1
+        ],
+        [
+          2,
+          7
+        ],
+        [
+          3,
+          8
+        ],
+        [
+          4,
+          5
+        ],
+        [
+          5,
+          10
+        ]
+      ]
+    },
+    {
+      "is_neutralizer": false,
+      "odd_slot_count": 0,
+      "odd_triangle_count": 0,
+      "odd_triangle_slots": [],
+      "odd_triangles": [],
+      "toggle_edges": [
+        [
+          0,
+          1
+        ],
+        [
+          2,
+          7
+        ],
+        [
+          3,
+          8
+        ],
+        [
+          4,
+          5
+        ],
+        [
+          5,
+          14
+        ]
+      ]
+    },
+    {
+      "is_neutralizer": false,
+      "odd_slot_count": 0,
+      "odd_triangle_count": 0,
+      "odd_triangle_slots": [],
+      "odd_triangles": [],
+      "toggle_edges": [
+        [
+          0,
+          1
+        ],
+        [
+          2,
+          7
+        ],
+        [
+          3,
+          8
+        ],
+        [
+          4,
+          5
+        ],
+        [
+          10,
+          14
+        ]
+      ]
+    },
+    {
+      "is_neutralizer": false,
+      "odd_slot_count": 0,
+      "odd_triangle_count": 0,
+      "odd_triangle_slots": [],
+      "odd_triangles": [],
+      "toggle_edges": [
+        [
+          0,
+          4
+        ],
+        [
+          0,
+          6
+        ],
+        [
+          1,
+          2
+        ],
+        [
+          2,
+          3
+        ],
+        [
+          5,
+          10
+        ]
+      ]
+    },
+    {
+      "is_neutralizer": false,
+      "odd_slot_count": 0,
+      "odd_triangle_count": 0,
+      "odd_triangle_slots": [],
+      "odd_triangles": [],
+      "toggle_edges": [
+        [
+          0,
+          4
+        ],
+        [
+          0,
+          6
+        ],
+        [
+          1,
+          2
+        ],
+        [
+          2,
+          3
+        ],
+        [
+          5,
+          14
+        ]
+      ]
+    },
+    {
+      "is_neutralizer": false,
+      "odd_slot_count": 0,
+      "odd_triangle_count": 0,
+      "odd_triangle_slots": [],
+      "odd_triangles": [],
+      "toggle_edges": [
+        [
+          0,
+          4
+        ],
+        [
+          0,
+          6
+        ],
+        [
+          1,
+          2
+        ],
+        [
+          2,
+          3
+        ],
+        [
+          10,
+          14
+        ]
+      ]
+    },
+    {
+      "is_neutralizer": false,
+      "odd_slot_count": 0,
+      "odd_triangle_count": 0,
+      "odd_triangle_slots": [],
+      "odd_triangles": [],
+      "toggle_edges": [
+        [
+          0,
+          4
+        ],
+        [
+          0,
+          6
+        ],
+        [
+          1,
+          2
+        ],
+        [
+          2,
+          8
+        ],
+        [
+          5,
+          10
+        ]
+      ]
+    },
+    {
+      "is_neutralizer": false,
+      "odd_slot_count": 0,
+      "odd_triangle_count": 0,
+      "odd_triangle_slots": [],
+      "odd_triangles": [],
+      "toggle_edges": [
+        [
+          0,
+          4
+        ],
+        [
+          0,
+          6
+        ],
+        [
+          1,
+          2
+        ],
+        [
+          2,
+          8
+        ],
+        [
+          5,
+          14
+        ]
+      ]
+    },
+    {
+      "is_neutralizer": false,
+      "odd_slot_count": 0,
+      "odd_triangle_count": 0,
+      "odd_triangle_slots": [],
+      "odd_triangles": [],
+      "toggle_edges": [
+        [
+          0,
+          4
+        ],
+        [
+          0,
+          6
+        ],
+        [
+          1,
+          2
+        ],
+        [
+          2,
+          8
+        ],
+        [
+          10,
+          14
+        ]
+      ]
+    },
+    {
+      "is_neutralizer": false,
+      "odd_slot_count": 0,
+      "odd_triangle_count": 0,
+      "odd_triangle_slots": [],
+      "odd_triangles": [],
+      "toggle_edges": [
+        [
+          0,
+          4
+        ],
+        [
+          0,
+          6
+        ],
+        [
+          1,
+          2
+        ],
+        [
+          3,
+          8
+        ],
+        [
+          5,
+          10
+        ]
+      ]
+    },
+    {
+      "is_neutralizer": false,
+      "odd_slot_count": 0,
+      "odd_triangle_count": 0,
+      "odd_triangle_slots": [],
+      "odd_triangles": [],
+      "toggle_edges": [
+        [
+          0,
+          4
+        ],
+        [
+          0,
+          6
+        ],
+        [
+          1,
+          2
+        ],
+        [
+          3,
+          8
+        ],
+        [
+          5,
+          14
+        ]
+      ]
+    },
+    {
+      "is_neutralizer": false,
+      "odd_slot_count": 0,
+      "odd_triangle_count": 0,
+      "odd_triangle_slots": [],
+      "odd_triangles": [],
+      "toggle_edges": [
+        [
+          0,
+          4
+        ],
+        [
+          0,
+          6
+        ],
+        [
+          1,
+          2
+        ],
+        [
+          3,
+          8
+        ],
+        [
+          10,
+          14
+        ]
+      ]
+    },
+    {
+      "is_neutralizer": false,
+      "odd_slot_count": 0,
+      "odd_triangle_count": 0,
+      "odd_triangle_slots": [],
+      "odd_triangles": [],
+      "toggle_edges": [
+        [
+          0,
+          4
+        ],
+        [
+          0,
+          6
+        ],
+        [
+          1,
+          7
+        ],
+        [
+          2,
+          3
+        ],
+        [
+          5,
+          10
+        ]
+      ]
+    },
+    {
+      "is_neutralizer": false,
+      "odd_slot_count": 0,
+      "odd_triangle_count": 0,
+      "odd_triangle_slots": [],
+      "odd_triangles": [],
+      "toggle_edges": [
+        [
+          0,
+          4
+        ],
+        [
+          0,
+          6
+        ],
+        [
+          1,
+          7
+        ],
+        [
+          2,
+          3
+        ],
+        [
+          5,
+          14
+        ]
+      ]
+    },
+    {
+      "is_neutralizer": false,
+      "odd_slot_count": 0,
+      "odd_triangle_count": 0,
+      "odd_triangle_slots": [],
+      "odd_triangles": [],
+      "toggle_edges": [
+        [
+          0,
+          4
+        ],
+        [
+          0,
+          6
+        ],
+        [
+          1,
+          7
+        ],
+        [
+          2,
+          3
+        ],
+        [
+          10,
+          14
+        ]
+      ]
+    },
+    {
+      "is_neutralizer": false,
+      "odd_slot_count": 0,
+      "odd_triangle_count": 0,
+      "odd_triangle_slots": [],
+      "odd_triangles": [],
+      "toggle_edges": [
+        [
+          0,
+          4
+        ],
+        [
+          0,
+          6
+        ],
+        [
+          1,
+          7
+        ],
+        [
+          2,
+          8
+        ],
+        [
+          5,
+          10
+        ]
+      ]
+    },
+    {
+      "is_neutralizer": false,
+      "odd_slot_count": 0,
+      "odd_triangle_count": 0,
+      "odd_triangle_slots": [],
+      "odd_triangles": [],
+      "toggle_edges": [
+        [
+          0,
+          4
+        ],
+        [
+          0,
+          6
+        ],
+        [
+          1,
+          7
+        ],
+        [
+          2,
+          8
+        ],
+        [
+          5,
+          14
+        ]
+      ]
+    },
+    {
+      "is_neutralizer": false,
+      "odd_slot_count": 0,
+      "odd_triangle_count": 0,
+      "odd_triangle_slots": [],
+      "odd_triangles": [],
+      "toggle_edges": [
+        [
+          0,
+          4
+        ],
+        [
+          0,
+          6
+        ],
+        [
+          1,
+          7
+        ],
+        [
+          2,
+          8
+        ],
+        [
+          10,
+          14
+        ]
+      ]
+    },
+    {
+      "is_neutralizer": false,
+      "odd_slot_count": 0,
+      "odd_triangle_count": 0,
+      "odd_triangle_slots": [],
+      "odd_triangles": [],
+      "toggle_edges": [
+        [
+          0,
+          4
+        ],
+        [
+          0,
+          6
+        ],
+        [
+          1,
+          7
+        ],
+        [
+          3,
+          8
+        ],
+        [
+          5,
+          10
+        ]
+      ]
+    },
+    {
+      "is_neutralizer": false,
+      "odd_slot_count": 0,
+      "odd_triangle_count": 0,
+      "odd_triangle_slots": [],
+      "odd_triangles": [],
+      "toggle_edges": [
+        [
+          0,
+          4
+        ],
+        [
+          0,
+          6
+        ],
+        [
+          1,
+          7
+        ],
+        [
+          3,
+          8
+        ],
+        [
+          5,
+          14
+        ]
+      ]
+    },
+    {
+      "is_neutralizer": false,
+      "odd_slot_count": 0,
+      "odd_triangle_count": 0,
+      "odd_triangle_slots": [],
+      "odd_triangles": [],
+      "toggle_edges": [
+        [
+          0,
+          4
+        ],
+        [
+          0,
+          6
+        ],
+        [
+          1,
+          7
+        ],
+        [
+          3,
+          8
+        ],
+        [
+          10,
+          14
+        ]
+      ]
+    },
+    {
+      "is_neutralizer": false,
+      "odd_slot_count": 0,
+      "odd_triangle_count": 0,
+      "odd_triangle_slots": [],
+      "odd_triangles": [],
+      "toggle_edges": [
+        [
+          0,
+          4
+        ],
+        [
+          0,
+          6
+        ],
+        [
+          2,
+          3
+        ],
+        [
+          2,
+          7
+        ],
+        [
+          5,
+          10
+        ]
+      ]
+    },
+    {
+      "is_neutralizer": false,
+      "odd_slot_count": 0,
+      "odd_triangle_count": 0,
+      "odd_triangle_slots": [],
+      "odd_triangles": [],
+      "toggle_edges": [
+        [
+          0,
+          4
+        ],
+        [
+          0,
+          6
+        ],
+        [
+          2,
+          3
+        ],
+        [
+          2,
+          7
+        ],
+        [
+          5,
+          14
+        ]
+      ]
+    },
+    {
+      "is_neutralizer": false,
+      "odd_slot_count": 0,
+      "odd_triangle_count": 0,
+      "odd_triangle_slots": [],
+      "odd_triangles": [],
+      "toggle_edges": [
+        [
+          0,
+          4
+        ],
+        [
+          0,
+          6
+        ],
+        [
+          2,
+          3
+        ],
+        [
+          2,
+          7
+        ],
+        [
+          10,
+          14
+        ]
+      ]
+    },
+    {
+      "is_neutralizer": false,
+      "odd_slot_count": 0,
+      "odd_triangle_count": 0,
+      "odd_triangle_slots": [],
+      "odd_triangles": [],
+      "toggle_edges": [
+        [
+          0,
+          4
+        ],
+        [
+          0,
+          6
+        ],
+        [
+          2,
+          7
+        ],
+        [
+          2,
+          8
+        ],
+        [
+          5,
+          10
+        ]
+      ]
+    },
+    {
+      "is_neutralizer": false,
+      "odd_slot_count": 0,
+      "odd_triangle_count": 0,
+      "odd_triangle_slots": [],
+      "odd_triangles": [],
+      "toggle_edges": [
+        [
+          0,
+          4
+        ],
+        [
+          0,
+          6
+        ],
+        [
+          2,
+          7
+        ],
+        [
+          2,
+          8
+        ],
+        [
+          5,
+          14
+        ]
+      ]
+    },
+    {
+      "is_neutralizer": false,
+      "odd_slot_count": 0,
+      "odd_triangle_count": 0,
+      "odd_triangle_slots": [],
+      "odd_triangles": [],
+      "toggle_edges": [
+        [
+          0,
+          4
+        ],
+        [
+          0,
+          6
+        ],
+        [
+          2,
+          7
+        ],
+        [
+          2,
+          8
+        ],
+        [
+          10,
+          14
+        ]
+      ]
+    },
+    {
+      "is_neutralizer": false,
+      "odd_slot_count": 0,
+      "odd_triangle_count": 0,
+      "odd_triangle_slots": [],
+      "odd_triangles": [],
+      "toggle_edges": [
+        [
+          0,
+          4
+        ],
+        [
+          0,
+          6
+        ],
+        [
+          2,
+          7
+        ],
+        [
+          3,
+          8
+        ],
+        [
+          5,
+          10
+        ]
+      ]
+    },
+    {
+      "is_neutralizer": false,
+      "odd_slot_count": 0,
+      "odd_triangle_count": 0,
+      "odd_triangle_slots": [],
+      "odd_triangles": [],
+      "toggle_edges": [
+        [
+          0,
+          4
+        ],
+        [
+          0,
+          6
+        ],
+        [
+          2,
+          7
+        ],
+        [
+          3,
+          8
+        ],
+        [
+          5,
+          14
+        ]
+      ]
+    },
+    {
+      "is_neutralizer": false,
+      "odd_slot_count": 0,
+      "odd_triangle_count": 0,
+      "odd_triangle_slots": [],
+      "odd_triangles": [],
+      "toggle_edges": [
+        [
+          0,
+          4
+        ],
+        [
+          0,
+          6
+        ],
+        [
+          2,
+          7
+        ],
+        [
+          3,
+          8
+        ],
+        [
+          10,
+          14
+        ]
+      ]
+    },
+    {
+      "is_neutralizer": false,
+      "odd_slot_count": 0,
+      "odd_triangle_count": 0,
+      "odd_triangle_slots": [],
+      "odd_triangles": [],
+      "toggle_edges": [
+        [
+          0,
+          4
+        ],
+        [
+          1,
+          2
+        ],
+        [
+          1,
+          6
+        ],
+        [
+          2,
+          3
+        ],
+        [
+          5,
+          10
+        ]
+      ]
+    },
+    {
+      "is_neutralizer": false,
+      "odd_slot_count": 0,
+      "odd_triangle_count": 0,
+      "odd_triangle_slots": [],
+      "odd_triangles": [],
+      "toggle_edges": [
+        [
+          0,
+          4
+        ],
+        [
+          1,
+          2
+        ],
+        [
+          1,
+          6
+        ],
+        [
+          2,
+          3
+        ],
+        [
+          5,
+          14
+        ]
+      ]
+    },
+    {
+      "is_neutralizer": false,
+      "odd_slot_count": 0,
+      "odd_triangle_count": 0,
+      "odd_triangle_slots": [],
+      "odd_triangles": [],
+      "toggle_edges": [
+        [
+          0,
+          4
+        ],
+        [
+          1,
+          2
+        ],
+        [
+          1,
+          6
+        ],
+        [
+          2,
+          3
+        ],
+        [
+          10,
+          14
+        ]
+      ]
+    },
+    {
+      "is_neutralizer": false,
+      "odd_slot_count": 0,
+      "odd_triangle_count": 0,
+      "odd_triangle_slots": [],
+      "odd_triangles": [],
+      "toggle_edges": [
+        [
+          0,
+          4
+        ],
+        [
+          1,
+          2
+        ],
+        [
+          1,
+          6
+        ],
+        [
+          2,
+          8
+        ],
+        [
+          5,
+          10
+        ]
+      ]
+    },
+    {
+      "is_neutralizer": false,
+      "odd_slot_count": 0,
+      "odd_triangle_count": 0,
+      "odd_triangle_slots": [],
+      "odd_triangles": [],
+      "toggle_edges": [
+        [
+          0,
+          4
+        ],
+        [
+          1,
+          2
+        ],
+        [
+          1,
+          6
+        ],
+        [
+          2,
+          8
+        ],
+        [
+          5,
+          14
+        ]
+      ]
+    },
+    {
+      "is_neutralizer": false,
+      "odd_slot_count": 0,
+      "odd_triangle_count": 0,
+      "odd_triangle_slots": [],
+      "odd_triangles": [],
+      "toggle_edges": [
+        [
+          0,
+          4
+        ],
+        [
+          1,
+          2
+        ],
+        [
+          1,
+          6
+        ],
+        [
+          2,
+          8
+        ],
+        [
+          10,
+          14
+        ]
+      ]
+    },
+    {
+      "is_neutralizer": false,
+      "odd_slot_count": 0,
+      "odd_triangle_count": 0,
+      "odd_triangle_slots": [],
+      "odd_triangles": [],
+      "toggle_edges": [
+        [
+          0,
+          4
+        ],
+        [
+          1,
+          2
+        ],
+        [
+          1,
+          6
+        ],
+        [
+          3,
+          8
+        ],
+        [
+          5,
+          10
+        ]
+      ]
+    },
+    {
+      "is_neutralizer": false,
+      "odd_slot_count": 0,
+      "odd_triangle_count": 0,
+      "odd_triangle_slots": [],
+      "odd_triangles": [],
+      "toggle_edges": [
+        [
+          0,
+          4
+        ],
+        [
+          1,
+          2
+        ],
+        [
+          1,
+          6
+        ],
+        [
+          3,
+          8
+        ],
+        [
+          5,
+          14
+        ]
+      ]
+    },
+    {
+      "is_neutralizer": false,
+      "odd_slot_count": 0,
+      "odd_triangle_count": 0,
+      "odd_triangle_slots": [],
+      "odd_triangles": [],
+      "toggle_edges": [
+        [
+          0,
+          4
+        ],
+        [
+          1,
+          2
+        ],
+        [
+          1,
+          6
+        ],
+        [
+          3,
+          8
+        ],
+        [
+          10,
+          14
+        ]
+      ]
+    },
+    {
+      "is_neutralizer": false,
+      "odd_slot_count": 0,
+      "odd_triangle_count": 0,
+      "odd_triangle_slots": [],
+      "odd_triangles": [],
+      "toggle_edges": [
+        [
+          0,
+          4
+        ],
+        [
+          1,
+          6
+        ],
+        [
+          1,
+          7
+        ],
+        [
+          2,
+          3
+        ],
+        [
+          5,
+          10
+        ]
+      ]
+    },
+    {
+      "is_neutralizer": false,
+      "odd_slot_count": 0,
+      "odd_triangle_count": 0,
+      "odd_triangle_slots": [],
+      "odd_triangles": [],
+      "toggle_edges": [
+        [
+          0,
+          4
+        ],
+        [
+          1,
+          6
+        ],
+        [
+          1,
+          7
+        ],
+        [
+          2,
+          3
+        ],
+        [
+          5,
+          14
+        ]
+      ]
+    },
+    {
+      "is_neutralizer": false,
+      "odd_slot_count": 0,
+      "odd_triangle_count": 0,
+      "odd_triangle_slots": [],
+      "odd_triangles": [],
+      "toggle_edges": [
+        [
+          0,
+          4
+        ],
+        [
+          1,
+          6
+        ],
+        [
+          1,
+          7
+        ],
+        [
+          2,
+          3
+        ],
+        [
+          10,
+          14
+        ]
+      ]
+    },
+    {
+      "is_neutralizer": false,
+      "odd_slot_count": 0,
+      "odd_triangle_count": 0,
+      "odd_triangle_slots": [],
+      "odd_triangles": [],
+      "toggle_edges": [
+        [
+          0,
+          4
+        ],
+        [
+          1,
+          6
+        ],
+        [
+          1,
+          7
+        ],
+        [
+          2,
+          8
+        ],
+        [
+          5,
+          10
+        ]
+      ]
+    },
+    {
+      "is_neutralizer": false,
+      "odd_slot_count": 0,
+      "odd_triangle_count": 0,
+      "odd_triangle_slots": [],
+      "odd_triangles": [],
+      "toggle_edges": [
+        [
+          0,
+          4
+        ],
+        [
+          1,
+          6
+        ],
+        [
+          1,
+          7
+        ],
+        [
+          2,
+          8
+        ],
+        [
+          5,
+          14
+        ]
+      ]
+    },
+    {
+      "is_neutralizer": false,
+      "odd_slot_count": 0,
+      "odd_triangle_count": 0,
+      "odd_triangle_slots": [],
+      "odd_triangles": [],
+      "toggle_edges": [
+        [
+          0,
+          4
+        ],
+        [
+          1,
+          6
+        ],
+        [
+          1,
+          7
+        ],
+        [
+          2,
+          8
+        ],
+        [
+          10,
+          14
+        ]
+      ]
+    },
+    {
+      "is_neutralizer": false,
+      "odd_slot_count": 0,
+      "odd_triangle_count": 0,
+      "odd_triangle_slots": [],
+      "odd_triangles": [],
+      "toggle_edges": [
+        [
+          0,
+          4
+        ],
+        [
+          1,
+          6
+        ],
+        [
+          1,
+          7
+        ],
+        [
+          3,
+          8
+        ],
+        [
+          5,
+          10
+        ]
+      ]
+    },
+    {
+      "is_neutralizer": false,
+      "odd_slot_count": 0,
+      "odd_triangle_count": 0,
+      "odd_triangle_slots": [],
+      "odd_triangles": [],
+      "toggle_edges": [
+        [
+          0,
+          4
+        ],
+        [
+          1,
+          6
+        ],
+        [
+          1,
+          7
+        ],
+        [
+          3,
+          8
+        ],
+        [
+          5,
+          14
+        ]
+      ]
+    },
+    {
+      "is_neutralizer": false,
+      "odd_slot_count": 0,
+      "odd_triangle_count": 0,
+      "odd_triangle_slots": [],
+      "odd_triangles": [],
+      "toggle_edges": [
+        [
+          0,
+          4
+        ],
+        [
+          1,
+          6
+        ],
+        [
+          1,
+          7
+        ],
+        [
+          3,
+          8
+        ],
+        [
+          10,
+          14
+        ]
+      ]
+    },
+    {
+      "is_neutralizer": false,
+      "odd_slot_count": 0,
+      "odd_triangle_count": 0,
+      "odd_triangle_slots": [],
+      "odd_triangles": [],
+      "toggle_edges": [
+        [
+          0,
+          4
+        ],
+        [
+          1,
+          6
+        ],
+        [
+          2,
+          3
+        ],
+        [
+          2,
+          7
+        ],
+        [
+          5,
+          10
+        ]
+      ]
+    },
+    {
+      "is_neutralizer": false,
+      "odd_slot_count": 0,
+      "odd_triangle_count": 0,
+      "odd_triangle_slots": [],
+      "odd_triangles": [],
+      "toggle_edges": [
+        [
+          0,
+          4
+        ],
+        [
+          1,
+          6
+        ],
+        [
+          2,
+          3
+        ],
+        [
+          2,
+          7
+        ],
+        [
+          5,
+          14
+        ]
+      ]
+    },
+    {
+      "is_neutralizer": false,
+      "odd_slot_count": 0,
+      "odd_triangle_count": 0,
+      "odd_triangle_slots": [],
+      "odd_triangles": [],
+      "toggle_edges": [
+        [
+          0,
+          4
+        ],
+        [
+          1,
+          6
+        ],
+        [
+          2,
+          3
+        ],
+        [
+          2,
+          7
+        ],
+        [
+          10,
+          14
+        ]
+      ]
+    },
+    {
+      "is_neutralizer": false,
+      "odd_slot_count": 0,
+      "odd_triangle_count": 0,
+      "odd_triangle_slots": [],
+      "odd_triangles": [],
+      "toggle_edges": [
+        [
+          0,
+          4
+        ],
+        [
+          1,
+          6
+        ],
+        [
+          2,
+          7
+        ],
+        [
+          2,
+          8
+        ],
+        [
+          5,
+          10
+        ]
+      ]
+    },
+    {
+      "is_neutralizer": false,
+      "odd_slot_count": 0,
+      "odd_triangle_count": 0,
+      "odd_triangle_slots": [],
+      "odd_triangles": [],
+      "toggle_edges": [
+        [
+          0,
+          4
+        ],
+        [
+          1,
+          6
+        ],
+        [
+          2,
+          7
+        ],
+        [
+          2,
+          8
+        ],
+        [
+          5,
+          14
+        ]
+      ]
+    },
+    {
+      "is_neutralizer": false,
+      "odd_slot_count": 0,
+      "odd_triangle_count": 0,
+      "odd_triangle_slots": [],
+      "odd_triangles": [],
+      "toggle_edges": [
+        [
+          0,
+          4
+        ],
+        [
+          1,
+          6
+        ],
+        [
+          2,
+          7
+        ],
+        [
+          2,
+          8
+        ],
+        [
+          10,
+          14
+        ]
+      ]
+    },
+    {
+      "is_neutralizer": false,
+      "odd_slot_count": 0,
+      "odd_triangle_count": 0,
+      "odd_triangle_slots": [],
+      "odd_triangles": [],
+      "toggle_edges": [
+        [
+          0,
+          4
+        ],
+        [
+          1,
+          6
+        ],
+        [
+          2,
+          7
+        ],
+        [
+          3,
+          8
+        ],
+        [
+          5,
+          10
+        ]
+      ]
+    },
+    {
+      "is_neutralizer": false,
+      "odd_slot_count": 0,
+      "odd_triangle_count": 0,
+      "odd_triangle_slots": [],
+      "odd_triangles": [],
+      "toggle_edges": [
+        [
+          0,
+          4
+        ],
+        [
+          1,
+          6
+        ],
+        [
+          2,
+          7
+        ],
+        [
+          3,
+          8
+        ],
+        [
+          5,
+          14
+        ]
+      ]
+    },
+    {
+      "is_neutralizer": false,
+      "odd_slot_count": 0,
+      "odd_triangle_count": 0,
+      "odd_triangle_slots": [],
+      "odd_triangles": [],
+      "toggle_edges": [
+        [
+          0,
+          4
+        ],
+        [
+          1,
+          6
+        ],
+        [
+          2,
+          7
+        ],
+        [
+          3,
+          8
+        ],
+        [
+          10,
+          14
+        ]
+      ]
+    },
+    {
+      "is_neutralizer": false,
+      "odd_slot_count": 0,
+      "odd_triangle_count": 0,
+      "odd_triangle_slots": [],
+      "odd_triangles": [],
+      "toggle_edges": [
+        [
+          0,
+          5
+        ],
+        [
+          0,
+          6
+        ],
+        [
+          1,
+          2
+        ],
+        [
+          2,
+          3
+        ],
+        [
+          5,
+          10
+        ]
+      ]
+    },
+    {
+      "is_neutralizer": false,
+      "odd_slot_count": 0,
+      "odd_triangle_count": 0,
+      "odd_triangle_slots": [],
+      "odd_triangles": [],
+      "toggle_edges": [
+        [
+          0,
+          5
+        ],
+        [
+          0,
+          6
+        ],
+        [
+          1,
+          2
+        ],
+        [
+          2,
+          3
+        ],
+        [
+          5,
+          14
+        ]
+      ]
+    },
+    {
+      "is_neutralizer": false,
+      "odd_slot_count": 0,
+      "odd_triangle_count": 0,
+      "odd_triangle_slots": [],
+      "odd_triangles": [],
+      "toggle_edges": [
+        [
+          0,
+          5
+        ],
+        [
+          0,
+          6
+        ],
+        [
+          1,
+          2
+        ],
+        [
+          2,
+          3
+        ],
+        [
+          10,
+          14
+        ]
+      ]
+    },
+    {
+      "is_neutralizer": false,
+      "odd_slot_count": 0,
+      "odd_triangle_count": 0,
+      "odd_triangle_slots": [],
+      "odd_triangles": [],
+      "toggle_edges": [
+        [
+          0,
+          5
+        ],
+        [
+          0,
+          6
+        ],
+        [
+          1,
+          2
+        ],
+        [
+          2,
+          8
+        ],
+        [
+          5,
+          10
+        ]
+      ]
+    },
+    {
+      "is_neutralizer": false,
+      "odd_slot_count": 0,
+      "odd_triangle_count": 0,
+      "odd_triangle_slots": [],
+      "odd_triangles": [],
+      "toggle_edges": [
+        [
+          0,
+          5
+        ],
+        [
+          0,
+          6
+        ],
+        [
+          1,
+          2
+        ],
+        [
+          2,
+          8
+        ],
+        [
+          5,
+          14
+        ]
+      ]
+    },
+    {
+      "is_neutralizer": false,
+      "odd_slot_count": 0,
+      "odd_triangle_count": 0,
+      "odd_triangle_slots": [],
+      "odd_triangles": [],
+      "toggle_edges": [
+        [
+          0,
+          5
+        ],
+        [
+          0,
+          6
+        ],
+        [
+          1,
+          2
+        ],
+        [
+          2,
+          8
+        ],
+        [
+          10,
+          14
+        ]
+      ]
+    },
+    {
+      "is_neutralizer": false,
+      "odd_slot_count": 0,
+      "odd_triangle_count": 0,
+      "odd_triangle_slots": [],
+      "odd_triangles": [],
+      "toggle_edges": [
+        [
+          0,
+          5
+        ],
+        [
+          0,
+          6
+        ],
+        [
+          1,
+          2
+        ],
+        [
+          3,
+          8
+        ],
+        [
+          5,
+          10
+        ]
+      ]
+    },
+    {
+      "is_neutralizer": false,
+      "odd_slot_count": 0,
+      "odd_triangle_count": 0,
+      "odd_triangle_slots": [],
+      "odd_triangles": [],
+      "toggle_edges": [
+        [
+          0,
+          5
+        ],
+        [
+          0,
+          6
+        ],
+        [
+          1,
+          2
+        ],
+        [
+          3,
+          8
+        ],
+        [
+          5,
+          14
+        ]
+      ]
+    },
+    {
+      "is_neutralizer": false,
+      "odd_slot_count": 0,
+      "odd_triangle_count": 0,
+      "odd_triangle_slots": [],
+      "odd_triangles": [],
+      "toggle_edges": [
+        [
+          0,
+          5
+        ],
+        [
+          0,
+          6
+        ],
+        [
+          1,
+          2
+        ],
+        [
+          3,
+          8
+        ],
+        [
+          10,
+          14
+        ]
+      ]
+    },
+    {
+      "is_neutralizer": false,
+      "odd_slot_count": 0,
+      "odd_triangle_count": 0,
+      "odd_triangle_slots": [],
+      "odd_triangles": [],
+      "toggle_edges": [
+        [
+          0,
+          5
+        ],
+        [
+          0,
+          6
+        ],
+        [
+          1,
+          7
+        ],
+        [
+          2,
+          3
+        ],
+        [
+          5,
+          10
+        ]
+      ]
+    },
+    {
+      "is_neutralizer": false,
+      "odd_slot_count": 0,
+      "odd_triangle_count": 0,
+      "odd_triangle_slots": [],
+      "odd_triangles": [],
+      "toggle_edges": [
+        [
+          0,
+          5
+        ],
+        [
+          0,
+          6
+        ],
+        [
+          1,
+          7
+        ],
+        [
+          2,
+          3
+        ],
+        [
+          5,
+          14
+        ]
+      ]
+    },
+    {
+      "is_neutralizer": false,
+      "odd_slot_count": 0,
+      "odd_triangle_count": 0,
+      "odd_triangle_slots": [],
+      "odd_triangles": [],
+      "toggle_edges": [
+        [
+          0,
+          5
+        ],
+        [
+          0,
+          6
+        ],
+        [
+          1,
+          7
+        ],
+        [
+          2,
+          3
+        ],
+        [
+          10,
+          14
+        ]
+      ]
+    },
+    {
+      "is_neutralizer": false,
+      "odd_slot_count": 0,
+      "odd_triangle_count": 0,
+      "odd_triangle_slots": [],
+      "odd_triangles": [],
+      "toggle_edges": [
+        [
+          0,
+          5
+        ],
+        [
+          0,
+          6
+        ],
+        [
+          1,
+          7
+        ],
+        [
+          2,
+          8
+        ],
+        [
+          5,
+          10
+        ]
+      ]
+    },
+    {
+      "is_neutralizer": false,
+      "odd_slot_count": 0,
+      "odd_triangle_count": 0,
+      "odd_triangle_slots": [],
+      "odd_triangles": [],
+      "toggle_edges": [
+        [
+          0,
+          5
+        ],
+        [
+          0,
+          6
+        ],
+        [
+          1,
+          7
+        ],
+        [
+          2,
+          8
+        ],
+        [
+          5,
+          14
+        ]
+      ]
+    },
+    {
+      "is_neutralizer": false,
+      "odd_slot_count": 0,
+      "odd_triangle_count": 0,
+      "odd_triangle_slots": [],
+      "odd_triangles": [],
+      "toggle_edges": [
+        [
+          0,
+          5
+        ],
+        [
+          0,
+          6
+        ],
+        [
+          1,
+          7
+        ],
+        [
+          2,
+          8
+        ],
+        [
+          10,
+          14
+        ]
+      ]
+    },
+    {
+      "is_neutralizer": false,
+      "odd_slot_count": 0,
+      "odd_triangle_count": 0,
+      "odd_triangle_slots": [],
+      "odd_triangles": [],
+      "toggle_edges": [
+        [
+          0,
+          5
+        ],
+        [
+          0,
+          6
+        ],
+        [
+          1,
+          7
+        ],
+        [
+          3,
+          8
+        ],
+        [
+          5,
+          10
+        ]
+      ]
+    },
+    {
+      "is_neutralizer": false,
+      "odd_slot_count": 0,
+      "odd_triangle_count": 0,
+      "odd_triangle_slots": [],
+      "odd_triangles": [],
+      "toggle_edges": [
+        [
+          0,
+          5
+        ],
+        [
+          0,
+          6
+        ],
+        [
+          1,
+          7
+        ],
+        [
+          3,
+          8
+        ],
+        [
+          5,
+          14
+        ]
+      ]
+    },
+    {
+      "is_neutralizer": false,
+      "odd_slot_count": 0,
+      "odd_triangle_count": 0,
+      "odd_triangle_slots": [],
+      "odd_triangles": [],
+      "toggle_edges": [
+        [
+          0,
+          5
+        ],
+        [
+          0,
+          6
+        ],
+        [
+          1,
+          7
+        ],
+        [
+          3,
+          8
+        ],
+        [
+          10,
+          14
+        ]
+      ]
+    },
+    {
+      "is_neutralizer": false,
+      "odd_slot_count": 0,
+      "odd_triangle_count": 0,
+      "odd_triangle_slots": [],
+      "odd_triangles": [],
+      "toggle_edges": [
+        [
+          0,
+          5
+        ],
+        [
+          0,
+          6
+        ],
+        [
+          2,
+          3
+        ],
+        [
+          2,
+          7
+        ],
+        [
+          5,
+          10
+        ]
+      ]
+    },
+    {
+      "is_neutralizer": false,
+      "odd_slot_count": 0,
+      "odd_triangle_count": 0,
+      "odd_triangle_slots": [],
+      "odd_triangles": [],
+      "toggle_edges": [
+        [
+          0,
+          5
+        ],
+        [
+          0,
+          6
+        ],
+        [
+          2,
+          3
+        ],
+        [
+          2,
+          7
+        ],
+        [
+          5,
+          14
+        ]
+      ]
+    },
+    {
+      "is_neutralizer": false,
+      "odd_slot_count": 0,
+      "odd_triangle_count": 0,
+      "odd_triangle_slots": [],
+      "odd_triangles": [],
+      "toggle_edges": [
+        [
+          0,
+          5
+        ],
+        [
+          0,
+          6
+        ],
+        [
+          2,
+          3
+        ],
+        [
+          2,
+          7
+        ],
+        [
+          10,
+          14
+        ]
+      ]
+    },
+    {
+      "is_neutralizer": false,
+      "odd_slot_count": 0,
+      "odd_triangle_count": 0,
+      "odd_triangle_slots": [],
+      "odd_triangles": [],
+      "toggle_edges": [
+        [
+          0,
+          5
+        ],
+        [
+          0,
+          6
+        ],
+        [
+          2,
+          7
+        ],
+        [
+          2,
+          8
+        ],
+        [
+          5,
+          10
+        ]
+      ]
+    },
+    {
+      "is_neutralizer": false,
+      "odd_slot_count": 0,
+      "odd_triangle_count": 0,
+      "odd_triangle_slots": [],
+      "odd_triangles": [],
+      "toggle_edges": [
+        [
+          0,
+          5
+        ],
+        [
+          0,
+          6
+        ],
+        [
+          2,
+          7
+        ],
+        [
+          2,
+          8
+        ],
+        [
+          5,
+          14
+        ]
+      ]
+    },
+    {
+      "is_neutralizer": false,
+      "odd_slot_count": 0,
+      "odd_triangle_count": 0,
+      "odd_triangle_slots": [],
+      "odd_triangles": [],
+      "toggle_edges": [
+        [
+          0,
+          5
+        ],
+        [
+          0,
+          6
+        ],
+        [
+          2,
+          7
+        ],
+        [
+          2,
+          8
+        ],
+        [
+          10,
+          14
+        ]
+      ]
+    },
+    {
+      "is_neutralizer": false,
+      "odd_slot_count": 0,
+      "odd_triangle_count": 0,
+      "odd_triangle_slots": [],
+      "odd_triangles": [],
+      "toggle_edges": [
+        [
+          0,
+          5
+        ],
+        [
+          0,
+          6
+        ],
+        [
+          2,
+          7
+        ],
+        [
+          3,
+          8
+        ],
+        [
+          5,
+          10
+        ]
+      ]
+    },
+    {
+      "is_neutralizer": false,
+      "odd_slot_count": 0,
+      "odd_triangle_count": 0,
+      "odd_triangle_slots": [],
+      "odd_triangles": [],
+      "toggle_edges": [
+        [
+          0,
+          5
+        ],
+        [
+          0,
+          6
+        ],
+        [
+          2,
+          7
+        ],
+        [
+          3,
+          8
+        ],
+        [
+          5,
+          14
+        ]
+      ]
+    },
+    {
+      "is_neutralizer": false,
+      "odd_slot_count": 0,
+      "odd_triangle_count": 0,
+      "odd_triangle_slots": [],
+      "odd_triangles": [],
+      "toggle_edges": [
+        [
+          0,
+          5
+        ],
+        [
+          0,
+          6
+        ],
+        [
+          2,
+          7
+        ],
+        [
+          3,
+          8
+        ],
+        [
+          10,
+          14
+        ]
+      ]
+    },
+    {
+      "is_neutralizer": false,
+      "odd_slot_count": 0,
+      "odd_triangle_count": 0,
+      "odd_triangle_slots": [],
+      "odd_triangles": [],
+      "toggle_edges": [
+        [
+          0,
+          5
+        ],
+        [
+          1,
+          2
+        ],
+        [
+          1,
+          6
+        ],
+        [
+          2,
+          3
+        ],
+        [
+          5,
+          10
+        ]
+      ]
+    },
+    {
+      "is_neutralizer": false,
+      "odd_slot_count": 0,
+      "odd_triangle_count": 0,
+      "odd_triangle_slots": [],
+      "odd_triangles": [],
+      "toggle_edges": [
+        [
+          0,
+          5
+        ],
+        [
+          1,
+          2
+        ],
+        [
+          1,
+          6
+        ],
+        [
+          2,
+          3
+        ],
+        [
+          5,
+          14
+        ]
+      ]
+    },
+    {
+      "is_neutralizer": false,
+      "odd_slot_count": 0,
+      "odd_triangle_count": 0,
+      "odd_triangle_slots": [],
+      "odd_triangles": [],
+      "toggle_edges": [
+        [
+          0,
+          5
+        ],
+        [
+          1,
+          2
+        ],
+        [
+          1,
+          6
+        ],
+        [
+          2,
+          3
+        ],
+        [
+          10,
+          14
+        ]
+      ]
+    },
+    {
+      "is_neutralizer": false,
+      "odd_slot_count": 0,
+      "odd_triangle_count": 0,
+      "odd_triangle_slots": [],
+      "odd_triangles": [],
+      "toggle_edges": [
+        [
+          0,
+          5
+        ],
+        [
+          1,
+          2
+        ],
+        [
+          1,
+          6
+        ],
+        [
+          2,
+          8
+        ],
+        [
+          5,
+          10
+        ]
+      ]
+    },
+    {
+      "is_neutralizer": false,
+      "odd_slot_count": 0,
+      "odd_triangle_count": 0,
+      "odd_triangle_slots": [],
+      "odd_triangles": [],
+      "toggle_edges": [
+        [
+          0,
+          5
+        ],
+        [
+          1,
+          2
+        ],
+        [
+          1,
+          6
+        ],
+        [
+          2,
+          8
+        ],
+        [
+          5,
+          14
+        ]
+      ]
+    },
+    {
+      "is_neutralizer": false,
+      "odd_slot_count": 0,
+      "odd_triangle_count": 0,
+      "odd_triangle_slots": [],
+      "odd_triangles": [],
+      "toggle_edges": [
+        [
+          0,
+          5
+        ],
+        [
+          1,
+          2
+        ],
+        [
+          1,
+          6
+        ],
+        [
+          2,
+          8
+        ],
+        [
+          10,
+          14
+        ]
+      ]
+    },
+    {
+      "is_neutralizer": false,
+      "odd_slot_count": 0,
+      "odd_triangle_count": 0,
+      "odd_triangle_slots": [],
+      "odd_triangles": [],
+      "toggle_edges": [
+        [
+          0,
+          5
+        ],
+        [
+          1,
+          2
+        ],
+        [
+          1,
+          6
+        ],
+        [
+          3,
+          8
+        ],
+        [
+          5,
+          10
+        ]
+      ]
+    },
+    {
+      "is_neutralizer": false,
+      "odd_slot_count": 0,
+      "odd_triangle_count": 0,
+      "odd_triangle_slots": [],
+      "odd_triangles": [],
+      "toggle_edges": [
+        [
+          0,
+          5
+        ],
+        [
+          1,
+          2
+        ],
+        [
+          1,
+          6
+        ],
+        [
+          3,
+          8
+        ],
+        [
+          5,
+          14
+        ]
+      ]
+    },
+    {
+      "is_neutralizer": false,
+      "odd_slot_count": 0,
+      "odd_triangle_count": 0,
+      "odd_triangle_slots": [],
+      "odd_triangles": [],
+      "toggle_edges": [
+        [
+          0,
+          5
+        ],
+        [
+          1,
+          2
+        ],
+        [
+          1,
+          6
+        ],
+        [
+          3,
+          8
+        ],
+        [
+          10,
+          14
+        ]
+      ]
+    },
+    {
+      "is_neutralizer": false,
+      "odd_slot_count": 0,
+      "odd_triangle_count": 0,
+      "odd_triangle_slots": [],
+      "odd_triangles": [],
+      "toggle_edges": [
+        [
+          0,
+          5
+        ],
+        [
+          1,
+          6
+        ],
+        [
+          1,
+          7
+        ],
+        [
+          2,
+          3
+        ],
+        [
+          5,
+          10
+        ]
+      ]
+    },
+    {
+      "is_neutralizer": false,
+      "odd_slot_count": 0,
+      "odd_triangle_count": 0,
+      "odd_triangle_slots": [],
+      "odd_triangles": [],
+      "toggle_edges": [
+        [
+          0,
+          5
+        ],
+        [
+          1,
+          6
+        ],
+        [
+          1,
+          7
+        ],
+        [
+          2,
+          3
+        ],
+        [
+          5,
+          14
+        ]
+      ]
+    },
+    {
+      "is_neutralizer": false,
+      "odd_slot_count": 0,
+      "odd_triangle_count": 0,
+      "odd_triangle_slots": [],
+      "odd_triangles": [],
+      "toggle_edges": [
+        [
+          0,
+          5
+        ],
+        [
+          1,
+          6
+        ],
+        [
+          1,
+          7
+        ],
+        [
+          2,
+          3
+        ],
+        [
+          10,
+          14
+        ]
+      ]
+    },
+    {
+      "is_neutralizer": false,
+      "odd_slot_count": 0,
+      "odd_triangle_count": 0,
+      "odd_triangle_slots": [],
+      "odd_triangles": [],
+      "toggle_edges": [
+        [
+          0,
+          5
+        ],
+        [
+          1,
+          6
+        ],
+        [
+          1,
+          7
+        ],
+        [
+          2,
+          8
+        ],
+        [
+          5,
+          10
+        ]
+      ]
+    },
+    {
+      "is_neutralizer": false,
+      "odd_slot_count": 0,
+      "odd_triangle_count": 0,
+      "odd_triangle_slots": [],
+      "odd_triangles": [],
+      "toggle_edges": [
+        [
+          0,
+          5
+        ],
+        [
+          1,
+          6
+        ],
+        [
+          1,
+          7
+        ],
+        [
+          2,
+          8
+        ],
+        [
+          5,
+          14
+        ]
+      ]
+    },
+    {
+      "is_neutralizer": false,
+      "odd_slot_count": 0,
+      "odd_triangle_count": 0,
+      "odd_triangle_slots": [],
+      "odd_triangles": [],
+      "toggle_edges": [
+        [
+          0,
+          5
+        ],
+        [
+          1,
+          6
+        ],
+        [
+          1,
+          7
+        ],
+        [
+          2,
+          8
+        ],
+        [
+          10,
+          14
+        ]
+      ]
+    },
+    {
+      "is_neutralizer": false,
+      "odd_slot_count": 0,
+      "odd_triangle_count": 0,
+      "odd_triangle_slots": [],
+      "odd_triangles": [],
+      "toggle_edges": [
+        [
+          0,
+          5
+        ],
+        [
+          1,
+          6
+        ],
+        [
+          1,
+          7
+        ],
+        [
+          3,
+          8
+        ],
+        [
+          5,
+          10
+        ]
+      ]
+    },
+    {
+      "is_neutralizer": false,
+      "odd_slot_count": 0,
+      "odd_triangle_count": 0,
+      "odd_triangle_slots": [],
+      "odd_triangles": [],
+      "toggle_edges": [
+        [
+          0,
+          5
+        ],
+        [
+          1,
+          6
+        ],
+        [
+          1,
+          7
+        ],
+        [
+          3,
+          8
+        ],
+        [
+          5,
+          14
+        ]
+      ]
+    },
+    {
+      "is_neutralizer": false,
+      "odd_slot_count": 0,
+      "odd_triangle_count": 0,
+      "odd_triangle_slots": [],
+      "odd_triangles": [],
+      "toggle_edges": [
+        [
+          0,
+          5
+        ],
+        [
+          1,
+          6
+        ],
+        [
+          1,
+          7
+        ],
+        [
+          3,
+          8
+        ],
+        [
+          10,
+          14
+        ]
+      ]
+    },
+    {
+      "is_neutralizer": false,
+      "odd_slot_count": 0,
+      "odd_triangle_count": 0,
+      "odd_triangle_slots": [],
+      "odd_triangles": [],
+      "toggle_edges": [
+        [
+          0,
+          5
+        ],
+        [
+          1,
+          6
+        ],
+        [
+          2,
+          3
+        ],
+        [
+          2,
+          7
+        ],
+        [
+          5,
+          10
+        ]
+      ]
+    },
+    {
+      "is_neutralizer": false,
+      "odd_slot_count": 0,
+      "odd_triangle_count": 0,
+      "odd_triangle_slots": [],
+      "odd_triangles": [],
+      "toggle_edges": [
+        [
+          0,
+          5
+        ],
+        [
+          1,
+          6
+        ],
+        [
+          2,
+          3
+        ],
+        [
+          2,
+          7
+        ],
+        [
+          5,
+          14
+        ]
+      ]
+    },
+    {
+      "is_neutralizer": false,
+      "odd_slot_count": 0,
+      "odd_triangle_count": 0,
+      "odd_triangle_slots": [],
+      "odd_triangles": [],
+      "toggle_edges": [
+        [
+          0,
+          5
+        ],
+        [
+          1,
+          6
+        ],
+        [
+          2,
+          3
+        ],
+        [
+          2,
+          7
+        ],
+        [
+          10,
+          14
+        ]
+      ]
+    },
+    {
+      "is_neutralizer": false,
+      "odd_slot_count": 0,
+      "odd_triangle_count": 0,
+      "odd_triangle_slots": [],
+      "odd_triangles": [],
+      "toggle_edges": [
+        [
+          0,
+          5
+        ],
+        [
+          1,
+          6
+        ],
+        [
+          2,
+          7
+        ],
+        [
+          2,
+          8
+        ],
+        [
+          5,
+          10
+        ]
+      ]
+    },
+    {
+      "is_neutralizer": false,
+      "odd_slot_count": 0,
+      "odd_triangle_count": 0,
+      "odd_triangle_slots": [],
+      "odd_triangles": [],
+      "toggle_edges": [
+        [
+          0,
+          5
+        ],
+        [
+          1,
+          6
+        ],
+        [
+          2,
+          7
+        ],
+        [
+          2,
+          8
+        ],
+        [
+          5,
+          14
+        ]
+      ]
+    },
+    {
+      "is_neutralizer": false,
+      "odd_slot_count": 0,
+      "odd_triangle_count": 0,
+      "odd_triangle_slots": [],
+      "odd_triangles": [],
+      "toggle_edges": [
+        [
+          0,
+          5
+        ],
+        [
+          1,
+          6
+        ],
+        [
+          2,
+          7
+        ],
+        [
+          2,
+          8
+        ],
+        [
+          10,
+          14
+        ]
+      ]
+    },
+    {
+      "is_neutralizer": false,
+      "odd_slot_count": 0,
+      "odd_triangle_count": 0,
+      "odd_triangle_slots": [],
+      "odd_triangles": [],
+      "toggle_edges": [
+        [
+          0,
+          5
+        ],
+        [
+          1,
+          6
+        ],
+        [
+          2,
+          7
+        ],
+        [
+          3,
+          8
+        ],
+        [
+          5,
+          10
+        ]
+      ]
+    },
+    {
+      "is_neutralizer": false,
+      "odd_slot_count": 0,
+      "odd_triangle_count": 0,
+      "odd_triangle_slots": [],
+      "odd_triangles": [],
+      "toggle_edges": [
+        [
+          0,
+          5
+        ],
+        [
+          1,
+          6
+        ],
+        [
+          2,
+          7
+        ],
+        [
+          3,
+          8
+        ],
+        [
+          5,
+          14
+        ]
+      ]
+    },
+    {
+      "is_neutralizer": false,
+      "odd_slot_count": 0,
+      "odd_triangle_count": 0,
+      "odd_triangle_slots": [],
+      "odd_triangles": [],
+      "toggle_edges": [
+        [
+          0,
+          5
+        ],
+        [
+          1,
+          6
+        ],
+        [
+          2,
+          7
+        ],
+        [
+          3,
+          8
+        ],
+        [
+          10,
+          14
+        ]
+      ]
+    },
+    {
+      "is_neutralizer": false,
+      "odd_slot_count": 0,
+      "odd_triangle_count": 0,
+      "odd_triangle_slots": [],
+      "odd_triangles": [],
+      "toggle_edges": [
+        [
+          0,
+          6
+        ],
+        [
+          1,
+          2
+        ],
+        [
+          2,
+          3
+        ],
+        [
+          4,
+          5
+        ],
+        [
+          5,
+          10
+        ]
+      ]
+    },
+    {
+      "is_neutralizer": false,
+      "odd_slot_count": 0,
+      "odd_triangle_count": 0,
+      "odd_triangle_slots": [],
+      "odd_triangles": [],
+      "toggle_edges": [
+        [
+          0,
+          6
+        ],
+        [
+          1,
+          2
+        ],
+        [
+          2,
+          3
+        ],
+        [
+          4,
+          5
+        ],
+        [
+          5,
+          14
+        ]
+      ]
+    },
+    {
+      "is_neutralizer": false,
+      "odd_slot_count": 0,
+      "odd_triangle_count": 0,
+      "odd_triangle_slots": [],
+      "odd_triangles": [],
+      "toggle_edges": [
+        [
+          0,
+          6
+        ],
+        [
+          1,
+          2
+        ],
+        [
+          2,
+          3
+        ],
+        [
+          4,
+          5
+        ],
+        [
+          10,
+          14
+        ]
+      ]
+    },
+    {
+      "is_neutralizer": false,
+      "odd_slot_count": 0,
+      "odd_triangle_count": 0,
+      "odd_triangle_slots": [],
+      "odd_triangles": [],
+      "toggle_edges": [
+        [
+          0,
+          6
+        ],
+        [
+          1,
+          2
+        ],
+        [
+          2,
+          8
+        ],
+        [
+          4,
+          5
+        ],
+        [
+          5,
+          10
+        ]
+      ]
+    },
+    {
+      "is_neutralizer": false,
+      "odd_slot_count": 0,
+      "odd_triangle_count": 0,
+      "odd_triangle_slots": [],
+      "odd_triangles": [],
+      "toggle_edges": [
+        [
+          0,
+          6
+        ],
+        [
+          1,
+          2
+        ],
+        [
+          2,
+          8
+        ],
+        [
+          4,
+          5
+        ],
+        [
+          5,
+          14
+        ]
+      ]
+    },
+    {
+      "is_neutralizer": false,
+      "odd_slot_count": 0,
+      "odd_triangle_count": 0,
+      "odd_triangle_slots": [],
+      "odd_triangles": [],
+      "toggle_edges": [
+        [
+          0,
+          6
+        ],
+        [
+          1,
+          2
+        ],
+        [
+          2,
+          8
+        ],
+        [
+          4,
+          5
+        ],
+        [
+          10,
+          14
+        ]
+      ]
+    },
+    {
+      "is_neutralizer": false,
+      "odd_slot_count": 0,
+      "odd_triangle_count": 0,
+      "odd_triangle_slots": [],
+      "odd_triangles": [],
+      "toggle_edges": [
+        [
+          0,
+          6
+        ],
+        [
+          1,
+          2
+        ],
+        [
+          3,
+          8
+        ],
+        [
+          4,
+          5
+        ],
+        [
+          5,
+          10
+        ]
+      ]
+    },
+    {
+      "is_neutralizer": false,
+      "odd_slot_count": 0,
+      "odd_triangle_count": 0,
+      "odd_triangle_slots": [],
+      "odd_triangles": [],
+      "toggle_edges": [
+        [
+          0,
+          6
+        ],
+        [
+          1,
+          2
+        ],
+        [
+          3,
+          8
+        ],
+        [
+          4,
+          5
+        ],
+        [
+          5,
+          14
+        ]
+      ]
+    },
+    {
+      "is_neutralizer": false,
+      "odd_slot_count": 0,
+      "odd_triangle_count": 0,
+      "odd_triangle_slots": [],
+      "odd_triangles": [],
+      "toggle_edges": [
+        [
+          0,
+          6
+        ],
+        [
+          1,
+          2
+        ],
+        [
+          3,
+          8
+        ],
+        [
+          4,
+          5
+        ],
+        [
+          10,
+          14
+        ]
+      ]
+    },
+    {
+      "is_neutralizer": false,
+      "odd_slot_count": 0,
+      "odd_triangle_count": 0,
+      "odd_triangle_slots": [],
+      "odd_triangles": [],
+      "toggle_edges": [
+        [
+          0,
+          6
+        ],
+        [
+          1,
+          7
+        ],
+        [
+          2,
+          3
+        ],
+        [
+          4,
+          5
+        ],
+        [
+          5,
+          10
+        ]
+      ]
+    },
+    {
+      "is_neutralizer": false,
+      "odd_slot_count": 0,
+      "odd_triangle_count": 0,
+      "odd_triangle_slots": [],
+      "odd_triangles": [],
+      "toggle_edges": [
+        [
+          0,
+          6
+        ],
+        [
+          1,
+          7
+        ],
+        [
+          2,
+          3
+        ],
+        [
+          4,
+          5
+        ],
+        [
+          5,
+          14
+        ]
+      ]
+    },
+    {
+      "is_neutralizer": false,
+      "odd_slot_count": 0,
+      "odd_triangle_count": 0,
+      "odd_triangle_slots": [],
+      "odd_triangles": [],
+      "toggle_edges": [
+        [
+          0,
+          6
+        ],
+        [
+          1,
+          7
+        ],
+        [
+          2,
+          3
+        ],
+        [
+          4,
+          5
+        ],
+        [
+          10,
+          14
+        ]
+      ]
+    },
+    {
+      "is_neutralizer": false,
+      "odd_slot_count": 0,
+      "odd_triangle_count": 0,
+      "odd_triangle_slots": [],
+      "odd_triangles": [],
+      "toggle_edges": [
+        [
+          0,
+          6
+        ],
+        [
+          1,
+          7
+        ],
+        [
+          2,
+          8
+        ],
+        [
+          4,
+          5
+        ],
+        [
+          5,
+          10
+        ]
+      ]
+    },
+    {
+      "is_neutralizer": false,
+      "odd_slot_count": 0,
+      "odd_triangle_count": 0,
+      "odd_triangle_slots": [],
+      "odd_triangles": [],
+      "toggle_edges": [
+        [
+          0,
+          6
+        ],
+        [
+          1,
+          7
+        ],
+        [
+          2,
+          8
+        ],
+        [
+          4,
+          5
+        ],
+        [
+          5,
+          14
+        ]
+      ]
+    },
+    {
+      "is_neutralizer": false,
+      "odd_slot_count": 0,
+      "odd_triangle_count": 0,
+      "odd_triangle_slots": [],
+      "odd_triangles": [],
+      "toggle_edges": [
+        [
+          0,
+          6
+        ],
+        [
+          1,
+          7
+        ],
+        [
+          2,
+          8
+        ],
+        [
+          4,
+          5
+        ],
+        [
+          10,
+          14
+        ]
+      ]
+    },
+    {
+      "is_neutralizer": false,
+      "odd_slot_count": 0,
+      "odd_triangle_count": 0,
+      "odd_triangle_slots": [],
+      "odd_triangles": [],
+      "toggle_edges": [
+        [
+          0,
+          6
+        ],
+        [
+          1,
+          7
+        ],
+        [
+          3,
+          8
+        ],
+        [
+          4,
+          5
+        ],
+        [
+          5,
+          10
+        ]
+      ]
+    },
+    {
+      "is_neutralizer": false,
+      "odd_slot_count": 0,
+      "odd_triangle_count": 0,
+      "odd_triangle_slots": [],
+      "odd_triangles": [],
+      "toggle_edges": [
+        [
+          0,
+          6
+        ],
+        [
+          1,
+          7
+        ],
+        [
+          3,
+          8
+        ],
+        [
+          4,
+          5
+        ],
+        [
+          5,
+          14
+        ]
+      ]
+    },
+    {
+      "is_neutralizer": false,
+      "odd_slot_count": 0,
+      "odd_triangle_count": 0,
+      "odd_triangle_slots": [],
+      "odd_triangles": [],
+      "toggle_edges": [
+        [
+          0,
+          6
+        ],
+        [
+          1,
+          7
+        ],
+        [
+          3,
+          8
+        ],
+        [
+          4,
+          5
+        ],
+        [
+          10,
+          14
+        ]
+      ]
+    },
+    {
+      "is_neutralizer": false,
+      "odd_slot_count": 0,
+      "odd_triangle_count": 0,
+      "odd_triangle_slots": [],
+      "odd_triangles": [],
+      "toggle_edges": [
+        [
+          0,
+          6
+        ],
+        [
+          2,
+          3
+        ],
+        [
+          2,
+          7
+        ],
+        [
+          4,
+          5
+        ],
+        [
+          5,
+          10
+        ]
+      ]
+    },
+    {
+      "is_neutralizer": false,
+      "odd_slot_count": 0,
+      "odd_triangle_count": 0,
+      "odd_triangle_slots": [],
+      "odd_triangles": [],
+      "toggle_edges": [
+        [
+          0,
+          6
+        ],
+        [
+          2,
+          3
+        ],
+        [
+          2,
+          7
+        ],
+        [
+          4,
+          5
+        ],
+        [
+          5,
+          14
+        ]
+      ]
+    },
+    {
+      "is_neutralizer": false,
+      "odd_slot_count": 0,
+      "odd_triangle_count": 0,
+      "odd_triangle_slots": [],
+      "odd_triangles": [],
+      "toggle_edges": [
+        [
+          0,
+          6
+        ],
+        [
+          2,
+          3
+        ],
+        [
+          2,
+          7
+        ],
+        [
+          4,
+          5
+        ],
+        [
+          10,
+          14
+        ]
+      ]
+    },
+    {
+      "is_neutralizer": false,
+      "odd_slot_count": 0,
+      "odd_triangle_count": 0,
+      "odd_triangle_slots": [],
+      "odd_triangles": [],
+      "toggle_edges": [
+        [
+          0,
+          6
+        ],
+        [
+          2,
+          7
+        ],
+        [
+          2,
+          8
+        ],
+        [
+          4,
+          5
+        ],
+        [
+          5,
+          10
+        ]
+      ]
+    },
+    {
+      "is_neutralizer": false,
+      "odd_slot_count": 0,
+      "odd_triangle_count": 0,
+      "odd_triangle_slots": [],
+      "odd_triangles": [],
+      "toggle_edges": [
+        [
+          0,
+          6
+        ],
+        [
+          2,
+          7
+        ],
+        [
+          2,
+          8
+        ],
+        [
+          4,
+          5
+        ],
+        [
+          5,
+          14
+        ]
+      ]
+    },
+    {
+      "is_neutralizer": false,
+      "odd_slot_count": 0,
+      "odd_triangle_count": 0,
+      "odd_triangle_slots": [],
+      "odd_triangles": [],
+      "toggle_edges": [
+        [
+          0,
+          6
+        ],
+        [
+          2,
+          7
+        ],
+        [
+          2,
+          8
+        ],
+        [
+          4,
+          5
+        ],
+        [
+          10,
+          14
+        ]
+      ]
+    },
+    {
+      "is_neutralizer": false,
+      "odd_slot_count": 0,
+      "odd_triangle_count": 0,
+      "odd_triangle_slots": [],
+      "odd_triangles": [],
+      "toggle_edges": [
+        [
+          0,
+          6
+        ],
+        [
+          2,
+          7
+        ],
+        [
+          3,
+          8
+        ],
+        [
+          4,
+          5
+        ],
+        [
+          5,
+          10
+        ]
+      ]
+    },
+    {
+      "is_neutralizer": false,
+      "odd_slot_count": 0,
+      "odd_triangle_count": 0,
+      "odd_triangle_slots": [],
+      "odd_triangles": [],
+      "toggle_edges": [
+        [
+          0,
+          6
+        ],
+        [
+          2,
+          7
+        ],
+        [
+          3,
+          8
+        ],
+        [
+          4,
+          5
+        ],
+        [
+          5,
+          14
+        ]
+      ]
+    },
+    {
+      "is_neutralizer": false,
+      "odd_slot_count": 0,
+      "odd_triangle_count": 0,
+      "odd_triangle_slots": [],
+      "odd_triangles": [],
+      "toggle_edges": [
+        [
+          0,
+          6
+        ],
+        [
+          2,
+          7
+        ],
+        [
+          3,
+          8
+        ],
+        [
+          4,
+          5
+        ],
+        [
+          10,
+          14
+        ]
+      ]
+    },
+    {
+      "is_neutralizer": false,
+      "odd_slot_count": 0,
+      "odd_triangle_count": 0,
+      "odd_triangle_slots": [],
+      "odd_triangles": [],
+      "toggle_edges": [
+        [
+          1,
+          2
+        ],
+        [
+          1,
+          6
+        ],
+        [
+          2,
+          3
+        ],
+        [
+          4,
+          5
+        ],
+        [
+          5,
+          10
+        ]
+      ]
+    },
+    {
+      "is_neutralizer": false,
+      "odd_slot_count": 0,
+      "odd_triangle_count": 0,
+      "odd_triangle_slots": [],
+      "odd_triangles": [],
+      "toggle_edges": [
+        [
+          1,
+          2
+        ],
+        [
+          1,
+          6
+        ],
+        [
+          2,
+          3
+        ],
+        [
+          4,
+          5
+        ],
+        [
+          5,
+          14
+        ]
+      ]
+    },
+    {
+      "is_neutralizer": false,
+      "odd_slot_count": 0,
+      "odd_triangle_count": 0,
+      "odd_triangle_slots": [],
+      "odd_triangles": [],
+      "toggle_edges": [
+        [
+          1,
+          2
+        ],
+        [
+          1,
+          6
+        ],
+        [
+          2,
+          3
+        ],
+        [
+          4,
+          5
+        ],
+        [
+          10,
+          14
+        ]
+      ]
+    },
+    {
+      "is_neutralizer": false,
+      "odd_slot_count": 0,
+      "odd_triangle_count": 0,
+      "odd_triangle_slots": [],
+      "odd_triangles": [],
+      "toggle_edges": [
+        [
+          1,
+          2
+        ],
+        [
+          1,
+          6
+        ],
+        [
+          2,
+          8
+        ],
+        [
+          4,
+          5
+        ],
+        [
+          5,
+          10
+        ]
+      ]
+    },
+    {
+      "is_neutralizer": false,
+      "odd_slot_count": 0,
+      "odd_triangle_count": 0,
+      "odd_triangle_slots": [],
+      "odd_triangles": [],
+      "toggle_edges": [
+        [
+          1,
+          2
+        ],
+        [
+          1,
+          6
+        ],
+        [
+          2,
+          8
+        ],
+        [
+          4,
+          5
+        ],
+        [
+          5,
+          14
+        ]
+      ]
+    },
+    {
+      "is_neutralizer": false,
+      "odd_slot_count": 0,
+      "odd_triangle_count": 0,
+      "odd_triangle_slots": [],
+      "odd_triangles": [],
+      "toggle_edges": [
+        [
+          1,
+          2
+        ],
+        [
+          1,
+          6
+        ],
+        [
+          2,
+          8
+        ],
+        [
+          4,
+          5
+        ],
+        [
+          10,
+          14
+        ]
+      ]
+    },
+    {
+      "is_neutralizer": false,
+      "odd_slot_count": 0,
+      "odd_triangle_count": 0,
+      "odd_triangle_slots": [],
+      "odd_triangles": [],
+      "toggle_edges": [
+        [
+          1,
+          2
+        ],
+        [
+          1,
+          6
+        ],
+        [
+          3,
+          8
+        ],
+        [
+          4,
+          5
+        ],
+        [
+          5,
+          10
+        ]
+      ]
+    },
+    {
+      "is_neutralizer": false,
+      "odd_slot_count": 0,
+      "odd_triangle_count": 0,
+      "odd_triangle_slots": [],
+      "odd_triangles": [],
+      "toggle_edges": [
+        [
+          1,
+          2
+        ],
+        [
+          1,
+          6
+        ],
+        [
+          3,
+          8
+        ],
+        [
+          4,
+          5
+        ],
+        [
+          5,
+          14
+        ]
+      ]
+    },
+    {
+      "is_neutralizer": false,
+      "odd_slot_count": 0,
+      "odd_triangle_count": 0,
+      "odd_triangle_slots": [],
+      "odd_triangles": [],
+      "toggle_edges": [
+        [
+          1,
+          2
+        ],
+        [
+          1,
+          6
+        ],
+        [
+          3,
+          8
+        ],
+        [
+          4,
+          5
+        ],
+        [
+          10,
+          14
+        ]
+      ]
+    },
+    {
+      "is_neutralizer": false,
+      "odd_slot_count": 0,
+      "odd_triangle_count": 0,
+      "odd_triangle_slots": [],
+      "odd_triangles": [],
+      "toggle_edges": [
+        [
+          1,
+          6
+        ],
+        [
+          1,
+          7
+        ],
+        [
+          2,
+          3
+        ],
+        [
+          4,
+          5
+        ],
+        [
+          5,
+          10
+        ]
+      ]
+    },
+    {
+      "is_neutralizer": false,
+      "odd_slot_count": 0,
+      "odd_triangle_count": 0,
+      "odd_triangle_slots": [],
+      "odd_triangles": [],
+      "toggle_edges": [
+        [
+          1,
+          6
+        ],
+        [
+          1,
+          7
+        ],
+        [
+          2,
+          3
+        ],
+        [
+          4,
+          5
+        ],
+        [
+          5,
+          14
+        ]
+      ]
+    },
+    {
+      "is_neutralizer": false,
+      "odd_slot_count": 0,
+      "odd_triangle_count": 0,
+      "odd_triangle_slots": [],
+      "odd_triangles": [],
+      "toggle_edges": [
+        [
+          1,
+          6
+        ],
+        [
+          1,
+          7
+        ],
+        [
+          2,
+          3
+        ],
+        [
+          4,
+          5
+        ],
+        [
+          10,
+          14
+        ]
+      ]
+    },
+    {
+      "is_neutralizer": false,
+      "odd_slot_count": 0,
+      "odd_triangle_count": 0,
+      "odd_triangle_slots": [],
+      "odd_triangles": [],
+      "toggle_edges": [
+        [
+          1,
+          6
+        ],
+        [
+          1,
+          7
+        ],
+        [
+          2,
+          8
+        ],
+        [
+          4,
+          5
+        ],
+        [
+          5,
+          10
+        ]
+      ]
+    },
+    {
+      "is_neutralizer": false,
+      "odd_slot_count": 0,
+      "odd_triangle_count": 0,
+      "odd_triangle_slots": [],
+      "odd_triangles": [],
+      "toggle_edges": [
+        [
+          1,
+          6
+        ],
+        [
+          1,
+          7
+        ],
+        [
+          2,
+          8
+        ],
+        [
+          4,
+          5
+        ],
+        [
+          5,
+          14
+        ]
+      ]
+    },
+    {
+      "is_neutralizer": false,
+      "odd_slot_count": 0,
+      "odd_triangle_count": 0,
+      "odd_triangle_slots": [],
+      "odd_triangles": [],
+      "toggle_edges": [
+        [
+          1,
+          6
+        ],
+        [
+          1,
+          7
+        ],
+        [
+          2,
+          8
+        ],
+        [
+          4,
+          5
+        ],
+        [
+          10,
+          14
+        ]
+      ]
+    },
+    {
+      "is_neutralizer": false,
+      "odd_slot_count": 0,
+      "odd_triangle_count": 0,
+      "odd_triangle_slots": [],
+      "odd_triangles": [],
+      "toggle_edges": [
+        [
+          1,
+          6
+        ],
+        [
+          1,
+          7
+        ],
+        [
+          3,
+          8
+        ],
+        [
+          4,
+          5
+        ],
+        [
+          5,
+          10
+        ]
+      ]
+    },
+    {
+      "is_neutralizer": false,
+      "odd_slot_count": 0,
+      "odd_triangle_count": 0,
+      "odd_triangle_slots": [],
+      "odd_triangles": [],
+      "toggle_edges": [
+        [
+          1,
+          6
+        ],
+        [
+          1,
+          7
+        ],
+        [
+          3,
+          8
+        ],
+        [
+          4,
+          5
+        ],
+        [
+          5,
+          14
+        ]
+      ]
+    },
+    {
+      "is_neutralizer": false,
+      "odd_slot_count": 0,
+      "odd_triangle_count": 0,
+      "odd_triangle_slots": [],
+      "odd_triangles": [],
+      "toggle_edges": [
+        [
+          1,
+          6
+        ],
+        [
+          1,
+          7
+        ],
+        [
+          3,
+          8
+        ],
+        [
+          4,
+          5
+        ],
+        [
+          10,
+          14
+        ]
+      ]
+    },
+    {
+      "is_neutralizer": false,
+      "odd_slot_count": 0,
+      "odd_triangle_count": 0,
+      "odd_triangle_slots": [],
+      "odd_triangles": [],
+      "toggle_edges": [
+        [
+          1,
+          6
+        ],
+        [
+          2,
+          3
+        ],
+        [
+          2,
+          7
+        ],
+        [
+          4,
+          5
+        ],
+        [
+          5,
+          10
+        ]
+      ]
+    },
+    {
+      "is_neutralizer": false,
+      "odd_slot_count": 0,
+      "odd_triangle_count": 0,
+      "odd_triangle_slots": [],
+      "odd_triangles": [],
+      "toggle_edges": [
+        [
+          1,
+          6
+        ],
+        [
+          2,
+          3
+        ],
+        [
+          2,
+          7
+        ],
+        [
+          4,
+          5
+        ],
+        [
+          5,
+          14
+        ]
+      ]
+    },
+    {
+      "is_neutralizer": false,
+      "odd_slot_count": 0,
+      "odd_triangle_count": 0,
+      "odd_triangle_slots": [],
+      "odd_triangles": [],
+      "toggle_edges": [
+        [
+          1,
+          6
+        ],
+        [
+          2,
+          3
+        ],
+        [
+          2,
+          7
+        ],
+        [
+          4,
+          5
+        ],
+        [
+          10,
+          14
+        ]
+      ]
+    },
+    {
+      "is_neutralizer": false,
+      "odd_slot_count": 0,
+      "odd_triangle_count": 0,
+      "odd_triangle_slots": [],
+      "odd_triangles": [],
+      "toggle_edges": [
+        [
+          1,
+          6
+        ],
+        [
+          2,
+          7
+        ],
+        [
+          2,
+          8
+        ],
+        [
+          4,
+          5
+        ],
+        [
+          5,
+          10
+        ]
+      ]
+    },
+    {
+      "is_neutralizer": false,
+      "odd_slot_count": 0,
+      "odd_triangle_count": 0,
+      "odd_triangle_slots": [],
+      "odd_triangles": [],
+      "toggle_edges": [
+        [
+          1,
+          6
+        ],
+        [
+          2,
+          7
+        ],
+        [
+          2,
+          8
+        ],
+        [
+          4,
+          5
+        ],
+        [
+          5,
+          14
+        ]
+      ]
+    },
+    {
+      "is_neutralizer": false,
+      "odd_slot_count": 0,
+      "odd_triangle_count": 0,
+      "odd_triangle_slots": [],
+      "odd_triangles": [],
+      "toggle_edges": [
+        [
+          1,
+          6
+        ],
+        [
+          2,
+          7
+        ],
+        [
+          2,
+          8
+        ],
+        [
+          4,
+          5
+        ],
+        [
+          10,
+          14
+        ]
+      ]
+    },
+    {
+      "is_neutralizer": false,
+      "odd_slot_count": 0,
+      "odd_triangle_count": 0,
+      "odd_triangle_slots": [],
+      "odd_triangles": [],
+      "toggle_edges": [
+        [
+          1,
+          6
+        ],
+        [
+          2,
+          7
+        ],
+        [
+          3,
+          8
+        ],
+        [
+          4,
+          5
+        ],
+        [
+          5,
+          10
+        ]
+      ]
+    },
+    {
+      "is_neutralizer": false,
+      "odd_slot_count": 0,
+      "odd_triangle_count": 0,
+      "odd_triangle_slots": [],
+      "odd_triangles": [],
+      "toggle_edges": [
+        [
+          1,
+          6
+        ],
+        [
+          2,
+          7
+        ],
+        [
+          3,
+          8
+        ],
+        [
+          4,
+          5
+        ],
+        [
+          5,
+          14
+        ]
+      ]
+    },
+    {
+      "is_neutralizer": false,
+      "odd_slot_count": 0,
+      "odd_triangle_count": 0,
+      "odd_triangle_slots": [],
+      "odd_triangles": [],
+      "toggle_edges": [
+        [
+          1,
+          6
+        ],
+        [
+          2,
+          7
+        ],
+        [
+          3,
+          8
+        ],
+        [
+          4,
+          5
+        ],
+        [
+          10,
+          14
+        ]
+      ]
+    }
+  ]
+}
