@@ -1,0 +1,634 @@
+{
+  "aggregate_delta_by_slot_class": {
+    "non_odd_triangle_slots": {
+      "count": 240,
+      "delta_counts": {
+        "-1": 8,
+        "0": 232
+      },
+      "mean_actual_delta": -0.03333333333333333
+    },
+    "odd_triangle_slots": {
+      "count": 660,
+      "delta_counts": {
+        "-3": 22,
+        "-1": 264,
+        "0": 374
+      },
+      "mean_actual_delta": -0.5
+    }
+  },
+  "boundary": {
+    "finite_holonomy_localization_claim": true,
+    "metric_compression_claim": true,
+    "physical_gravity_claim": false
+  },
+  "checks": {
+    "all_odd_triangle_slots_have_best_odd_len_3": true,
+    "no_non_odd_triangle_slot_has_best_odd_len_3": true,
+    "no_return_pair_expansion": true,
+    "odd_triangle_slots_more_compressive_than_non_odd_triangle_slots": true
+  },
+  "claim": "odd carrier triangles localize the strongest half-flip return compression",
+  "counts": {
+    "even_triangle_count": 5,
+    "g15_edges": 30,
+    "non_odd_triangle_slot_count": 4,
+    "odd_triangle_count": 5,
+    "odd_triangle_slot_count": 11,
+    "triangle_count": 10
+  },
+  "even_triangles": [
+    {
+      "carrier_parity": 0,
+      "edges": [
+        [
+          3,
+          4
+        ],
+        [
+          4,
+          9
+        ],
+        [
+          3,
+          9
+        ]
+      ],
+      "signs": [
+        0,
+        0,
+        0
+      ],
+      "triangle": [
+        3,
+        4,
+        9
+      ]
+    },
+    {
+      "carrier_parity": 0,
+      "edges": [
+        [
+          6,
+          12
+        ],
+        [
+          12,
+          13
+        ],
+        [
+          6,
+          13
+        ]
+      ],
+      "signs": [
+        0,
+        0,
+        0
+      ],
+      "triangle": [
+        6,
+        12,
+        13
+      ]
+    },
+    {
+      "carrier_parity": 0,
+      "edges": [
+        [
+          7,
+          10
+        ],
+        [
+          10,
+          11
+        ],
+        [
+          7,
+          11
+        ]
+      ],
+      "signs": [
+        0,
+        0,
+        0
+      ],
+      "triangle": [
+        7,
+        10,
+        11
+      ]
+    },
+    {
+      "carrier_parity": 0,
+      "edges": [
+        [
+          8,
+          13
+        ],
+        [
+          13,
+          14
+        ],
+        [
+          8,
+          14
+        ]
+      ],
+      "signs": [
+        0,
+        0,
+        0
+      ],
+      "triangle": [
+        8,
+        13,
+        14
+      ]
+    },
+    {
+      "carrier_parity": 0,
+      "edges": [
+        [
+          9,
+          11
+        ],
+        [
+          11,
+          12
+        ],
+        [
+          9,
+          12
+        ]
+      ],
+      "signs": [
+        0,
+        0,
+        0
+      ],
+      "triangle": [
+        9,
+        11,
+        12
+      ]
+    }
+  ],
+  "non_odd_triangle_slots": [
+    9,
+    11,
+    12,
+    13
+  ],
+  "odd_triangle_slots": [
+    0,
+    1,
+    2,
+    3,
+    4,
+    5,
+    6,
+    7,
+    8,
+    10,
+    14
+  ],
+  "odd_triangles": [
+    {
+      "carrier_parity": 1,
+      "edges": [
+        [
+          0,
+          1
+        ],
+        [
+          1,
+          6
+        ],
+        [
+          0,
+          6
+        ]
+      ],
+      "signs": [
+        1,
+        1,
+        1
+      ],
+      "triangle": [
+        0,
+        1,
+        6
+      ]
+    },
+    {
+      "carrier_parity": 1,
+      "edges": [
+        [
+          0,
+          4
+        ],
+        [
+          4,
+          5
+        ],
+        [
+          0,
+          5
+        ]
+      ],
+      "signs": [
+        1,
+        1,
+        1
+      ],
+      "triangle": [
+        0,
+        4,
+        5
+      ]
+    },
+    {
+      "carrier_parity": 1,
+      "edges": [
+        [
+          1,
+          2
+        ],
+        [
+          2,
+          7
+        ],
+        [
+          1,
+          7
+        ]
+      ],
+      "signs": [
+        1,
+        1,
+        1
+      ],
+      "triangle": [
+        1,
+        2,
+        7
+      ]
+    },
+    {
+      "carrier_parity": 1,
+      "edges": [
+        [
+          2,
+          3
+        ],
+        [
+          3,
+          8
+        ],
+        [
+          2,
+          8
+        ]
+      ],
+      "signs": [
+        1,
+        1,
+        1
+      ],
+      "triangle": [
+        2,
+        3,
+        8
+      ]
+    },
+    {
+      "carrier_parity": 1,
+      "edges": [
+        [
+          5,
+          10
+        ],
+        [
+          10,
+          14
+        ],
+        [
+          5,
+          14
+        ]
+      ],
+      "signs": [
+        1,
+        1,
+        1
+      ],
+      "triangle": [
+        5,
+        10,
+        14
+      ]
+    }
+  ],
+  "project": "19-thalean-gravity-finite-tests",
+  "slot_summary": {
+    "0": {
+      "best_odd_cycle_lens": [
+        3
+      ],
+      "compressed_count": 26,
+      "delta_counts": {
+        "-3": 2,
+        "-1": 24,
+        "0": 34
+      },
+      "even_triangle_count": 0,
+      "expanded_count": 0,
+      "has_even_triangle": false,
+      "has_odd_triangle": true,
+      "mean_actual_delta": -0.5,
+      "odd_triangle_count": 2,
+      "return_pair_count": 60,
+      "slot": 0,
+      "unchanged_count": 34
+    },
+    "1": {
+      "best_odd_cycle_lens": [
+        3
+      ],
+      "compressed_count": 26,
+      "delta_counts": {
+        "-3": 2,
+        "-1": 24,
+        "0": 34
+      },
+      "even_triangle_count": 0,
+      "expanded_count": 0,
+      "has_even_triangle": false,
+      "has_odd_triangle": true,
+      "mean_actual_delta": -0.5,
+      "odd_triangle_count": 2,
+      "return_pair_count": 60,
+      "slot": 1,
+      "unchanged_count": 34
+    },
+    "10": {
+      "best_odd_cycle_lens": [
+        3
+      ],
+      "compressed_count": 26,
+      "delta_counts": {
+        "-3": 2,
+        "-1": 24,
+        "0": 34
+      },
+      "even_triangle_count": 1,
+      "expanded_count": 0,
+      "has_even_triangle": true,
+      "has_odd_triangle": true,
+      "mean_actual_delta": -0.5,
+      "odd_triangle_count": 1,
+      "return_pair_count": 60,
+      "slot": 10,
+      "unchanged_count": 34
+    },
+    "11": {
+      "best_odd_cycle_lens": [
+        5
+      ],
+      "compressed_count": 2,
+      "delta_counts": {
+        "-1": 2,
+        "0": 58
+      },
+      "even_triangle_count": 2,
+      "expanded_count": 0,
+      "has_even_triangle": true,
+      "has_odd_triangle": false,
+      "mean_actual_delta": -0.03333333333333333,
+      "odd_triangle_count": 0,
+      "return_pair_count": 60,
+      "slot": 11,
+      "unchanged_count": 58
+    },
+    "12": {
+      "best_odd_cycle_lens": [
+        5
+      ],
+      "compressed_count": 2,
+      "delta_counts": {
+        "-1": 2,
+        "0": 58
+      },
+      "even_triangle_count": 2,
+      "expanded_count": 0,
+      "has_even_triangle": true,
+      "has_odd_triangle": false,
+      "mean_actual_delta": -0.03333333333333333,
+      "odd_triangle_count": 0,
+      "return_pair_count": 60,
+      "slot": 12,
+      "unchanged_count": 58
+    },
+    "13": {
+      "best_odd_cycle_lens": [
+        5
+      ],
+      "compressed_count": 2,
+      "delta_counts": {
+        "-1": 2,
+        "0": 58
+      },
+      "even_triangle_count": 2,
+      "expanded_count": 0,
+      "has_even_triangle": true,
+      "has_odd_triangle": false,
+      "mean_actual_delta": -0.03333333333333333,
+      "odd_triangle_count": 0,
+      "return_pair_count": 60,
+      "slot": 13,
+      "unchanged_count": 58
+    },
+    "14": {
+      "best_odd_cycle_lens": [
+        3
+      ],
+      "compressed_count": 26,
+      "delta_counts": {
+        "-3": 2,
+        "-1": 24,
+        "0": 34
+      },
+      "even_triangle_count": 1,
+      "expanded_count": 0,
+      "has_even_triangle": true,
+      "has_odd_triangle": true,
+      "mean_actual_delta": -0.5,
+      "odd_triangle_count": 1,
+      "return_pair_count": 60,
+      "slot": 14,
+      "unchanged_count": 34
+    },
+    "2": {
+      "best_odd_cycle_lens": [
+        3
+      ],
+      "compressed_count": 26,
+      "delta_counts": {
+        "-3": 2,
+        "-1": 24,
+        "0": 34
+      },
+      "even_triangle_count": 0,
+      "expanded_count": 0,
+      "has_even_triangle": false,
+      "has_odd_triangle": true,
+      "mean_actual_delta": -0.5,
+      "odd_triangle_count": 2,
+      "return_pair_count": 60,
+      "slot": 2,
+      "unchanged_count": 34
+    },
+    "3": {
+      "best_odd_cycle_lens": [
+        3
+      ],
+      "compressed_count": 26,
+      "delta_counts": {
+        "-3": 2,
+        "-1": 24,
+        "0": 34
+      },
+      "even_triangle_count": 1,
+      "expanded_count": 0,
+      "has_even_triangle": true,
+      "has_odd_triangle": true,
+      "mean_actual_delta": -0.5,
+      "odd_triangle_count": 1,
+      "return_pair_count": 60,
+      "slot": 3,
+      "unchanged_count": 34
+    },
+    "4": {
+      "best_odd_cycle_lens": [
+        3
+      ],
+      "compressed_count": 26,
+      "delta_counts": {
+        "-3": 2,
+        "-1": 24,
+        "0": 34
+      },
+      "even_triangle_count": 1,
+      "expanded_count": 0,
+      "has_even_triangle": true,
+      "has_odd_triangle": true,
+      "mean_actual_delta": -0.5,
+      "odd_triangle_count": 1,
+      "return_pair_count": 60,
+      "slot": 4,
+      "unchanged_count": 34
+    },
+    "5": {
+      "best_odd_cycle_lens": [
+        3
+      ],
+      "compressed_count": 26,
+      "delta_counts": {
+        "-3": 2,
+        "-1": 24,
+        "0": 34
+      },
+      "even_triangle_count": 0,
+      "expanded_count": 0,
+      "has_even_triangle": false,
+      "has_odd_triangle": true,
+      "mean_actual_delta": -0.5,
+      "odd_triangle_count": 2,
+      "return_pair_count": 60,
+      "slot": 5,
+      "unchanged_count": 34
+    },
+    "6": {
+      "best_odd_cycle_lens": [
+        3
+      ],
+      "compressed_count": 26,
+      "delta_counts": {
+        "-3": 2,
+        "-1": 24,
+        "0": 34
+      },
+      "even_triangle_count": 1,
+      "expanded_count": 0,
+      "has_even_triangle": true,
+      "has_odd_triangle": true,
+      "mean_actual_delta": -0.5,
+      "odd_triangle_count": 1,
+      "return_pair_count": 60,
+      "slot": 6,
+      "unchanged_count": 34
+    },
+    "7": {
+      "best_odd_cycle_lens": [
+        3
+      ],
+      "compressed_count": 26,
+      "delta_counts": {
+        "-3": 2,
+        "-1": 24,
+        "0": 34
+      },
+      "even_triangle_count": 1,
+      "expanded_count": 0,
+      "has_even_triangle": true,
+      "has_odd_triangle": true,
+      "mean_actual_delta": -0.5,
+      "odd_triangle_count": 1,
+      "return_pair_count": 60,
+      "slot": 7,
+      "unchanged_count": 34
+    },
+    "8": {
+      "best_odd_cycle_lens": [
+        3
+      ],
+      "compressed_count": 26,
+      "delta_counts": {
+        "-3": 2,
+        "-1": 24,
+        "0": 34
+      },
+      "even_triangle_count": 1,
+      "expanded_count": 0,
+      "has_even_triangle": true,
+      "has_odd_triangle": true,
+      "mean_actual_delta": -0.5,
+      "odd_triangle_count": 1,
+      "return_pair_count": 60,
+      "slot": 8,
+      "unchanged_count": 34
+    },
+    "9": {
+      "best_odd_cycle_lens": [
+        5
+      ],
+      "compressed_count": 2,
+      "delta_counts": {
+        "-1": 2,
+        "0": 58
+      },
+      "even_triangle_count": 2,
+      "expanded_count": 0,
+      "has_even_triangle": true,
+      "has_odd_triangle": false,
+      "mean_actual_delta": -0.03333333333333333,
+      "odd_triangle_count": 0,
+      "return_pair_count": 60,
+      "slot": 9,
+      "unchanged_count": 58
+    }
+  },
+  "source_payload": "/data/data/com.termux/files/home/dev/cori/research/thalean-graph-theory/18-g900-kernel-admission/source/kernel_payload"
+}
