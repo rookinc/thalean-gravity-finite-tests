@@ -1,0 +1,460 @@
+{
+  "actual_delta_counts": {
+    "-3": 22,
+    "-1": 272,
+    "0": 606
+  },
+  "best_odd_cycle_len_by_slot": {
+    "0": 3,
+    "1": 3,
+    "10": 3,
+    "11": 5,
+    "12": 5,
+    "13": 5,
+    "14": 3,
+    "2": 3,
+    "3": 3,
+    "4": 3,
+    "5": 3,
+    "6": 3,
+    "7": 3,
+    "8": 3,
+    "9": 5
+  },
+  "boundary": {
+    "finite_graph_holonomy_claim": true,
+    "metric_deformation_claim": true,
+    "physical_gravity_claim": false
+  },
+  "by_slot": {
+    "0": {
+      "actual_delta_counts": {
+        "-3": 2,
+        "-1": 24,
+        "0": 34
+      },
+      "best_odd_cycle_len": 3,
+      "count": 60,
+      "mean_actual_delta": -0.5,
+      "odd_cycle_count_containing_slot": 2930
+    },
+    "1": {
+      "actual_delta_counts": {
+        "-3": 2,
+        "-1": 24,
+        "0": 34
+      },
+      "best_odd_cycle_len": 3,
+      "count": 60,
+      "mean_actual_delta": -0.5,
+      "odd_cycle_count_containing_slot": 2930
+    },
+    "10": {
+      "actual_delta_counts": {
+        "-3": 2,
+        "-1": 24,
+        "0": 34
+      },
+      "best_odd_cycle_len": 3,
+      "count": 60,
+      "mean_actual_delta": -0.5,
+      "odd_cycle_count_containing_slot": 2913
+    },
+    "11": {
+      "actual_delta_counts": {
+        "-1": 2,
+        "0": 58
+      },
+      "best_odd_cycle_len": 5,
+      "count": 60,
+      "mean_actual_delta": -0.03333333333333333,
+      "odd_cycle_count_containing_slot": 2908
+    },
+    "12": {
+      "actual_delta_counts": {
+        "-1": 2,
+        "0": 58
+      },
+      "best_odd_cycle_len": 5,
+      "count": 60,
+      "mean_actual_delta": -0.03333333333333333,
+      "odd_cycle_count_containing_slot": 2908
+    },
+    "13": {
+      "actual_delta_counts": {
+        "-1": 2,
+        "0": 58
+      },
+      "best_odd_cycle_len": 5,
+      "count": 60,
+      "mean_actual_delta": -0.03333333333333333,
+      "odd_cycle_count_containing_slot": 2912
+    },
+    "14": {
+      "actual_delta_counts": {
+        "-3": 2,
+        "-1": 24,
+        "0": 34
+      },
+      "best_odd_cycle_len": 3,
+      "count": 60,
+      "mean_actual_delta": -0.5,
+      "odd_cycle_count_containing_slot": 2909
+    },
+    "2": {
+      "actual_delta_counts": {
+        "-3": 2,
+        "-1": 24,
+        "0": 34
+      },
+      "best_odd_cycle_len": 3,
+      "count": 60,
+      "mean_actual_delta": -0.5,
+      "odd_cycle_count_containing_slot": 2898
+    },
+    "3": {
+      "actual_delta_counts": {
+        "-3": 2,
+        "-1": 24,
+        "0": 34
+      },
+      "best_odd_cycle_len": 3,
+      "count": 60,
+      "mean_actual_delta": -0.5,
+      "odd_cycle_count_containing_slot": 2913
+    },
+    "4": {
+      "actual_delta_counts": {
+        "-3": 2,
+        "-1": 24,
+        "0": 34
+      },
+      "best_odd_cycle_len": 3,
+      "count": 60,
+      "mean_actual_delta": -0.5,
+      "odd_cycle_count_containing_slot": 2913
+    },
+    "5": {
+      "actual_delta_counts": {
+        "-3": 2,
+        "-1": 24,
+        "0": 34
+      },
+      "best_odd_cycle_len": 3,
+      "count": 60,
+      "mean_actual_delta": -0.5,
+      "odd_cycle_count_containing_slot": 2898
+    },
+    "6": {
+      "actual_delta_counts": {
+        "-3": 2,
+        "-1": 24,
+        "0": 34
+      },
+      "best_odd_cycle_len": 3,
+      "count": 60,
+      "mean_actual_delta": -0.5,
+      "odd_cycle_count_containing_slot": 2913
+    },
+    "7": {
+      "actual_delta_counts": {
+        "-3": 2,
+        "-1": 24,
+        "0": 34
+      },
+      "best_odd_cycle_len": 3,
+      "count": 60,
+      "mean_actual_delta": -0.5,
+      "odd_cycle_count_containing_slot": 2913
+    },
+    "8": {
+      "actual_delta_counts": {
+        "-3": 2,
+        "-1": 24,
+        "0": 34
+      },
+      "best_odd_cycle_len": 3,
+      "count": 60,
+      "mean_actual_delta": -0.5,
+      "odd_cycle_count_containing_slot": 2909
+    },
+    "9": {
+      "actual_delta_counts": {
+        "-1": 2,
+        "0": 58
+      },
+      "best_odd_cycle_len": 5,
+      "count": 60,
+      "mean_actual_delta": -0.03333333333333333,
+      "odd_cycle_count_containing_slot": 2908
+    }
+  },
+  "claim": "carrier holonomy induces half-flip return paths and measurable return-pair metric deformation",
+  "counts": {
+    "baseline_edges": 3600,
+    "even_holonomy_cycle_count": 3749,
+    "g15_edges": 30,
+    "g60_edges": 120,
+    "odd_holonomy_cycle_count": 3765,
+    "return_pair_count": 900,
+    "signed_edges": 3600,
+    "simple_cycle_count": 7514
+  },
+  "cycle_length_parity_counts": {
+    "(10, 0)": 372,
+    "(10, 1)": 360,
+    "(11, 0)": 694,
+    "(11, 1)": 686,
+    "(12, 0)": 927,
+    "(12, 1)": 958,
+    "(13, 0)": 810,
+    "(13, 1)": 810,
+    "(14, 0)": 400,
+    "(14, 1)": 380,
+    "(15, 0)": 72,
+    "(15, 1)": 88,
+    "(3, 0)": 5,
+    "(3, 1)": 5,
+    "(5, 0)": 6,
+    "(5, 1)": 6,
+    "(6, 0)": 32,
+    "(6, 1)": 38,
+    "(7, 0)": 94,
+    "(7, 1)": 86,
+    "(8, 0)": 141,
+    "(8, 1)": 144,
+    "(9, 0)": 196,
+    "(9, 1)": 204
+  },
+  "project": "19-thalean-gravity-finite-tests",
+  "sample_odd_cycles": [
+    {
+      "carrier_parity": 1,
+      "cycle": [
+        0,
+        1,
+        6
+      ],
+      "length": 3
+    },
+    {
+      "carrier_parity": 1,
+      "cycle": [
+        0,
+        4,
+        5
+      ],
+      "length": 3
+    },
+    {
+      "carrier_parity": 1,
+      "cycle": [
+        1,
+        2,
+        7
+      ],
+      "length": 3
+    },
+    {
+      "carrier_parity": 1,
+      "cycle": [
+        2,
+        3,
+        8
+      ],
+      "length": 3
+    },
+    {
+      "carrier_parity": 1,
+      "cycle": [
+        5,
+        10,
+        14
+      ],
+      "length": 3
+    },
+    {
+      "carrier_parity": 1,
+      "cycle": [
+        0,
+        5,
+        14,
+        13,
+        6
+      ],
+      "length": 5
+    },
+    {
+      "carrier_parity": 1,
+      "cycle": [
+        1,
+        2,
+        8,
+        13,
+        6
+      ],
+      "length": 5
+    },
+    {
+      "carrier_parity": 1,
+      "cycle": [
+        2,
+        7,
+        10,
+        14,
+        8
+      ],
+      "length": 5
+    },
+    {
+      "carrier_parity": 1,
+      "cycle": [
+        3,
+        4,
+        5,
+        14,
+        8
+      ],
+      "length": 5
+    },
+    {
+      "carrier_parity": 1,
+      "cycle": [
+        3,
+        8,
+        13,
+        12,
+        9
+      ],
+      "length": 5
+    },
+    {
+      "carrier_parity": 1,
+      "cycle": [
+        10,
+        11,
+        12,
+        13,
+        14
+      ],
+      "length": 5
+    },
+    {
+      "carrier_parity": 1,
+      "cycle": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5
+      ],
+      "length": 6
+    },
+    {
+      "carrier_parity": 1,
+      "cycle": [
+        0,
+        1,
+        2,
+        7,
+        10,
+        5
+      ],
+      "length": 6
+    },
+    {
+      "carrier_parity": 1,
+      "cycle": [
+        0,
+        1,
+        2,
+        8,
+        3,
+        4
+      ],
+      "length": 6
+    },
+    {
+      "carrier_parity": 1,
+      "cycle": [
+        0,
+        1,
+        2,
+        8,
+        14,
+        5
+      ],
+      "length": 6
+    },
+    {
+      "carrier_parity": 1,
+      "cycle": [
+        0,
+        1,
+        6,
+        12,
+        9,
+        4
+      ],
+      "length": 6
+    },
+    {
+      "carrier_parity": 1,
+      "cycle": [
+        0,
+        1,
+        7,
+        2,
+        3,
+        4
+      ],
+      "length": 6
+    },
+    {
+      "carrier_parity": 1,
+      "cycle": [
+        0,
+        1,
+        7,
+        10,
+        5,
+        4
+      ],
+      "length": 6
+    },
+    {
+      "carrier_parity": 1,
+      "cycle": [
+        0,
+        1,
+        7,
+        10,
+        14,
+        5
+      ],
+      "length": 6
+    },
+    {
+      "carrier_parity": 1,
+      "cycle": [
+        0,
+        1,
+        7,
+        11,
+        9,
+        4
+      ],
+      "length": 6
+    }
+  ],
+  "shortcut_delta_counts": {
+    "-3": 22,
+    "-1": 272,
+    "0": 220,
+    "1": 250,
+    "2": 80,
+    "3": 56
+  },
+  "source_payload": "/data/data/com.termux/files/home/dev/cori/research/thalean-graph-theory/18-g900-kernel-admission/source/kernel_payload"
+}
