@@ -1,0 +1,323 @@
+{
+  "git_current": {
+    "branch": {
+      "ok": true,
+      "returncode": 0,
+      "stderr": "",
+      "stdout": "main\n"
+    },
+    "head": {
+      "ok": true,
+      "returncode": 0,
+      "stderr": "",
+      "stdout": "f69f6e0\n"
+    },
+    "status_short": {
+      "ok": true,
+      "returncode": 0,
+      "stderr": "",
+      "stdout": "?? artifacts/png/g900_spring_graph_dark.png\n?? artifacts/png/g900_spring_graph_noscipy.png\n"
+    },
+    "tags_at_head": {
+      "ok": true,
+      "returncode": 0,
+      "stderr": "",
+      "stdout": "g900-kernel-admission-manuscript-v1.0.0\n"
+    }
+  },
+  "project18_root": "/data/data/com.termux/files/home/dev/cori/research/thalean-graph-theory/18-g900-kernel-admission",
+  "refs": [
+    {
+      "cert_file_error": "",
+      "cert_file_ok": true,
+      "edge_count": 3600,
+      "edge_file_error": "",
+      "edge_file_ok": true,
+      "edge_headers": [
+        "u_vertex",
+        "v_vertex",
+        "u_slot",
+        "u_local",
+        "v_slot",
+        "v_local",
+        "kind"
+      ],
+      "edge_metric_matches_certificate": false,
+      "edge_sha256": "ba1fedeca9ec1156f38103125708f91f5301f3a6331c57bc0a24389e8fcee73a",
+      "metric_certificate": {
+        "center_count": 349,
+        "diameter": 8,
+        "distance_distribution": {
+          "1": 3600,
+          "2": 17710,
+          "3": 60345,
+          "4": 131446,
+          "5": 143177,
+          "6": 45600,
+          "7": 2667,
+          "8": 5
+        },
+        "eccentricity_counts": {
+          "6": 349,
+          "7": 541,
+          "8": 10
+        },
+        "hashes": {
+          "source_edge_id_set_sha256": "982fa358aa4a6d76000e62a3abde3ff3e2ce06af179ab131030eec923d05877d"
+        },
+        "radius": 6,
+        "source_edge_file": "source/kernel_payload/x_sigma_edges.csv"
+      },
+      "metric_from_edge_file": {
+        "center_count": 342,
+        "connected": true,
+        "degree_counts": {
+          "8": 900
+        },
+        "diameter": 8,
+        "distance_distribution": {
+          "1": 3600,
+          "2": 17700,
+          "3": 59941,
+          "4": 129877,
+          "5": 142712,
+          "6": 47600,
+          "7": 3100,
+          "8": 20
+        },
+        "eccentricity_counts": {
+          "6": 342,
+          "7": 526,
+          "8": 32
+        },
+        "edge_count": 3600,
+        "radius": 6
+      },
+      "ref": "HEAD",
+      "rev_parse": {
+        "ok": true,
+        "stderr": "",
+        "stdout": "f69f6e0"
+      }
+    },
+    {
+      "cert_file_error": "",
+      "cert_file_ok": true,
+      "edge_count": 3600,
+      "edge_file_error": "",
+      "edge_file_ok": true,
+      "edge_headers": [
+        "u_vertex",
+        "v_vertex",
+        "u_slot",
+        "u_local",
+        "v_slot",
+        "v_local",
+        "kind"
+      ],
+      "edge_metric_matches_certificate": false,
+      "edge_sha256": "ba1fedeca9ec1156f38103125708f91f5301f3a6331c57bc0a24389e8fcee73a",
+      "metric_certificate": {
+        "center_count": 349,
+        "diameter": 8,
+        "distance_distribution": {
+          "1": 3600,
+          "2": 17710,
+          "3": 60345,
+          "4": 131446,
+          "5": 143177,
+          "6": 45600,
+          "7": 2667,
+          "8": 5
+        },
+        "eccentricity_counts": {
+          "6": 349,
+          "7": 541,
+          "8": 10
+        },
+        "hashes": {
+          "source_edge_id_set_sha256": "982fa358aa4a6d76000e62a3abde3ff3e2ce06af179ab131030eec923d05877d"
+        },
+        "radius": 6,
+        "source_edge_file": "source/kernel_payload/x_sigma_edges.csv"
+      },
+      "metric_from_edge_file": {
+        "center_count": 342,
+        "connected": true,
+        "degree_counts": {
+          "8": 900
+        },
+        "diameter": 8,
+        "distance_distribution": {
+          "1": 3600,
+          "2": 17700,
+          "3": 59941,
+          "4": 129877,
+          "5": 142712,
+          "6": 47600,
+          "7": 3100,
+          "8": 20
+        },
+        "eccentricity_counts": {
+          "6": 342,
+          "7": 526,
+          "8": 32
+        },
+        "edge_count": 3600,
+        "radius": 6
+      },
+      "ref": "g900-kernel-admission-manuscript-v1.0.0",
+      "rev_parse": {
+        "ok": true,
+        "stderr": "",
+        "stdout": "10e1430"
+      }
+    },
+    {
+      "cert_file_error": "",
+      "cert_file_ok": true,
+      "edge_count": 3600,
+      "edge_file_error": "",
+      "edge_file_ok": true,
+      "edge_headers": [
+        "u_vertex",
+        "v_vertex",
+        "u_slot",
+        "u_local",
+        "v_slot",
+        "v_local",
+        "kind"
+      ],
+      "edge_metric_matches_certificate": false,
+      "edge_sha256": "ba1fedeca9ec1156f38103125708f91f5301f3a6331c57bc0a24389e8fcee73a",
+      "metric_certificate": {
+        "center_count": 349,
+        "diameter": 8,
+        "distance_distribution": {
+          "1": 3600,
+          "2": 17710,
+          "3": 60345,
+          "4": 131446,
+          "5": 143177,
+          "6": 45600,
+          "7": 2667,
+          "8": 5
+        },
+        "eccentricity_counts": {
+          "6": 349,
+          "7": 541,
+          "8": 10
+        },
+        "hashes": {
+          "source_edge_id_set_sha256": "982fa358aa4a6d76000e62a3abde3ff3e2ce06af179ab131030eec923d05877d"
+        },
+        "radius": 6,
+        "source_edge_file": "source/kernel_payload/x_sigma_edges.csv"
+      },
+      "metric_from_edge_file": {
+        "center_count": 342,
+        "connected": true,
+        "degree_counts": {
+          "8": 900
+        },
+        "diameter": 8,
+        "distance_distribution": {
+          "1": 3600,
+          "2": 17700,
+          "3": 59941,
+          "4": 129877,
+          "5": 142712,
+          "6": 47600,
+          "7": 3100,
+          "8": 20
+        },
+        "eccentricity_counts": {
+          "6": 342,
+          "7": 526,
+          "8": 32
+        },
+        "edge_count": 3600,
+        "radius": 6
+      },
+      "ref": "g900-kernel-admission-bounded-qed-v1.0.0",
+      "rev_parse": {
+        "ok": true,
+        "stderr": "",
+        "stdout": "222c13a"
+      }
+    },
+    {
+      "cert_file_error": "",
+      "cert_file_ok": true,
+      "edge_count": 3600,
+      "edge_file_error": "",
+      "edge_file_ok": true,
+      "edge_headers": [
+        "u_vertex",
+        "v_vertex",
+        "u_slot",
+        "u_local",
+        "v_slot",
+        "v_local",
+        "kind"
+      ],
+      "edge_metric_matches_certificate": false,
+      "edge_sha256": "ba1fedeca9ec1156f38103125708f91f5301f3a6331c57bc0a24389e8fcee73a",
+      "metric_certificate": {
+        "center_count": 349,
+        "diameter": 8,
+        "distance_distribution": {
+          "1": 3600,
+          "2": 17710,
+          "3": 60345,
+          "4": 131446,
+          "5": 143177,
+          "6": 45600,
+          "7": 2667,
+          "8": 5
+        },
+        "eccentricity_counts": {
+          "6": 349,
+          "7": 541,
+          "8": 10
+        },
+        "hashes": {
+          "source_edge_id_set_sha256": "982fa358aa4a6d76000e62a3abde3ff3e2ce06af179ab131030eec923d05877d"
+        },
+        "radius": 6,
+        "source_edge_file": "source/kernel_payload/x_sigma_edges.csv"
+      },
+      "metric_from_edge_file": {
+        "center_count": 342,
+        "connected": true,
+        "degree_counts": {
+          "8": 900
+        },
+        "diameter": 8,
+        "distance_distribution": {
+          "1": 3600,
+          "2": 17700,
+          "3": 59941,
+          "4": 129877,
+          "5": 142712,
+          "6": 47600,
+          "7": 3100,
+          "8": 20
+        },
+        "eccentricity_counts": {
+          "6": 342,
+          "7": 526,
+          "8": 32
+        },
+        "edge_count": 3600,
+        "radius": 6
+      },
+      "ref": "138dc5c",
+      "rev_parse": {
+        "ok": true,
+        "stderr": "",
+        "stdout": "138dc5c"
+      }
+    }
+  ]
+}

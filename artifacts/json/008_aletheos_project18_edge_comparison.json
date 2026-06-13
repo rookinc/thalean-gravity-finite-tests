@@ -1,0 +1,448 @@
+{
+  "aletheos_root": "/data/data/com.termux/files/home/dev/cori/aletheos.ai",
+  "interpretation": {
+    "full_graph_source_found_in_phase30": true,
+    "phase17_is_upstream_external_source": false
+  },
+  "phase17": {
+    "component_count": 30,
+    "degree_histogram": {
+      "4": 900
+    },
+    "equals_project18_external": false,
+    "external_edge_count_claim": 1800,
+    "extra_in_project18_external": 360,
+    "missing_from_project18_external": 360,
+    "parsed_external_edges": 1800,
+    "preferred_half_turn_set": [
+      0,
+      1,
+      2,
+      3,
+      9
+    ],
+    "sha256": "faccc22bf780310a00e28dbb63861169567cb8bddb82a69abc91441c83a71478"
+  },
+  "phase30": {
+    "candidate_array_count": 6,
+    "candidate_arrays": [
+      {
+        "path": "$.candidates[0].combined_edges",
+        "sample": [
+          {
+            "class": "internal_g60",
+            "edge_class": "internal_same_sector",
+            "local_a": 0,
+            "local_b": 16,
+            "residue_a": 0,
+            "residue_b": 16,
+            "sector_a": 0,
+            "sector_b": 0,
+            "shared_petersen_vertex": null,
+            "shift_mod60": null,
+            "source": 0,
+            "target": 16
+          },
+          {
+            "class": "internal_g60",
+            "edge_class": "internal_same_sector",
+            "local_a": 0,
+            "local_b": 19,
+            "residue_a": 0,
+            "residue_b": 19,
+            "sector_a": 0,
+            "sector_b": 0,
+            "shared_petersen_vertex": null,
+            "shift_mod60": null,
+            "source": 0,
+            "target": 19
+          },
+          {
+            "class": "internal_g60",
+            "edge_class": "internal_same_sector",
+            "local_a": 0,
+            "local_b": 25,
+            "residue_a": 0,
+            "residue_b": 25,
+            "sector_a": 0,
+            "sector_b": 0,
+            "shared_petersen_vertex": null,
+            "shift_mod60": null,
+            "source": 0,
+            "target": 25
+          }
+        ],
+        "size": 3600
+      },
+      {
+        "path": "$.candidates[0].external_edges",
+        "sample": [
+          {
+            "class": "external_p900",
+            "edge_class": "external_half_turn_mod30",
+            "local_a": 0,
+            "local_b": 30,
+            "residue_a": 0,
+            "residue_b": 0,
+            "sector_a": 0,
+            "sector_b": 4,
+            "shared_petersen_vertex": 0,
+            "shift_mod60": 30,
+            "source": 0,
+            "target": 270
+          },
+          {
+            "class": "external_p900",
+            "edge_class": "external_half_turn_mod30",
+            "local_a": 0,
+            "local_b": 30,
+            "residue_a": 0,
+            "residue_b": 0,
+            "sector_a": 0,
+            "sector_b": 5,
+            "shared_petersen_vertex": 0,
+            "shift_mod60": 30,
+            "source": 0,
+            "target": 330
+          },
+          {
+            "class": "external_p900",
+            "edge_class": "external_half_turn_mod30",
+            "local_a": 0,
+            "local_b": 30,
+            "residue_a": 0,
+            "residue_b": 0,
+            "sector_a": 0,
+            "sector_b": 6,
+            "shared_petersen_vertex": 1,
+            "shift_mod60": 30,
+            "source": 0,
+            "target": 390
+          }
+        ],
+        "size": 1800
+      },
+      {
+        "path": "$.candidates[0].internal_edges",
+        "sample": [
+          {
+            "class": "internal_g60",
+            "edge_class": "internal_same_sector",
+            "local_a": 0,
+            "local_b": 16,
+            "residue_a": 0,
+            "residue_b": 16,
+            "sector_a": 0,
+            "sector_b": 0,
+            "shared_petersen_vertex": null,
+            "shift_mod60": null,
+            "source": 0,
+            "target": 16
+          },
+          {
+            "class": "internal_g60",
+            "edge_class": "internal_same_sector",
+            "local_a": 0,
+            "local_b": 19,
+            "residue_a": 0,
+            "residue_b": 19,
+            "sector_a": 0,
+            "sector_b": 0,
+            "shared_petersen_vertex": null,
+            "shift_mod60": null,
+            "source": 0,
+            "target": 19
+          },
+          {
+            "class": "internal_g60",
+            "edge_class": "internal_same_sector",
+            "local_a": 0,
+            "local_b": 25,
+            "residue_a": 0,
+            "residue_b": 25,
+            "sector_a": 0,
+            "sector_b": 0,
+            "shared_petersen_vertex": null,
+            "shift_mod60": null,
+            "source": 0,
+            "target": 25
+          }
+        ],
+        "size": 1800
+      },
+      {
+        "path": "$.candidates[1].combined_edges",
+        "sample": [
+          {
+            "class": "internal_g60",
+            "edge_class": "internal_same_sector",
+            "local_a": 0,
+            "local_b": 16,
+            "residue_a": 0,
+            "residue_b": 16,
+            "sector_a": 0,
+            "sector_b": 0,
+            "shared_petersen_vertex": null,
+            "shift_mod60": null,
+            "source": 0,
+            "target": 16
+          },
+          {
+            "class": "internal_g60",
+            "edge_class": "internal_same_sector",
+            "local_a": 0,
+            "local_b": 19,
+            "residue_a": 0,
+            "residue_b": 19,
+            "sector_a": 0,
+            "sector_b": 0,
+            "shared_petersen_vertex": null,
+            "shift_mod60": null,
+            "source": 0,
+            "target": 19
+          },
+          {
+            "class": "internal_g60",
+            "edge_class": "internal_same_sector",
+            "local_a": 0,
+            "local_b": 25,
+            "residue_a": 0,
+            "residue_b": 25,
+            "sector_a": 0,
+            "sector_b": 0,
+            "shared_petersen_vertex": null,
+            "shift_mod60": null,
+            "source": 0,
+            "target": 25
+          }
+        ],
+        "size": 3600
+      },
+      {
+        "path": "$.candidates[1].external_edges",
+        "sample": [
+          {
+            "class": "external_p900",
+            "edge_class": "external_half_turn_mod30",
+            "local_a": 0,
+            "local_b": 30,
+            "residue_a": 0,
+            "residue_b": 0,
+            "sector_a": 0,
+            "sector_b": 4,
+            "shared_petersen_vertex": 0,
+            "shift_mod60": 30,
+            "source": 0,
+            "target": 270
+          },
+          {
+            "class": "external_p900",
+            "edge_class": "external_half_turn_mod30",
+            "local_a": 0,
+            "local_b": 30,
+            "residue_a": 0,
+            "residue_b": 0,
+            "sector_a": 0,
+            "sector_b": 5,
+            "shared_petersen_vertex": 0,
+            "shift_mod60": 30,
+            "source": 0,
+            "target": 330
+          },
+          {
+            "class": "external_p900",
+            "edge_class": "external_half_turn_mod30",
+            "local_a": 0,
+            "local_b": 30,
+            "residue_a": 0,
+            "residue_b": 0,
+            "sector_a": 0,
+            "sector_b": 6,
+            "shared_petersen_vertex": 1,
+            "shift_mod60": 30,
+            "source": 0,
+            "target": 390
+          }
+        ],
+        "size": 1800
+      },
+      {
+        "path": "$.candidates[1].internal_edges",
+        "sample": [
+          {
+            "class": "internal_g60",
+            "edge_class": "internal_same_sector",
+            "local_a": 0,
+            "local_b": 16,
+            "residue_a": 0,
+            "residue_b": 16,
+            "sector_a": 0,
+            "sector_b": 0,
+            "shared_petersen_vertex": null,
+            "shift_mod60": null,
+            "source": 0,
+            "target": 16
+          },
+          {
+            "class": "internal_g60",
+            "edge_class": "internal_same_sector",
+            "local_a": 0,
+            "local_b": 19,
+            "residue_a": 0,
+            "residue_b": 19,
+            "sector_a": 0,
+            "sector_b": 0,
+            "shared_petersen_vertex": null,
+            "shift_mod60": null,
+            "source": 0,
+            "target": 19
+          },
+          {
+            "class": "internal_g60",
+            "edge_class": "internal_same_sector",
+            "local_a": 0,
+            "local_b": 25,
+            "residue_a": 0,
+            "residue_b": 25,
+            "sector_a": 0,
+            "sector_b": 0,
+            "shared_petersen_vertex": null,
+            "shift_mod60": null,
+            "source": 0,
+            "target": 25
+          }
+        ],
+        "size": 1800
+      }
+    ],
+    "parsed_edge_sets": [
+      {
+        "equals_p18_all": true,
+        "equals_p18_external": false,
+        "metric_if_900_graph": {
+          "center_count": 342,
+          "connected": true,
+          "degree_counts": {
+            "8": 900
+          },
+          "diameter": 8,
+          "distance_distribution": {
+            "1": 3600,
+            "2": 17700,
+            "3": 59941,
+            "4": 129877,
+            "5": 142712,
+            "6": 47600,
+            "7": 3100,
+            "8": 20
+          },
+          "eccentricity_counts": {
+            "6": 342,
+            "7": 526,
+            "8": 32
+          },
+          "edge_count": 3600,
+          "radius": 6
+        },
+        "parsed_edges": 3600,
+        "path": "$.candidates[0].combined_edges",
+        "sha256": "ba1fedeca9ec1156f38103125708f91f5301f3a6331c57bc0a24389e8fcee73a",
+        "size": 3600
+      },
+      {
+        "equals_p18_all": false,
+        "equals_p18_external": true,
+        "metric_if_900_graph": null,
+        "parsed_edges": 1800,
+        "path": "$.candidates[0].external_edges",
+        "sha256": "fb1fb3c90112ce17f788e9be72e7eefd4f03ebecc4fd263ef846310fe06e69b3",
+        "size": 1800
+      },
+      {
+        "equals_p18_all": false,
+        "equals_p18_external": false,
+        "metric_if_900_graph": null,
+        "parsed_edges": 1800,
+        "path": "$.candidates[0].internal_edges",
+        "sha256": "5d7e2ac9962e6edf4019d205583e802dd63404a9f285d126eb8d54aa5880b581",
+        "size": 1800
+      },
+      {
+        "equals_p18_all": false,
+        "equals_p18_external": false,
+        "metric_if_900_graph": {
+          "center_count": 327,
+          "connected": true,
+          "degree_counts": {
+            "8": 900
+          },
+          "diameter": 8,
+          "distance_distribution": {
+            "1": 3600,
+            "2": 17700,
+            "3": 60642,
+            "4": 130810,
+            "5": 142395,
+            "6": 46225,
+            "7": 3144,
+            "8": 34
+          },
+          "eccentricity_counts": {
+            "6": 327,
+            "7": 525,
+            "8": 48
+          },
+          "edge_count": 3600,
+          "radius": 6
+        },
+        "parsed_edges": 3600,
+        "path": "$.candidates[1].combined_edges",
+        "sha256": "38bd570210671fb1bda382cc5c4686e6c587d33abc9778c8a5a65df409650df8",
+        "size": 3600
+      },
+      {
+        "equals_p18_all": false,
+        "equals_p18_external": false,
+        "metric_if_900_graph": null,
+        "parsed_edges": 1800,
+        "path": "$.candidates[1].external_edges",
+        "sha256": "faccc22bf780310a00e28dbb63861169567cb8bddb82a69abc91441c83a71478",
+        "size": 1800
+      },
+      {
+        "equals_p18_all": false,
+        "equals_p18_external": false,
+        "metric_if_900_graph": null,
+        "parsed_edges": 1800,
+        "path": "$.candidates[1].internal_edges",
+        "sha256": "5d7e2ac9962e6edf4019d205583e802dd63404a9f285d126eb8d54aa5880b581",
+        "size": 1800
+      }
+    ],
+    "top_keys": [
+      "candidates",
+      "checks",
+      "first_read",
+      "name",
+      "phase",
+      "purpose",
+      "renderer_defaults",
+      "source_artifacts",
+      "status",
+      "vertices",
+      "warning"
+    ]
+  },
+  "project18": {
+    "all_edges": 3600,
+    "all_sha256": "ba1fedeca9ec1156f38103125708f91f5301f3a6331c57bc0a24389e8fcee73a",
+    "external_edges": 1800,
+    "external_sha256": "fb1fb3c90112ce17f788e9be72e7eefd4f03ebecc4fd263ef846310fe06e69b3",
+    "internal_edges": 1800,
+    "kind_counts": {
+      "external_signed_carrier": 1800,
+      "internal_thalion_copy": 1800
+    }
+  },
+  "project18_root": "/data/data/com.termux/files/home/dev/cori/research/thalean-graph-theory/18-g900-kernel-admission"
+}

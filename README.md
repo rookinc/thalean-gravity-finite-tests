@@ -69,3 +69,11 @@ The safe Project 19 claim is:
 Signed half-flip carrier transport induces a finite, measurable metric deformation relative to the untwisted product baseline, with reproduced headline separation 8/6 versus 9/9 on the current source payload.
 
 No physical gravity, GR, Newtonian, cosmological, uniqueness, or census-identity claim is made.
+
+## Project 18 metric certificate audit
+
+Project 19 audited the Project 18 source edge file against the Project 18 metric certificate across HEAD, the manuscript tag, the bounded-QED tag, and commit 138dc5c.
+
+The source edge file consistently recomputes to diameter 8 and radius 6, preserving the headline separation from the untwisted baseline. However, the detailed signed metric distribution recomputed from the source edge file does not match the existing Project 18 metric certificate.
+
+Project 19 therefore treats the detailed Project 18 signed metric certificate as needing regeneration or provenance repair. The safe Project 19 result is the corrected-direct metric deformation audit on the current source edge file.
