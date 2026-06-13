@@ -1,0 +1,3241 @@
+{
+  "csv_files": [
+    {
+      "bytes": 942,
+      "interesting": true,
+      "path": "source/kernel_payload/carrier_signing_table.csv",
+      "suffix": ".csv",
+      "summary": {
+        "header": [
+          "slot_u",
+          "slot_v",
+          "sign",
+          "carrier_law",
+          "external_edge_count"
+        ],
+        "ok": true,
+        "rows": 31,
+        "sample": [
+          [
+            "0",
+            "1",
+            "1",
+            "half_flip_x_plus_30_mod_60",
+            "60"
+          ],
+          [
+            "0",
+            "4",
+            "1",
+            "half_flip_x_plus_30_mod_60",
+            "60"
+          ],
+          [
+            "0",
+            "5",
+            "1",
+            "half_flip_x_plus_30_mod_60",
+            "60"
+          ],
+          [
+            "0",
+            "6",
+            "1",
+            "half_flip_x_plus_30_mod_60",
+            "60"
+          ],
+          [
+            "1",
+            "2",
+            "1",
+            "half_flip_x_plus_30_mod_60",
+            "60"
+          ]
+        ]
+      }
+    },
+    {
+      "bytes": 185,
+      "interesting": true,
+      "path": "source/kernel_payload/g15_slot_edges.csv",
+      "suffix": ".csv",
+      "summary": {
+        "header": [
+          "slot_u",
+          "slot_v"
+        ],
+        "ok": true,
+        "rows": 31,
+        "sample": [
+          [
+            "0",
+            "1"
+          ],
+          [
+            "0",
+            "4"
+          ],
+          [
+            "0",
+            "5"
+          ],
+          [
+            "0",
+            "6"
+          ],
+          [
+            "1",
+            "2"
+          ]
+        ]
+      }
+    },
+    {
+      "bytes": 817,
+      "interesting": true,
+      "path": "source/kernel_payload/g60_local_edges.csv",
+      "suffix": ".csv",
+      "summary": {
+        "header": [
+          "local_u",
+          "local_v"
+        ],
+        "ok": true,
+        "rows": 121,
+        "sample": [
+          [
+            "0",
+            "16"
+          ],
+          [
+            "0",
+            "19"
+          ],
+          [
+            "0",
+            "25"
+          ],
+          [
+            "0",
+            "55"
+          ],
+          [
+            "1",
+            "15"
+          ]
+        ]
+      }
+    },
+    {
+      "bytes": 399,
+      "interesting": true,
+      "path": "source/kernel_payload/sibling_candidate_signing_table.csv",
+      "suffix": ".csv",
+      "summary": {
+        "header": [
+          "slot_a",
+          "slot_b",
+          "canonical_sign",
+          "delta",
+          "sibling_sign"
+        ],
+        "ok": true,
+        "rows": 31,
+        "sample": [
+          [
+            "0",
+            "1",
+            "1",
+            "0",
+            "1"
+          ],
+          [
+            "0",
+            "4",
+            "1",
+            "0",
+            "1"
+          ],
+          [
+            "0",
+            "5",
+            "1",
+            "0",
+            "1"
+          ],
+          [
+            "0",
+            "6",
+            "1",
+            "0",
+            "1"
+          ],
+          [
+            "1",
+            "2",
+            "1",
+            "0",
+            "1"
+          ]
+        ]
+      }
+    },
+    {
+      "bytes": 636,
+      "interesting": true,
+      "path": "source/kernel_payload/sibling_signing_delta.csv",
+      "suffix": ".csv",
+      "summary": {
+        "header": [
+          "slot_a",
+          "slot_b",
+          "delta",
+          "support_role"
+        ],
+        "ok": true,
+        "rows": 31,
+        "sample": [
+          [
+            "0",
+            "1",
+            "0",
+            "unchanged"
+          ],
+          [
+            "0",
+            "4",
+            "0",
+            "unchanged"
+          ],
+          [
+            "0",
+            "5",
+            "0",
+            "unchanged"
+          ],
+          [
+            "0",
+            "6",
+            "0",
+            "unchanged"
+          ],
+          [
+            "1",
+            "2",
+            "0",
+            "unchanged"
+          ]
+        ]
+      }
+    },
+    {
+      "bytes": 40831,
+      "interesting": true,
+      "path": "source/kernel_payload/sibling_x_sigma_edges.csv",
+      "suffix": ".csv",
+      "summary": {
+        "header": [
+          "slot_a",
+          "local_a",
+          "slot_b",
+          "local_b"
+        ],
+        "ok": true,
+        "rows": 3601,
+        "sample": [
+          [
+            "0",
+            "0",
+            "0",
+            "16"
+          ],
+          [
+            "0",
+            "0",
+            "0",
+            "19"
+          ],
+          [
+            "0",
+            "0",
+            "0",
+            "25"
+          ],
+          [
+            "0",
+            "0",
+            "0",
+            "55"
+          ],
+          [
+            "0",
+            "0",
+            "1",
+            "30"
+          ]
+        ]
+      }
+    },
+    {
+      "bytes": 151574,
+      "interesting": true,
+      "path": "source/kernel_payload/x_sigma_edges.csv",
+      "suffix": ".csv",
+      "summary": {
+        "header": [
+          "u_vertex",
+          "v_vertex",
+          "u_slot",
+          "u_local",
+          "v_slot",
+          "v_local",
+          "kind"
+        ],
+        "ok": true,
+        "rows": 3601,
+        "sample": [
+          [
+            "0",
+            "16",
+            "0",
+            "0",
+            "0",
+            "16",
+            "internal_thalion_copy"
+          ],
+          [
+            "0",
+            "19",
+            "0",
+            "0",
+            "0",
+            "19",
+            "internal_thalion_copy"
+          ],
+          [
+            "0",
+            "25",
+            "0",
+            "0",
+            "0",
+            "25",
+            "internal_thalion_copy"
+          ],
+          [
+            "0",
+            "55",
+            "0",
+            "0",
+            "0",
+            "55",
+            "internal_thalion_copy"
+          ],
+          [
+            "0",
+            "90",
+            "0",
+            "0",
+            "1",
+            "30",
+            "external_signed_carrier"
+          ]
+        ]
+      }
+    }
+  ],
+  "files": [
+    {
+      "bytes": 1576,
+      "head": "# 18-g900-kernel-admission\n\nThis project begins the kernel-admission phase for the G900 theorem program.\n\nProject 17 produced the release-candidate theorem proof package:\n\n- finite construction note\n- signed half-flip carrier construction\n- reproducibility spine\n- admission boundary\n- no census claim\n- no uniqueness claim\n- no physical interpretation claim\n\nProject 18 does not change the object.\n\nProject 18 asks:\n\nWhat is the smallest finite kernel that generates the candidate, and what certific",
+      "interesting": true,
+      "path": "README.md",
+      "suffix": ".md"
+    },
+    {
+      "bytes": 1317,
+      "head": "# Kernel admission standard\n\nA G900 kernel admission must satisfy the following requirements.\n\n## 1. Source admission\n\nThe source objects must be explicit:\n\n- G15 slot edge list,\n- G60 local edge list,\n- carrier signing table,\n- half-flip rule.\n\n## 2. Construction admission\n\nThe graph X_sigma must be regenerated from the kernel only:\n\n    X_sigma = Gen(G15, G60, sigma, h)\n\nNo renderer data may be required.\n\n## 3. Invariant admission\n\nEvery claimed invariant must be either:\n\n- proved directly fro",
+      "interesting": true,
+      "path": "admission/001_admission_standard.md",
+      "suffix": ".md"
+    },
+    {
+      "bytes": 3420,
+      "head": "# Kernel claim ledger\n\nThis ledger classifies the claims attached to the G900 kernel-admission project.\n\nThe purpose is to prevent hidden cheating.\n\nEvery claim must be one of:\n\n- direct_proof\n- certificate_required\n- external_boundary\n- not_claimed\n\n## Direct proof claims\n\nThese claims follow directly from the construction kernel once the source counts are admitted.\n\n### product_register_size\n\nClaim:\n\n    |V(G15) x V(G60)| = 15 * 60 = 900\n\nStatus:\n\n    direct_proof\n\n### internal_edge_count\n\nCla",
+      "interesting": true,
+      "path": "admission/002_kernel_claim_ledger.md",
+      "suffix": ".md"
+    },
+    {
+      "bytes": 2229,
+      "head": "# QED status ledger\n\n- ledger_ok: True\n- direct_kernel_claims_proved: 6\n- certificate_claims_certified: 7\n- remaining_planned_claims: 0\n- not_certified_claims: 0\n- qed_complete: True\n\n## Proved by kernel\n\n- product_register_size\n- internal_edge_count\n- external_edge_count\n- total_edge_count\n- degree_split\n- regularity\n\n## Certified\n\n- exact_edge_set_identity\n- connectedness\n- diameter\n- radius\n- baseline_separation\n- sibling_non_switching\n- sibling_full_graph_separation\n\n## Planned\n\n- none\n\n## N",
+      "interesting": true,
+      "path": "admission/003_qed_status_ledger.md",
+      "suffix": ".md"
+    },
+    {
+      "bytes": 1221,
+      "interesting": true,
+      "path": "artifacts/json/algebraic_kernel_spec.json",
+      "suffix": ".json",
+      "summary": {
+        "keys": [
+          "boolean_reachability_claims",
+          "carrier_adjacency",
+          "direct_algebraic_claims",
+          "exact_comparison_claims",
+          "f2_claims",
+          "foundation",
+          "generated_adjacency",
+          "half_flip_rule",
+          "internal_adjacency",
+          "matrices",
+          "non_foundational_inputs",
+          "project",
+          "spec"
+        ],
+        "ok": true,
+        "size": 13,
+        "type": "dict"
+      }
+    },
+    {
+      "bytes": 2142,
+      "interesting": true,
+      "path": "artifacts/json/baseline_separation_certificate.json",
+      "suffix": ".json",
+      "summary": {
+        "keys": [
+          "boundary",
+          "certificate",
+          "checks",
+          "claim",
+          "counts",
+          "hashes",
+          "method",
+          "source_files",
+          "untwisted_baseline",
+          "verification_ok",
+          "x_sigma"
+        ],
+        "ok": true,
+        "size": 11,
+        "type": "dict"
+      }
+    },
+    {
+      "bytes": 2060,
+      "interesting": true,
+      "path": "artifacts/json/certificate_plan.json",
+      "suffix": ".json",
+      "summary": {
+        "keys": [
+          "admission_rule",
+          "certificate_plan",
+          "certificates",
+          "minimal_bounded_qed_package",
+          "project"
+        ],
+        "ok": true,
+        "size": 5,
+        "type": "dict"
+      }
+    },
+    {
+      "bytes": 98048,
+      "interesting": true,
+      "path": "artifacts/json/connectedness_certificate.json",
+      "suffix": ".json",
+      "summary": {
+        "keys": [
+          "bfs_parent_certificate",
+          "boundary",
+          "certificate",
+          "checks",
+          "claim",
+          "edge_count",
+          "hashes",
+          "max_bfs_depth_from_root",
+          "method",
+          "reached_vertex_count",
+          "root",
+          "source_edge_file",
+          "tree_edge_count",
+          "verification_ok",
+          "vertex_count"
+        ],
+        "ok": true,
+        "size": 15,
+        "type": "dict"
+      }
+    },
+    {
+      "bytes": 881,
+      "interesting": true,
+      "path": "artifacts/json/construction_independence_status.json",
+      "suffix": ".json",
+      "summary": {
+        "keys": [
+          "construction_independent_of_project17",
+          "kernel_payload",
+          "not_claimed",
+          "project",
+          "qed_independent",
+          "remaining_certificate_targets",
+          "source_project",
+          "source_role",
+          "source_tag",
+          "status"
+        ],
+        "ok": true,
+        "size": 10,
+        "type": "dict"
+      }
+    },
+    {
+      "bytes": 1168,
+      "interesting": true,
+      "path": "artifacts/json/exact_edge_set_identity_certificate.json",
+      "suffix": ".json",
+      "summary": {
+        "keys": [
+          "boundary",
+          "certificate",
+          "claim",
+          "counts",
+          "hashes",
+          "source_files",
+          "verification_ok"
+        ],
+        "ok": true,
+        "size": 7,
+        "type": "dict"
+      }
+    },
+    {
+      "bytes": 1357,
+      "interesting": true,
+      "path": "artifacts/json/generation_operator_spec.json",
+      "suffix": ".json",
+      "summary": {
+        "keys": [
+          "boundary",
+          "deterministic",
+          "edge_layers",
+          "generated_edge_count",
+          "generated_vertex_count",
+          "generated_vertex_set",
+          "input_kernel",
+          "inputs",
+          "kernel_components",
+          "non_inputs",
+          "operator",
+          "output_graph"
+        ],
+        "ok": true,
+        "size": 12,
+        "type": "dict"
+      }
+    },
+    {
+      "bytes": 3476,
+      "interesting": true,
+      "path": "artifacts/json/kernel_claim_ledger.json",
+      "suffix": ".json",
+      "summary": {
+        "keys": [
+          "admission_principle",
+          "certificate_required",
+          "claim_classes",
+          "direct_proof",
+          "external_boundary",
+          "ledger",
+          "not_claimed",
+          "project"
+        ],
+        "ok": true,
+        "size": 8,
+        "type": "dict"
+      }
+    },
+    {
+      "bytes": 2010,
+      "interesting": true,
+      "path": "artifacts/json/kernel_payload_manifest.json",
+      "suffix": ".json",
+      "summary": {
+        "keys": [
+          "boundary",
+          "kernel_payload_independent_of_project17",
+          "missing",
+          "project",
+          "purpose",
+          "records",
+          "source_project"
+        ],
+        "ok": true,
+        "size": 7,
+        "type": "dict"
+      }
+    },
+    {
+      "bytes": 307,
+      "interesting": true,
+      "path": "artifacts/json/manuscript_manifest.json",
+      "suffix": ".json",
+      "summary": {
+        "keys": [
+          "certificate_claims_certified",
+          "direct_kernel_claims_proved",
+          "entrypoint",
+          "not_certified_claims",
+          "qed_complete",
+          "remaining_planned_claims",
+          "tag",
+          "zip"
+        ],
+        "ok": true,
+        "size": 8,
+        "type": "dict"
+      }
+    },
+    {
+      "bytes": 89745,
+      "interesting": true,
+      "path": "artifacts/json/metric_certificate.json",
+      "suffix": ".json",
+      "summary": {
+        "keys": [
+          "boundary",
+          "center_count",
+          "center_vertices",
+          "certificate",
+          "checks",
+          "claim",
+          "diameter",
+          "diameter_vertex_count",
+          "diameter_vertices",
+          "distance_distribution",
+          "eccentricity_counts",
+          "eccentricity_table",
+          "edge_count",
+          "first_diameter_witness_pair",
+          "hashes",
+          "method",
+          "radius",
+          "sample_diameter_witness_pairs",
+          "source_edge_file",
+          "verification_ok",
+          "vertex_count"
+        ],
+        "ok": true,
+        "size": 21,
+        "type": "dict"
+      }
+    },
+    {
+      "bytes": 3873,
+      "interesting": true,
+      "path": "artifacts/json/qed_status_ledger.json",
+      "suffix": ".json",
+      "summary": {
+        "keys": [
+          "boundary",
+          "certified",
+          "claims",
+          "current_summary",
+          "ledger",
+          "ledger_ok",
+          "not_certified",
+          "planned",
+          "project",
+          "proved_by_kernel",
+          "status_counts",
+          "verification_checks"
+        ],
+        "ok": true,
+        "size": 12,
+        "type": "dict"
+      }
+    },
+    {
+      "bytes": 3244,
+      "interesting": true,
+      "path": "artifacts/json/sibling_full_graph_separation_certificate.json",
+      "suffix": ".json",
+      "summary": {
+        "keys": [
+          "boundary",
+          "canonical_metric",
+          "certificate",
+          "checks",
+          "claim",
+          "edge_set_comparison",
+          "hashes",
+          "method",
+          "separation_flags",
+          "sibling_metric",
+          "source_files",
+          "verification_ok"
+        ],
+        "ok": true,
+        "size": 12,
+        "type": "dict"
+      }
+    },
+    {
+      "bytes": 5087,
+      "interesting": true,
+      "path": "artifacts/json/sibling_non_switching_certificate.json",
+      "suffix": ".json",
+      "summary": {
+        "keys": [
+          "assignment_contradictions_sample",
+          "boundary",
+          "certificate",
+          "checks",
+          "claim",
+          "counts",
+          "interpretation",
+          "linear_obstruction",
+          "method",
+          "source_files",
+          "support",
+          "verification_ok"
+        ],
+        "ok": true,
+        "size": 12,
+        "type": "dict"
+      }
+    },
+    {
+      "bytes": 429,
+      "head": "# Instantiation record\n\nProject: 18-g900-kernel-admission\n\nPurpose:\n\nDefine the construction kernel and proof kernel for bounded G900 theorem admission.\n\nSource checkpoint:\n\nProject 17: g900-theorem-proof-v1.0.0-rc1\n\nInitial kernel language:\n\n    K_900 = (G15, G60, sigma, h)\n\nInitial proof-kernel language:\n\n    P_900 = (K_900, C)\n\nStatus:\n\nInstantiated as a fresh project. No new theorem claims are made by this instantiation.\n",
+      "interesting": true,
+      "path": "artifacts/md/001_instantiation.md",
+      "suffix": ".md"
+    },
+    {
+      "bytes": 628,
+      "head": "# Algebraic kernel verification\n\n- verification_ok: True\n- checked_set_note: notes/003_finite_set_theoretic_floor.md\n- checked_algebraic_note: kernel/004_algebraic_kernel.md\n- checked_spec: artifacts/json/algebraic_kernel_spec.json\n\n## Checks\n\n- set_note_exists: True\n- algebraic_note_exists: True\n- spec_exists: True\n- foundation_is_finite_set_theory: True\n- has_A15: True\n- has_A60: True\n- has_H: True\n- half_flip_rule_ok: True\n- generated_adjacency_defined: True\n- direct_claim_count_ok: True\n- bo",
+      "interesting": true,
+      "path": "artifacts/md/algebraic_kernel_verification.md",
+      "suffix": ".md"
+    },
+    {
+      "bytes": 440,
+      "head": "# Certificate plan verification\n\n- verification_ok: True\n- certificate_count: 7\n\n## Certificates\n\n- connectedness\n- diameter\n- radius\n- exact_edge_set_identity\n- sibling_non_switching\n- sibling_full_graph_separation\n- baseline_separation\n\n## Checks\n\n- plan_exists: True\n- note_exists: True\n- certificate_ids_ok: True\n- certificate_count_ok: True\n- all_status_planned: True\n- has_admission_rule: True\n- has_minimal_bounded_qed_package: True\n",
+      "interesting": true,
+      "path": "artifacts/md/certificate_plan_verification.md",
+      "suffix": ".md"
+    },
+    {
+      "bytes": 631,
+      "head": "# Construction independence verification\n\n- verification_ok: True\n- construction_independent_of_project17: True\n- qed_independent: False\n\n## Payload row checks\n\n- source/kernel_payload/g15_slot_edges.csv: True\n- source/kernel_payload/g60_local_edges.csv: True\n- source/kernel_payload/carrier_signing_table.csv: True\n- source/kernel_payload/x_sigma_edges.csv: True\n\n## Checks\n\n- status_exists: True\n- note_exists: True\n- construction_independent_flag: True\n- qed_independent_flag_false: True\n- all_pay",
+      "interesting": true,
+      "path": "artifacts/md/construction_independence_verification.md",
+      "suffix": ".md"
+    },
+    {
+      "bytes": 541,
+      "head": "# Generation operator verification\n\n- verification_ok: True\n- checked_spec: artifacts/json/generation_operator_spec.json\n- checked_note: kernel/003_generation_operator.md\n\n## Checks\n\n- spec_exists: True\n- markdown_exists: True\n- operator_is_Gen: True\n- input_kernel_is_K_900: True\n- output_graph_is_X_sigma: True\n- has_four_kernel_components: True\n- G15_counts_ok: True\n- G60_counts_ok: True\n- generated_vertex_count_ok: True\n- internal_edge_count_ok: True\n- carrier_edge_count_ok: True\n- generated_e",
+      "interesting": true,
+      "path": "artifacts/md/generation_operator_verification.md",
+      "suffix": ".md"
+    },
+    {
+      "bytes": 531,
+      "head": "# Kernel claim ledger verification\n\n- verification_ok: True\n- checked_ledger: artifacts/json/kernel_claim_ledger.json\n- checked_note: admission/002_kernel_claim_ledger.md\n\n## Checks\n\n- ledger_exists: True\n- note_exists: True\n- claim_classes_ok: True\n- direct_claims_complete: True\n- certificate_claims_complete: True\n- boundary_claims_complete: True\n- has_not_claimed_list: True\n- has_admission_principle: True\n\n## Counts\n\n- direct_proof_count: 6\n- certificate_required_count: 6\n- external_boundary_c",
+      "interesting": true,
+      "path": "artifacts/md/kernel_claim_ledger_verification.md",
+      "suffix": ".md"
+    },
+    {
+      "bytes": 1653,
+      "head": "# Kernel payload manifest\n\n- project: 18-g900-kernel-admission\n- source_project: 17-g900-theorem-proof\n- kernel_payload_independent_of_project17: True\n- missing_count: 0\n\n## Boundary\n\n- This payload makes the construction kernel data available inside Project 18.\n- Project 17 remains provenance, not a runtime dependency, after this import.\n- This does not yet create the full proof-kernel certificate bundle.\n\n## Payload files\n\n- G15 slot edge list\n  - payload_path: source/kernel_payload/g15_slot_e",
+      "interesting": true,
+      "path": "artifacts/md/kernel_payload_manifest.md",
+      "suffix": ".md"
+    },
+    {
+      "bytes": 537,
+      "head": "# QED status ledger verification\n\n- verification_ok: True\n- qed_complete: True\n\n## Checks\n\n- exact_edge_set_identity_certified: True\n- connectedness_certified: True\n- diameter_certified: True\n- radius_certified: True\n- baseline_separation_certified: True\n- sibling_non_switching_certified: True\n- sibling_full_graph_separation_certified: True\n- direct_kernel_proof_count_is_6: True\n- certified_count_is_7: True\n- planned_remaining_count_is_0: True\n- not_certified_count_is_0: True\n\n## Status counts\n\n",
+      "interesting": true,
+      "path": "artifacts/md/qed_status_ledger_verification.md",
+      "suffix": ".md"
+    },
+    {
+      "bytes": 12590709,
+      "interesting": true,
+      "path": "artifacts/png/g900_scaffold_vs_spring.png",
+      "suffix": ".png"
+    },
+    {
+      "bytes": 11437160,
+      "interesting": true,
+      "path": "artifacts/png/g900_spring_graph_dark.png",
+      "suffix": ".png"
+    },
+    {
+      "bytes": 9351209,
+      "interesting": true,
+      "path": "artifacts/png/g900_spring_graph_noscipy.png",
+      "suffix": ".png"
+    },
+    {
+      "bytes": 3684,
+      "head": "# Certificate plan\n\nThis plan defines the finite certificates needed to promote Project 18 from kernel definition to bounded theorem admission.\n\nNo heavy certificate is created here. This file only defines the target shape of each certificate.\n\n## Certificate 1: connectedness\n\nClaim:\n\n    X_sigma is connected.\n\nCertificate target:\n\n    A spanning tree or BFS parent map on all 900 vertices.\n\nVerifier requirements:\n\n- all 900 vertices appear,\n- root has no parent,\n- every non-root vertex has exact",
+      "interesting": true,
+      "path": "certificates/001_certificate_plan.md",
+      "suffix": ".md"
+    },
+    {
+      "bytes": 759,
+      "head": "# Exact edge-set identity certificate\n\n- verification_ok: True\n- claim: Gen(K_900) equals the recorded canonical X_sigma edge set.\n\n## Counts\n\n- g15_slot_edges: 30\n- g60_local_edges: 120\n- carrier_rows: 30\n- generated_edges: 3600\n- recorded_edges: 3600\n- missing_from_generated: 0\n- extra_in_generated: 0\n\n## Hashes\n\n- generated_edge_set_sha256: fe7f38ee8d67b78447f14aa9c8902f2bdd18444fa58e4004732c2b5859349cf5\n- recorded_edge_set_sha256: fe7f38ee8d67b78447f14aa9c8902f2bdd18444fa58e4004732c2b5859349",
+      "interesting": true,
+      "path": "certificates/002_exact_edge_set_identity.md",
+      "suffix": ".md"
+    },
+    {
+      "bytes": 813,
+      "head": "# Connectedness certificate\n\n- verification_ok: True\n- claim: X_sigma is connected.\n- method: BFS spanning tree from root vertex 0.\n- source_edge_file: source/kernel_payload/x_sigma_edges.csv\n\n## Counts\n\n- vertex_count: 900\n- edge_count: 3600\n- reached_vertex_count: 900\n- tree_edge_count: 899\n- max_bfs_depth_from_root: 7\n\n## Checks\n\n- connected: True\n- all_vertices_present: True\n- tree_edge_count_ok: True\n- parent_edge_ok: True\n- bad_parent_edge_count: 0\n\n## Hashes\n\n- source_edge_id_set_sha256: ",
+      "interesting": true,
+      "path": "certificates/003_connectedness.md",
+      "suffix": ".md"
+    },
+    {
+      "bytes": 1337,
+      "head": "# Diameter and radius certificate\n\n- verification_ok: True\n- claim: X_sigma has diameter 8 and radius 6.\n- method: all-source BFS over source/kernel_payload/x_sigma_edges.csv\n\n## Metric result\n\n- vertex_count: 900\n- edge_count: 3600\n- diameter: 8\n- radius: 6\n- center_count: 349\n- first_center_vertex: 1\n- diameter_vertex_count: 10\n- first_diameter_witness_pair: [198, 623]\n\n## Eccentricity counts\n\n- eccentricity_6: 349\n- eccentricity_7: 541\n- eccentricity_8: 10\n\n## Distance distribution\n\n- distanc",
+      "interesting": true,
+      "path": "certificates/004_diameter_radius.md",
+      "suffix": ".md"
+    },
+    {
+      "bytes": 1679,
+      "head": "# Baseline separation certificate\n\n- verification_ok: True\n- claim: X_sigma is separated from the untwisted product baseline by exact metric invariants.\n\n## Source counts\n\n- vertex_count: 900\n- g15_slot_edges: 30\n- g60_local_edges: 120\n- baseline_edges: 3600\n\n## Metric comparison\n\n- x_sigma_diameter: 8\n- x_sigma_radius: 6\n- baseline_diameter: 9\n- baseline_radius: 9\n- diameter_separates: True\n- radius_separates: True\n\n## Baseline details\n\n- baseline_center_count: 900\n- baseline_first_center_verte",
+      "interesting": true,
+      "path": "certificates/005_baseline_separation.md",
+      "suffix": ".md"
+    },
+    {
+      "bytes": 1665,
+      "head": "# Sibling non-switching certificate\n\n- verification_ok: True\n- claim: the sibling signing delta is not a switching coboundary over G15.\n- interpretation: the sibling signing is not switching-equivalent to the canonical signing.\n\n## Support\n\n- support_edges: [[5, 10], [5, 14], [9, 11], [9, 12], [10, 14], [11, 12]]\n- support_triangles: [[5, 10, 14], [9, 11, 12]]\n- support_component_count: 2\n- support_component_sizes: [3, 3]\n- support_cycle_rank: 2\n\n## F2 obstruction\n\n- switching_equation_solvable:",
+      "interesting": true,
+      "path": "certificates/006_sibling_non_switching.md",
+      "suffix": ".md"
+    },
+    {
+      "bytes": 2171,
+      "head": "# Sibling full graph separation certificate\n\n- verification_ok: True\n- claim: the sibling graph is separated from canonical X_sigma by an exact graph invariant.\n\n## Edge-set comparison\n\n- canonical_edges: 3600\n- sibling_edges: 3600\n- intersection_edges: 3240\n- canonical_only_edges: 360\n- sibling_only_edges: 360\n- symmetric_difference_edges: 720\n\n## Canonical metric\n\n- diameter: 8\n- radius: 6\n- eccentricity_counts: {'6': 349, '7': 541, '8': 10}\n- distance_distribution: {'1': 3600, '2': 17710, '3'",
+      "interesting": true,
+      "path": "certificates/007_sibling_full_graph_separation.md",
+      "suffix": ".md"
+    },
+    {
+      "bytes": 476,
+      "head": "# Certificates\n\nThis directory will hold finite certificates used by the proof kernel.\n\nPlanned certificates:\n\n- connectedness certificate\n- diameter certificate\n- radius certificate\n- edge-set equality certificate\n- sibling coboundary certificate\n- sibling invariant separation certificate\n- baseline separation certificate\n\nThe first phase may use pointers to project-17 artifacts. Final admission should either copy, regenerate, or independently verify the necessary data.\n",
+      "interesting": true,
+      "path": "certificates/README.md",
+      "suffix": ".md"
+    },
+    {
+      "bytes": 12511335,
+      "interesting": true,
+      "path": "dist/g900_kernel_admission_bounded_qed_overleaf.zip",
+      "suffix": ".zip"
+    },
+    {
+      "bytes": 1102,
+      "head": "# Construction kernel\n\n## Definition\n\nThe G900 construction kernel is\n\n    K_900 = (G15, G60, sigma, h)\n\nwhere:\n\n- G15 is the 15-vertex slot graph.\n- G60 is the 60-vertex thalion fiber.\n- sigma: E(G15) -> F2 is the carrier signing.\n- h is the half-flip involution on local states:\n\n    h(x) = x + 30 mod 60\n\n## Generated object\n\nThe generated graph is\n\n    X_sigma = Gen(K_900)\n\nwith vertex set\n\n    V(X_sigma) = V(G15) x V(G60)\n\nand edge set\n\n    E(X_sigma) = E_int union E_car\n\n## Internal edges\n\nF",
+      "interesting": true,
+      "path": "kernel/001_construction_kernel.md",
+      "suffix": ".md"
+    },
+    {
+      "bytes": 1089,
+      "head": "# Proof kernel\n\n## Definition\n\nThe G900 proof kernel is\n\n    P_900 = (K_900, C)\n\nwhere:\n\n- K_900 is the construction kernel.\n- C is the finite certificate bundle required for admission.\n\n## Certificate bundle C\n\nThe certificate bundle should include finite witnesses for:\n\n1. connectedness of X_sigma,\n2. diameter 8,\n3. radius 6,\n4. exact equality with the recorded canonical candidate edge set,\n5. separation from the untwisted product baseline,\n6. sibling non-coboundary / non-switching-equivalence",
+      "interesting": true,
+      "path": "kernel/002_proof_kernel.md",
+      "suffix": ".md"
+    },
+    {
+      "bytes": 2427,
+      "head": "# Generation operator\n\n## Purpose\n\nThis note defines the operator that turns the construction kernel into the generated graph.\n\nThe construction kernel is\n\n    K_900 = (G15, G60, sigma, h)\n\nwhere:\n\n- G15 is the slot graph.\n- G60 is the thalion fiber.\n- sigma is the F2-valued signing on E(G15).\n- h is the half-flip involution h(x) = x + 30 mod 60.\n\nThe generation operator is written:\n\n    Gen(K_900) = X_sigma\n\n## Input data\n\nThe operator requires exactly four finite inputs:\n\n1. G15 slot edges.\n2.",
+      "interesting": true,
+      "path": "kernel/003_generation_operator.md",
+      "suffix": ".md"
+    },
+    {
+      "bytes": 2843,
+      "head": "# Algebraic kernel\n\nThis note defines the algebraic form of the G900 construction kernel.\n\nThe set-theoretic construction gives the graph. The algebraic kernel gives the matrix language for QED admission.\n\n## Matrices\n\nLet:\n\n    A15 = adjacency matrix of G15\n    A60 = adjacency matrix of G60\n    I15 = 15 x 15 identity matrix\n    I60 = 60 x 60 identity matrix\n    H   = 60 x 60 half-flip permutation matrix\n\nThe half-flip matrix H is defined by:\n\n    H[x, y] = 1 if y = x + 30 mod 60\n    H[x, y] = 0",
+      "interesting": true,
+      "path": "kernel/004_algebraic_kernel.md",
+      "suffix": ".md"
+    },
+    {
+      "bytes": 1083,
+      "head": "# From 17 to 18\n\nProject 17 is frozen as the current theorem-package checkpoint.\n\nProject 18 starts because the next task is no longer drafting the note. The next task is defining the kernel and the admission standard.\n\n## 17 result\n\nProject 17 established a clean release-candidate note for the signed half-flip G900 construction:\n\n- 900 vertices\n- 3600 edges\n- 8-regular\n- 4 internal and 4 external neighbors per vertex\n- connected\n- diameter 8\n- radius 6\n- exact match to Aletheos P900 candidate[0",
+      "interesting": true,
+      "path": "notes/001_from_17_to_18.md",
+      "suffix": ".md"
+    },
+    {
+      "bytes": 1604,
+      "head": "# Construction independence\n\nProject 18 now contains the finite construction payload required to regenerate the canonical G900 candidate without reading Project 17 at runtime.\n\n## Status\n\nProject 18 is construction-independent of Project 17.\n\nProject 17 remains the frozen provenance checkpoint:\n\n    17-g900-theorem-proof\n    tag: g900-theorem-proof-v1.0.0-rc1\n\nProject 18 now contains its own kernel payload:\n\n    source/kernel_payload/g15_slot_edges.csv\n    source/kernel_payload/g60_local_edges.c",
+      "interesting": true,
+      "path": "notes/002_construction_independence.md",
+      "suffix": ".md"
+    },
+    {
+      "bytes": 1734,
+      "head": "# Finite set-theoretic floor\n\nProject 18 is rooted in finite set theory.\n\nThe G900 construction does not require infinite choice, visual geometry, a graph census, or physical interpretation.\n\nIt requires only finite sets, finite relations, and finite verification.\n\n## Basic graph form\n\nA graph is treated as an ordered pair:\n\n    G = (V, E)\n\nwhere:\n\n- V is a finite set,\n- E is a finite set of unordered pairs from V.\n\n## Source sets\n\nThe slot graph is:\n\n    G15 = (V15, E15)\n\nwith:\n\n    |V15| = 15\n",
+      "interesting": true,
+      "path": "notes/003_finite_set_theoretic_floor.md",
+      "suffix": ".md"
+    },
+    {
+      "bytes": 323,
+      "head": "# G900 kernel admission manuscript\n\nThis manuscript is built from the Project 18 bounded-QED certificate ledger.\n\nOverleaf entry point:\n\n    main.tex\n\nBounded-QED tag:\n\n    g900-kernel-admission-bounded-qed-v1.0.0\n\nThe manuscript does not claim uniqueness, census identity, physical interpretation, or sibling invalidity.\n\n",
+      "interesting": true,
+      "path": "paper/README.md",
+      "suffix": ".md"
+    },
+    {
+      "bytes": 12590709,
+      "interesting": true,
+      "path": "paper/figures/g900_scaffold_vs_spring.png",
+      "suffix": ".png"
+    },
+    {
+      "bytes": 1221,
+      "interesting": true,
+      "path": "paper/main.tex",
+      "suffix": ".tex"
+    },
+    {
+      "bytes": 420,
+      "interesting": true,
+      "path": "paper/refs.bib",
+      "suffix": ".bib"
+    },
+    {
+      "bytes": 1001,
+      "interesting": true,
+      "path": "paper/sections/00_abstract.tex",
+      "suffix": ".tex"
+    },
+    {
+      "bytes": 1433,
+      "interesting": true,
+      "path": "paper/sections/01_introduction.tex",
+      "suffix": ".tex"
+    },
+    {
+      "bytes": 1323,
+      "interesting": true,
+      "path": "paper/sections/02_kernel.tex",
+      "suffix": ".tex"
+    },
+    {
+      "bytes": 1760,
+      "interesting": true,
+      "path": "paper/sections/03_main_theorem.tex",
+      "suffix": ".tex"
+    },
+    {
+      "bytes": 1606,
+      "interesting": true,
+      "path": "paper/sections/04_certificates.tex",
+      "suffix": ".tex"
+    },
+    {
+      "bytes": 1030,
+      "interesting": true,
+      "path": "paper/sections/05_baseline.tex",
+      "suffix": ".tex"
+    },
+    {
+      "bytes": 2833,
+      "interesting": true,
+      "path": "paper/sections/06_sibling.tex",
+      "suffix": ".tex"
+    },
+    {
+      "bytes": 685,
+      "interesting": true,
+      "path": "paper/sections/07_boundaries.tex",
+      "suffix": ".tex"
+    },
+    {
+      "bytes": 696,
+      "interesting": true,
+      "path": "paper/sections/08_conclusion.tex",
+      "suffix": ".tex"
+    },
+    {
+      "bytes": 10727,
+      "head": "#!/usr/bin/env python3\nimport csv\nimport hashlib\nimport json\nimport re\nfrom collections import Counter, deque\nfrom pathlib import Path\n\nROOT = Path(__file__).resolve().parents[1]\nPAYLOAD = ROOT / \"source/kernel_payload\"\n\nG15 = PAYLOAD / \"g15_slot_edges.csv\"\nG60 = PAYLOAD / \"g60_local_edges.csv\"\nX_METRIC = ROOT / \"artifacts/json/metric_certificate.json\"\n\nOUT_JSON = ROOT / \"artifacts/json/baseline_separation_certificate.json\"\nOUT_MD = ROOT / \"certificates/005_baseline_separation.md\"\n\nINT_RE = re.c",
+      "interesting": true,
+      "path": "scripts/build_baseline_separation_certificate.py",
+      "suffix": ".py"
+    },
+    {
+      "bytes": 5970,
+      "head": "#!/usr/bin/env python3\nimport csv\nimport hashlib\nimport json\nimport re\nfrom collections import deque\nfrom pathlib import Path\n\nROOT = Path(__file__).resolve().parents[1]\nEDGE_FILE = ROOT / \"source/kernel_payload/x_sigma_edges.csv\"\n\nOUT_JSON = ROOT / \"artifacts/json/connectedness_certificate.json\"\nOUT_MD = ROOT / \"certificates/003_connectedness.md\"\n\nINT_RE = re.compile(r\"-?\\d+\")\n\ndef read_rows(path):\n    with path.open(newline=\"\") as f:\n        return list(csv.DictReader(f))\n\ndef ints_from_row(ro",
+      "interesting": true,
+      "path": "scripts/build_connectedness_certificate.py",
+      "suffix": ".py"
+    },
+    {
+      "bytes": 7326,
+      "head": "#!/usr/bin/env python3\nimport csv\nimport hashlib\nimport json\nimport re\nfrom pathlib import Path\n\nROOT = Path(__file__).resolve().parents[1]\nPAYLOAD = ROOT / \"source/kernel_payload\"\n\nG15 = PAYLOAD / \"g15_slot_edges.csv\"\nG60 = PAYLOAD / \"g60_local_edges.csv\"\nCARRIER = PAYLOAD / \"carrier_signing_table.csv\"\nRECORDED = PAYLOAD / \"x_sigma_edges.csv\"\n\nOUT_JSON = ROOT / \"artifacts/json/exact_edge_set_identity_certificate.json\"\nOUT_MD = ROOT / \"certificates/002_exact_edge_set_identity.md\"\n\nINT_RE = re.co",
+      "interesting": true,
+      "path": "scripts/build_exact_edge_set_identity_certificate.py",
+      "suffix": ".py"
+    },
+    {
+      "bytes": 8444,
+      "head": "#!/usr/bin/env python3\nimport csv\nimport hashlib\nimport json\nimport re\nfrom collections import Counter, deque\nfrom pathlib import Path\n\nROOT = Path(__file__).resolve().parents[1]\nEDGE_FILE = ROOT / \"source/kernel_payload/x_sigma_edges.csv\"\n\nOUT_JSON = ROOT / \"artifacts/json/metric_certificate.json\"\nOUT_MD = ROOT / \"certificates/004_diameter_radius.md\"\n\nINT_RE = re.compile(r\"-?\\d+\")\nN = 900\n\ndef read_rows(path):\n    with path.open(newline=\"\") as f:\n        return list(csv.DictReader(f))\n\ndef ints",
+      "interesting": true,
+      "path": "scripts/build_metric_certificate.py",
+      "suffix": ".py"
+    },
+    {
+      "bytes": 10150,
+      "head": "#!/usr/bin/env python3\nimport json\nfrom pathlib import Path\n\nROOT = Path(__file__).resolve().parents[1]\n\nEXACT = ROOT / \"artifacts/json/exact_edge_set_identity_certificate.json\"\nCONN = ROOT / \"artifacts/json/connectedness_certificate.json\"\nMETRIC = ROOT / \"artifacts/json/metric_certificate.json\"\nBASELINE = ROOT / \"artifacts/json/baseline_separation_certificate.json\"\nSIB_NON = ROOT / \"artifacts/json/sibling_non_switching_certificate.json\"\nSIB_FULL = ROOT / \"artifacts/json/sibling_full_graph_separ",
+      "interesting": true,
+      "path": "scripts/build_qed_status_ledger.py",
+      "suffix": ".py"
+    },
+    {
+      "bytes": 16329,
+      "head": "#!/usr/bin/env python3\nimport csv\nimport hashlib\nimport json\nimport re\nfrom collections import Counter, deque\nfrom pathlib import Path\n\nROOT = Path(__file__).resolve().parents[1]\nPAYLOAD = ROOT / \"source/kernel_payload\"\n\nG15 = PAYLOAD / \"g15_slot_edges.csv\"\nG60 = PAYLOAD / \"g60_local_edges.csv\"\nCANONICAL_EDGES = PAYLOAD / \"x_sigma_edges.csv\"\nSIBLING_SIGNING = PAYLOAD / \"sibling_candidate_signing_table.csv\"\nCANONICAL_METRIC = ROOT / \"artifacts/json/metric_certificate.json\"\n\nOUT_SIBLING_EDGES = PA",
+      "interesting": true,
+      "path": "scripts/build_sibling_full_graph_separation_certificate.py",
+      "suffix": ".py"
+    },
+    {
+      "bytes": 13513,
+      "head": "#!/usr/bin/env python3\nimport csv\nimport json\nimport re\nfrom collections import Counter, defaultdict, deque\nfrom pathlib import Path\n\nROOT = Path(__file__).resolve().parents[1]\nPAYLOAD = ROOT / \"source/kernel_payload\"\n\nG15 = PAYLOAD / \"g15_slot_edges.csv\"\nCARRIER = PAYLOAD / \"carrier_signing_table.csv\"\n\nOUT_DELTA = PAYLOAD / \"sibling_signing_delta.csv\"\nOUT_SIBLING = PAYLOAD / \"sibling_candidate_signing_table.csv\"\nOUT_JSON = ROOT / \"artifacts/json/sibling_non_switching_certificate.json\"\nOUT_MD = ",
+      "interesting": true,
+      "path": "scripts/build_sibling_non_switching_certificate.py",
+      "suffix": ".py"
+    },
+    {
+      "bytes": 4617,
+      "head": "#!/usr/bin/env python3\nimport csv\nimport hashlib\nimport json\nimport shutil\nfrom pathlib import Path\n\nROOT = Path(__file__).resolve().parents[1]\nSRC = ROOT.parent / \"17-g900-theorem-proof\"\n\nOUT_DIR = ROOT / \"source/kernel_payload\"\nOUT_JSON = ROOT / \"artifacts/json/kernel_payload_manifest.json\"\nOUT_MD = ROOT / \"artifacts/md/kernel_payload_manifest.md\"\n\nFILES = [\n    {\n        \"role\": \"G15 slot edge list\",\n        \"src\": \"support/admission/admitted_g15_slot_edges.csv\",\n        \"dst\": \"g15_slot_edge",
+      "interesting": true,
+      "path": "scripts/import_kernel_payload_from_17.py",
+      "suffix": ".py"
+    },
+    {
+      "bytes": 4582,
+      "head": "#!/usr/bin/env python3\nimport hashlib\nimport json\nimport subprocess\nfrom pathlib import Path\n\nROOT = Path(__file__).resolve().parents[1]\nSRC = ROOT.parent / \"17-g900-theorem-proof\"\n\nOUT_JSON = ROOT / \"source/project17_checkpoint_manifest.json\"\nOUT_MD = ROOT / \"source/project17_checkpoint_manifest.md\"\n\nTRACKED_FILES = [\n    \"README.md\",\n    \"paper/main.tex\",\n    \"paper/sections/04_finite_lemmas.tex\",\n    \"paper/sections/05_main_theorem.tex\",\n    \"paper/sections/10_admission_reproducibility_summar",
+      "interesting": true,
+      "path": "scripts/import_project17_checkpoint.py",
+      "suffix": ".py"
+    },
+    {
+      "bytes": 2183,
+      "head": "#!/usr/bin/env python3\nimport json\nfrom pathlib import Path\n\nROOT = Path(__file__).resolve().parents[1]\n\nSET_NOTE = ROOT / \"notes/003_finite_set_theoretic_floor.md\"\nALG_NOTE = ROOT / \"kernel/004_algebraic_kernel.md\"\nSPEC = ROOT / \"artifacts/json/algebraic_kernel_spec.json\"\nOUT = ROOT / \"artifacts/md/algebraic_kernel_verification.md\"\n\ndef main():\n    data = json.loads(SPEC.read_text())\n\n    checks = {\n        \"set_note_exists\": SET_NOTE.exists(),\n        \"algebraic_note_exists\": ALG_NOTE.exists()",
+      "interesting": true,
+      "path": "scripts/verify_algebraic_kernel_spec.py",
+      "suffix": ".py"
+    },
+    {
+      "bytes": 1830,
+      "head": "#!/usr/bin/env python3\nimport json\nfrom pathlib import Path\n\nROOT = Path(__file__).resolve().parents[1]\nPLAN = ROOT / \"artifacts/json/certificate_plan.json\"\nNOTE = ROOT / \"certificates/001_certificate_plan.md\"\nOUT = ROOT / \"artifacts/md/certificate_plan_verification.md\"\n\nEXPECTED = [\n    \"connectedness\",\n    \"diameter\",\n    \"radius\",\n    \"exact_edge_set_identity\",\n    \"sibling_non_switching\",\n    \"sibling_full_graph_separation\",\n    \"baseline_separation\",\n]\n\ndef main():\n    data = json.loads(PLA",
+      "interesting": true,
+      "path": "scripts/verify_certificate_plan.py",
+      "suffix": ".py"
+    },
+    {
+      "bytes": 2540,
+      "head": "#!/usr/bin/env python3\nimport json\nfrom pathlib import Path\n\nROOT = Path(__file__).resolve().parents[1]\n\nSTATUS = ROOT / \"artifacts/json/construction_independence_status.json\"\nNOTE = ROOT / \"notes/002_construction_independence.md\"\nOUT = ROOT / \"artifacts/md/construction_independence_verification.md\"\n\ndef csv_row_count(path):\n    with path.open() as f:\n        return max(0, sum(1 for _ in f) - 1)\n\ndef main():\n    data = json.loads(STATUS.read_text())\n\n    payload_paths = [ROOT / p for p in data[\"",
+      "interesting": true,
+      "path": "scripts/verify_construction_independence.py",
+      "suffix": ".py"
+    },
+    {
+      "bytes": 2060,
+      "head": "#!/usr/bin/env python3\nimport json\nfrom pathlib import Path\n\nROOT = Path(__file__).resolve().parents[1]\nSPEC = ROOT / \"artifacts/json/generation_operator_spec.json\"\nMD = ROOT / \"kernel/003_generation_operator.md\"\nOUT = ROOT / \"artifacts/md/generation_operator_verification.md\"\n\ndef main():\n    spec = json.loads(SPEC.read_text())\n\n    checks = {\n        \"spec_exists\": SPEC.exists(),\n        \"markdown_exists\": MD.exists(),\n        \"operator_is_Gen\": spec.get(\"operator\") == \"Gen\",\n        \"input_ker",
+      "interesting": true,
+      "path": "scripts/verify_generation_operator_spec.py",
+      "suffix": ".py"
+    },
+    {
+      "bytes": 2884,
+      "head": "#!/usr/bin/env python3\nimport json\nfrom pathlib import Path\n\nROOT = Path(__file__).resolve().parents[1]\nLEDGER = ROOT / \"artifacts/json/kernel_claim_ledger.json\"\nNOTE = ROOT / \"admission/002_kernel_claim_ledger.md\"\nOUT = ROOT / \"artifacts/md/kernel_claim_ledger_verification.md\"\n\nREQUIRED_CLASSES = [\n    \"direct_proof\",\n    \"certificate_required\",\n    \"external_boundary\",\n    \"not_claimed\",\n]\n\nREQUIRED_DIRECT = [\n    \"product_register_size\",\n    \"internal_edge_count\",\n    \"external_edge_count\",\n ",
+      "interesting": true,
+      "path": "scripts/verify_kernel_claim_ledger.py",
+      "suffix": ".py"
+    },
+    {
+      "bytes": 672,
+      "head": "#!/usr/bin/env python3\nfrom pathlib import Path\n\nROOT = Path(__file__).resolve().parents[1]\n\nrequired = [\n    \"README.md\",\n    \"notes/001_from_17_to_18.md\",\n    \"kernel/001_construction_kernel.md\",\n    \"kernel/002_proof_kernel.md\",\n    \"admission/001_admission_standard.md\",\n    \"certificates/README.md\",\n]\n\nmissing = []\nfor rel in required:\n    if not (ROOT / rel).exists():\n        missing.append(rel)\n\nok = not missing\n\nprint(\"kernel_project_ok=\" + str(ok))\nprint(\"required_count=\" + str(len(requi",
+      "interesting": true,
+      "path": "scripts/verify_kernel_project.py",
+      "suffix": ".py"
+    },
+    {
+      "bytes": 942,
+      "interesting": true,
+      "path": "source/kernel_payload/carrier_signing_table.csv",
+      "suffix": ".csv",
+      "summary": {
+        "header": [
+          "slot_u",
+          "slot_v",
+          "sign",
+          "carrier_law",
+          "external_edge_count"
+        ],
+        "ok": true,
+        "rows": 31,
+        "sample": [
+          [
+            "0",
+            "1",
+            "1",
+            "half_flip_x_plus_30_mod_60",
+            "60"
+          ],
+          [
+            "0",
+            "4",
+            "1",
+            "half_flip_x_plus_30_mod_60",
+            "60"
+          ],
+          [
+            "0",
+            "5",
+            "1",
+            "half_flip_x_plus_30_mod_60",
+            "60"
+          ],
+          [
+            "0",
+            "6",
+            "1",
+            "half_flip_x_plus_30_mod_60",
+            "60"
+          ],
+          [
+            "1",
+            "2",
+            "1",
+            "half_flip_x_plus_30_mod_60",
+            "60"
+          ]
+        ]
+      }
+    },
+    {
+      "bytes": 185,
+      "interesting": true,
+      "path": "source/kernel_payload/g15_slot_edges.csv",
+      "suffix": ".csv",
+      "summary": {
+        "header": [
+          "slot_u",
+          "slot_v"
+        ],
+        "ok": true,
+        "rows": 31,
+        "sample": [
+          [
+            "0",
+            "1"
+          ],
+          [
+            "0",
+            "4"
+          ],
+          [
+            "0",
+            "5"
+          ],
+          [
+            "0",
+            "6"
+          ],
+          [
+            "1",
+            "2"
+          ]
+        ]
+      }
+    },
+    {
+      "bytes": 817,
+      "interesting": true,
+      "path": "source/kernel_payload/g60_local_edges.csv",
+      "suffix": ".csv",
+      "summary": {
+        "header": [
+          "local_u",
+          "local_v"
+        ],
+        "ok": true,
+        "rows": 121,
+        "sample": [
+          [
+            "0",
+            "16"
+          ],
+          [
+            "0",
+            "19"
+          ],
+          [
+            "0",
+            "25"
+          ],
+          [
+            "0",
+            "55"
+          ],
+          [
+            "1",
+            "15"
+          ]
+        ]
+      }
+    },
+    {
+      "bytes": 399,
+      "interesting": true,
+      "path": "source/kernel_payload/sibling_candidate_signing_table.csv",
+      "suffix": ".csv",
+      "summary": {
+        "header": [
+          "slot_a",
+          "slot_b",
+          "canonical_sign",
+          "delta",
+          "sibling_sign"
+        ],
+        "ok": true,
+        "rows": 31,
+        "sample": [
+          [
+            "0",
+            "1",
+            "1",
+            "0",
+            "1"
+          ],
+          [
+            "0",
+            "4",
+            "1",
+            "0",
+            "1"
+          ],
+          [
+            "0",
+            "5",
+            "1",
+            "0",
+            "1"
+          ],
+          [
+            "0",
+            "6",
+            "1",
+            "0",
+            "1"
+          ],
+          [
+            "1",
+            "2",
+            "1",
+            "0",
+            "1"
+          ]
+        ]
+      }
+    },
+    {
+      "bytes": 636,
+      "interesting": true,
+      "path": "source/kernel_payload/sibling_signing_delta.csv",
+      "suffix": ".csv",
+      "summary": {
+        "header": [
+          "slot_a",
+          "slot_b",
+          "delta",
+          "support_role"
+        ],
+        "ok": true,
+        "rows": 31,
+        "sample": [
+          [
+            "0",
+            "1",
+            "0",
+            "unchanged"
+          ],
+          [
+            "0",
+            "4",
+            "0",
+            "unchanged"
+          ],
+          [
+            "0",
+            "5",
+            "0",
+            "unchanged"
+          ],
+          [
+            "0",
+            "6",
+            "0",
+            "unchanged"
+          ],
+          [
+            "1",
+            "2",
+            "0",
+            "unchanged"
+          ]
+        ]
+      }
+    },
+    {
+      "bytes": 40831,
+      "interesting": true,
+      "path": "source/kernel_payload/sibling_x_sigma_edges.csv",
+      "suffix": ".csv",
+      "summary": {
+        "header": [
+          "slot_a",
+          "local_a",
+          "slot_b",
+          "local_b"
+        ],
+        "ok": true,
+        "rows": 3601,
+        "sample": [
+          [
+            "0",
+            "0",
+            "0",
+            "16"
+          ],
+          [
+            "0",
+            "0",
+            "0",
+            "19"
+          ],
+          [
+            "0",
+            "0",
+            "0",
+            "25"
+          ],
+          [
+            "0",
+            "0",
+            "0",
+            "55"
+          ],
+          [
+            "0",
+            "0",
+            "1",
+            "30"
+          ]
+        ]
+      }
+    },
+    {
+      "bytes": 151574,
+      "interesting": true,
+      "path": "source/kernel_payload/x_sigma_edges.csv",
+      "suffix": ".csv",
+      "summary": {
+        "header": [
+          "u_vertex",
+          "v_vertex",
+          "u_slot",
+          "u_local",
+          "v_slot",
+          "v_local",
+          "kind"
+        ],
+        "ok": true,
+        "rows": 3601,
+        "sample": [
+          [
+            "0",
+            "16",
+            "0",
+            "0",
+            "0",
+            "16",
+            "internal_thalion_copy"
+          ],
+          [
+            "0",
+            "19",
+            "0",
+            "0",
+            "0",
+            "19",
+            "internal_thalion_copy"
+          ],
+          [
+            "0",
+            "25",
+            "0",
+            "0",
+            "0",
+            "25",
+            "internal_thalion_copy"
+          ],
+          [
+            "0",
+            "55",
+            "0",
+            "0",
+            "0",
+            "55",
+            "internal_thalion_copy"
+          ],
+          [
+            "0",
+            "90",
+            "0",
+            "0",
+            "1",
+            "30",
+            "external_signed_carrier"
+          ]
+        ]
+      }
+    },
+    {
+      "bytes": 3081,
+      "interesting": true,
+      "path": "source/project17_checkpoint_manifest.json",
+      "suffix": ".json",
+      "summary": {
+        "keys": [
+          "admission_use",
+          "boundary",
+          "missing_file_count",
+          "missing_files",
+          "source_branch",
+          "source_commit",
+          "source_path",
+          "source_project",
+          "source_status_short",
+          "source_tags_at_head",
+          "source_worktree_clean",
+          "tracked_file_count",
+          "tracked_files"
+        ],
+        "ok": true,
+        "size": 13,
+        "type": "dict"
+      }
+    },
+    {
+      "bytes": 2370,
+      "head": "# Project 17 checkpoint manifest\n\n- source_project: 17-g900-theorem-proof\n- source_commit: b675be4628da1688b60770c3599ade74bbfa0a7d\n- source_branch: main\n- source_worktree_clean: True\n- source_tags_at_head: g900-theorem-proof-v1.0.0-rc1\n- tracked_file_count: 13\n- missing_file_count: 0\n\n## Admission use\n\nFrozen source checkpoint for Project 18 kernel admission.\n\n## Boundary\n\n- Project 18 does not modify Project 17.\n- Project 18 studies kernel admission for the object frozen in Project 17.\n- This ",
+      "interesting": true,
+      "path": "source/project17_checkpoint_manifest.md",
+      "suffix": ".md"
+    }
+  ],
+  "interesting_files": [
+    {
+      "bytes": 1576,
+      "head": "# 18-g900-kernel-admission\n\nThis project begins the kernel-admission phase for the G900 theorem program.\n\nProject 17 produced the release-candidate theorem proof package:\n\n- finite construction note\n- signed half-flip carrier construction\n- reproducibility spine\n- admission boundary\n- no census claim\n- no uniqueness claim\n- no physical interpretation claim\n\nProject 18 does not change the object.\n\nProject 18 asks:\n\nWhat is the smallest finite kernel that generates the candidate, and what certific",
+      "interesting": true,
+      "path": "README.md",
+      "suffix": ".md"
+    },
+    {
+      "bytes": 1317,
+      "head": "# Kernel admission standard\n\nA G900 kernel admission must satisfy the following requirements.\n\n## 1. Source admission\n\nThe source objects must be explicit:\n\n- G15 slot edge list,\n- G60 local edge list,\n- carrier signing table,\n- half-flip rule.\n\n## 2. Construction admission\n\nThe graph X_sigma must be regenerated from the kernel only:\n\n    X_sigma = Gen(G15, G60, sigma, h)\n\nNo renderer data may be required.\n\n## 3. Invariant admission\n\nEvery claimed invariant must be either:\n\n- proved directly fro",
+      "interesting": true,
+      "path": "admission/001_admission_standard.md",
+      "suffix": ".md"
+    },
+    {
+      "bytes": 3420,
+      "head": "# Kernel claim ledger\n\nThis ledger classifies the claims attached to the G900 kernel-admission project.\n\nThe purpose is to prevent hidden cheating.\n\nEvery claim must be one of:\n\n- direct_proof\n- certificate_required\n- external_boundary\n- not_claimed\n\n## Direct proof claims\n\nThese claims follow directly from the construction kernel once the source counts are admitted.\n\n### product_register_size\n\nClaim:\n\n    |V(G15) x V(G60)| = 15 * 60 = 900\n\nStatus:\n\n    direct_proof\n\n### internal_edge_count\n\nCla",
+      "interesting": true,
+      "path": "admission/002_kernel_claim_ledger.md",
+      "suffix": ".md"
+    },
+    {
+      "bytes": 2229,
+      "head": "# QED status ledger\n\n- ledger_ok: True\n- direct_kernel_claims_proved: 6\n- certificate_claims_certified: 7\n- remaining_planned_claims: 0\n- not_certified_claims: 0\n- qed_complete: True\n\n## Proved by kernel\n\n- product_register_size\n- internal_edge_count\n- external_edge_count\n- total_edge_count\n- degree_split\n- regularity\n\n## Certified\n\n- exact_edge_set_identity\n- connectedness\n- diameter\n- radius\n- baseline_separation\n- sibling_non_switching\n- sibling_full_graph_separation\n\n## Planned\n\n- none\n\n## N",
+      "interesting": true,
+      "path": "admission/003_qed_status_ledger.md",
+      "suffix": ".md"
+    },
+    {
+      "bytes": 1221,
+      "interesting": true,
+      "path": "artifacts/json/algebraic_kernel_spec.json",
+      "suffix": ".json",
+      "summary": {
+        "keys": [
+          "boolean_reachability_claims",
+          "carrier_adjacency",
+          "direct_algebraic_claims",
+          "exact_comparison_claims",
+          "f2_claims",
+          "foundation",
+          "generated_adjacency",
+          "half_flip_rule",
+          "internal_adjacency",
+          "matrices",
+          "non_foundational_inputs",
+          "project",
+          "spec"
+        ],
+        "ok": true,
+        "size": 13,
+        "type": "dict"
+      }
+    },
+    {
+      "bytes": 2142,
+      "interesting": true,
+      "path": "artifacts/json/baseline_separation_certificate.json",
+      "suffix": ".json",
+      "summary": {
+        "keys": [
+          "boundary",
+          "certificate",
+          "checks",
+          "claim",
+          "counts",
+          "hashes",
+          "method",
+          "source_files",
+          "untwisted_baseline",
+          "verification_ok",
+          "x_sigma"
+        ],
+        "ok": true,
+        "size": 11,
+        "type": "dict"
+      }
+    },
+    {
+      "bytes": 2060,
+      "interesting": true,
+      "path": "artifacts/json/certificate_plan.json",
+      "suffix": ".json",
+      "summary": {
+        "keys": [
+          "admission_rule",
+          "certificate_plan",
+          "certificates",
+          "minimal_bounded_qed_package",
+          "project"
+        ],
+        "ok": true,
+        "size": 5,
+        "type": "dict"
+      }
+    },
+    {
+      "bytes": 98048,
+      "interesting": true,
+      "path": "artifacts/json/connectedness_certificate.json",
+      "suffix": ".json",
+      "summary": {
+        "keys": [
+          "bfs_parent_certificate",
+          "boundary",
+          "certificate",
+          "checks",
+          "claim",
+          "edge_count",
+          "hashes",
+          "max_bfs_depth_from_root",
+          "method",
+          "reached_vertex_count",
+          "root",
+          "source_edge_file",
+          "tree_edge_count",
+          "verification_ok",
+          "vertex_count"
+        ],
+        "ok": true,
+        "size": 15,
+        "type": "dict"
+      }
+    },
+    {
+      "bytes": 881,
+      "interesting": true,
+      "path": "artifacts/json/construction_independence_status.json",
+      "suffix": ".json",
+      "summary": {
+        "keys": [
+          "construction_independent_of_project17",
+          "kernel_payload",
+          "not_claimed",
+          "project",
+          "qed_independent",
+          "remaining_certificate_targets",
+          "source_project",
+          "source_role",
+          "source_tag",
+          "status"
+        ],
+        "ok": true,
+        "size": 10,
+        "type": "dict"
+      }
+    },
+    {
+      "bytes": 1168,
+      "interesting": true,
+      "path": "artifacts/json/exact_edge_set_identity_certificate.json",
+      "suffix": ".json",
+      "summary": {
+        "keys": [
+          "boundary",
+          "certificate",
+          "claim",
+          "counts",
+          "hashes",
+          "source_files",
+          "verification_ok"
+        ],
+        "ok": true,
+        "size": 7,
+        "type": "dict"
+      }
+    },
+    {
+      "bytes": 1357,
+      "interesting": true,
+      "path": "artifacts/json/generation_operator_spec.json",
+      "suffix": ".json",
+      "summary": {
+        "keys": [
+          "boundary",
+          "deterministic",
+          "edge_layers",
+          "generated_edge_count",
+          "generated_vertex_count",
+          "generated_vertex_set",
+          "input_kernel",
+          "inputs",
+          "kernel_components",
+          "non_inputs",
+          "operator",
+          "output_graph"
+        ],
+        "ok": true,
+        "size": 12,
+        "type": "dict"
+      }
+    },
+    {
+      "bytes": 3476,
+      "interesting": true,
+      "path": "artifacts/json/kernel_claim_ledger.json",
+      "suffix": ".json",
+      "summary": {
+        "keys": [
+          "admission_principle",
+          "certificate_required",
+          "claim_classes",
+          "direct_proof",
+          "external_boundary",
+          "ledger",
+          "not_claimed",
+          "project"
+        ],
+        "ok": true,
+        "size": 8,
+        "type": "dict"
+      }
+    },
+    {
+      "bytes": 2010,
+      "interesting": true,
+      "path": "artifacts/json/kernel_payload_manifest.json",
+      "suffix": ".json",
+      "summary": {
+        "keys": [
+          "boundary",
+          "kernel_payload_independent_of_project17",
+          "missing",
+          "project",
+          "purpose",
+          "records",
+          "source_project"
+        ],
+        "ok": true,
+        "size": 7,
+        "type": "dict"
+      }
+    },
+    {
+      "bytes": 307,
+      "interesting": true,
+      "path": "artifacts/json/manuscript_manifest.json",
+      "suffix": ".json",
+      "summary": {
+        "keys": [
+          "certificate_claims_certified",
+          "direct_kernel_claims_proved",
+          "entrypoint",
+          "not_certified_claims",
+          "qed_complete",
+          "remaining_planned_claims",
+          "tag",
+          "zip"
+        ],
+        "ok": true,
+        "size": 8,
+        "type": "dict"
+      }
+    },
+    {
+      "bytes": 89745,
+      "interesting": true,
+      "path": "artifacts/json/metric_certificate.json",
+      "suffix": ".json",
+      "summary": {
+        "keys": [
+          "boundary",
+          "center_count",
+          "center_vertices",
+          "certificate",
+          "checks",
+          "claim",
+          "diameter",
+          "diameter_vertex_count",
+          "diameter_vertices",
+          "distance_distribution",
+          "eccentricity_counts",
+          "eccentricity_table",
+          "edge_count",
+          "first_diameter_witness_pair",
+          "hashes",
+          "method",
+          "radius",
+          "sample_diameter_witness_pairs",
+          "source_edge_file",
+          "verification_ok",
+          "vertex_count"
+        ],
+        "ok": true,
+        "size": 21,
+        "type": "dict"
+      }
+    },
+    {
+      "bytes": 3873,
+      "interesting": true,
+      "path": "artifacts/json/qed_status_ledger.json",
+      "suffix": ".json",
+      "summary": {
+        "keys": [
+          "boundary",
+          "certified",
+          "claims",
+          "current_summary",
+          "ledger",
+          "ledger_ok",
+          "not_certified",
+          "planned",
+          "project",
+          "proved_by_kernel",
+          "status_counts",
+          "verification_checks"
+        ],
+        "ok": true,
+        "size": 12,
+        "type": "dict"
+      }
+    },
+    {
+      "bytes": 3244,
+      "interesting": true,
+      "path": "artifacts/json/sibling_full_graph_separation_certificate.json",
+      "suffix": ".json",
+      "summary": {
+        "keys": [
+          "boundary",
+          "canonical_metric",
+          "certificate",
+          "checks",
+          "claim",
+          "edge_set_comparison",
+          "hashes",
+          "method",
+          "separation_flags",
+          "sibling_metric",
+          "source_files",
+          "verification_ok"
+        ],
+        "ok": true,
+        "size": 12,
+        "type": "dict"
+      }
+    },
+    {
+      "bytes": 5087,
+      "interesting": true,
+      "path": "artifacts/json/sibling_non_switching_certificate.json",
+      "suffix": ".json",
+      "summary": {
+        "keys": [
+          "assignment_contradictions_sample",
+          "boundary",
+          "certificate",
+          "checks",
+          "claim",
+          "counts",
+          "interpretation",
+          "linear_obstruction",
+          "method",
+          "source_files",
+          "support",
+          "verification_ok"
+        ],
+        "ok": true,
+        "size": 12,
+        "type": "dict"
+      }
+    },
+    {
+      "bytes": 429,
+      "head": "# Instantiation record\n\nProject: 18-g900-kernel-admission\n\nPurpose:\n\nDefine the construction kernel and proof kernel for bounded G900 theorem admission.\n\nSource checkpoint:\n\nProject 17: g900-theorem-proof-v1.0.0-rc1\n\nInitial kernel language:\n\n    K_900 = (G15, G60, sigma, h)\n\nInitial proof-kernel language:\n\n    P_900 = (K_900, C)\n\nStatus:\n\nInstantiated as a fresh project. No new theorem claims are made by this instantiation.\n",
+      "interesting": true,
+      "path": "artifacts/md/001_instantiation.md",
+      "suffix": ".md"
+    },
+    {
+      "bytes": 628,
+      "head": "# Algebraic kernel verification\n\n- verification_ok: True\n- checked_set_note: notes/003_finite_set_theoretic_floor.md\n- checked_algebraic_note: kernel/004_algebraic_kernel.md\n- checked_spec: artifacts/json/algebraic_kernel_spec.json\n\n## Checks\n\n- set_note_exists: True\n- algebraic_note_exists: True\n- spec_exists: True\n- foundation_is_finite_set_theory: True\n- has_A15: True\n- has_A60: True\n- has_H: True\n- half_flip_rule_ok: True\n- generated_adjacency_defined: True\n- direct_claim_count_ok: True\n- bo",
+      "interesting": true,
+      "path": "artifacts/md/algebraic_kernel_verification.md",
+      "suffix": ".md"
+    },
+    {
+      "bytes": 440,
+      "head": "# Certificate plan verification\n\n- verification_ok: True\n- certificate_count: 7\n\n## Certificates\n\n- connectedness\n- diameter\n- radius\n- exact_edge_set_identity\n- sibling_non_switching\n- sibling_full_graph_separation\n- baseline_separation\n\n## Checks\n\n- plan_exists: True\n- note_exists: True\n- certificate_ids_ok: True\n- certificate_count_ok: True\n- all_status_planned: True\n- has_admission_rule: True\n- has_minimal_bounded_qed_package: True\n",
+      "interesting": true,
+      "path": "artifacts/md/certificate_plan_verification.md",
+      "suffix": ".md"
+    },
+    {
+      "bytes": 631,
+      "head": "# Construction independence verification\n\n- verification_ok: True\n- construction_independent_of_project17: True\n- qed_independent: False\n\n## Payload row checks\n\n- source/kernel_payload/g15_slot_edges.csv: True\n- source/kernel_payload/g60_local_edges.csv: True\n- source/kernel_payload/carrier_signing_table.csv: True\n- source/kernel_payload/x_sigma_edges.csv: True\n\n## Checks\n\n- status_exists: True\n- note_exists: True\n- construction_independent_flag: True\n- qed_independent_flag_false: True\n- all_pay",
+      "interesting": true,
+      "path": "artifacts/md/construction_independence_verification.md",
+      "suffix": ".md"
+    },
+    {
+      "bytes": 541,
+      "head": "# Generation operator verification\n\n- verification_ok: True\n- checked_spec: artifacts/json/generation_operator_spec.json\n- checked_note: kernel/003_generation_operator.md\n\n## Checks\n\n- spec_exists: True\n- markdown_exists: True\n- operator_is_Gen: True\n- input_kernel_is_K_900: True\n- output_graph_is_X_sigma: True\n- has_four_kernel_components: True\n- G15_counts_ok: True\n- G60_counts_ok: True\n- generated_vertex_count_ok: True\n- internal_edge_count_ok: True\n- carrier_edge_count_ok: True\n- generated_e",
+      "interesting": true,
+      "path": "artifacts/md/generation_operator_verification.md",
+      "suffix": ".md"
+    },
+    {
+      "bytes": 531,
+      "head": "# Kernel claim ledger verification\n\n- verification_ok: True\n- checked_ledger: artifacts/json/kernel_claim_ledger.json\n- checked_note: admission/002_kernel_claim_ledger.md\n\n## Checks\n\n- ledger_exists: True\n- note_exists: True\n- claim_classes_ok: True\n- direct_claims_complete: True\n- certificate_claims_complete: True\n- boundary_claims_complete: True\n- has_not_claimed_list: True\n- has_admission_principle: True\n\n## Counts\n\n- direct_proof_count: 6\n- certificate_required_count: 6\n- external_boundary_c",
+      "interesting": true,
+      "path": "artifacts/md/kernel_claim_ledger_verification.md",
+      "suffix": ".md"
+    },
+    {
+      "bytes": 1653,
+      "head": "# Kernel payload manifest\n\n- project: 18-g900-kernel-admission\n- source_project: 17-g900-theorem-proof\n- kernel_payload_independent_of_project17: True\n- missing_count: 0\n\n## Boundary\n\n- This payload makes the construction kernel data available inside Project 18.\n- Project 17 remains provenance, not a runtime dependency, after this import.\n- This does not yet create the full proof-kernel certificate bundle.\n\n## Payload files\n\n- G15 slot edge list\n  - payload_path: source/kernel_payload/g15_slot_e",
+      "interesting": true,
+      "path": "artifacts/md/kernel_payload_manifest.md",
+      "suffix": ".md"
+    },
+    {
+      "bytes": 537,
+      "head": "# QED status ledger verification\n\n- verification_ok: True\n- qed_complete: True\n\n## Checks\n\n- exact_edge_set_identity_certified: True\n- connectedness_certified: True\n- diameter_certified: True\n- radius_certified: True\n- baseline_separation_certified: True\n- sibling_non_switching_certified: True\n- sibling_full_graph_separation_certified: True\n- direct_kernel_proof_count_is_6: True\n- certified_count_is_7: True\n- planned_remaining_count_is_0: True\n- not_certified_count_is_0: True\n\n## Status counts\n\n",
+      "interesting": true,
+      "path": "artifacts/md/qed_status_ledger_verification.md",
+      "suffix": ".md"
+    },
+    {
+      "bytes": 12590709,
+      "interesting": true,
+      "path": "artifacts/png/g900_scaffold_vs_spring.png",
+      "suffix": ".png"
+    },
+    {
+      "bytes": 11437160,
+      "interesting": true,
+      "path": "artifacts/png/g900_spring_graph_dark.png",
+      "suffix": ".png"
+    },
+    {
+      "bytes": 9351209,
+      "interesting": true,
+      "path": "artifacts/png/g900_spring_graph_noscipy.png",
+      "suffix": ".png"
+    },
+    {
+      "bytes": 3684,
+      "head": "# Certificate plan\n\nThis plan defines the finite certificates needed to promote Project 18 from kernel definition to bounded theorem admission.\n\nNo heavy certificate is created here. This file only defines the target shape of each certificate.\n\n## Certificate 1: connectedness\n\nClaim:\n\n    X_sigma is connected.\n\nCertificate target:\n\n    A spanning tree or BFS parent map on all 900 vertices.\n\nVerifier requirements:\n\n- all 900 vertices appear,\n- root has no parent,\n- every non-root vertex has exact",
+      "interesting": true,
+      "path": "certificates/001_certificate_plan.md",
+      "suffix": ".md"
+    },
+    {
+      "bytes": 759,
+      "head": "# Exact edge-set identity certificate\n\n- verification_ok: True\n- claim: Gen(K_900) equals the recorded canonical X_sigma edge set.\n\n## Counts\n\n- g15_slot_edges: 30\n- g60_local_edges: 120\n- carrier_rows: 30\n- generated_edges: 3600\n- recorded_edges: 3600\n- missing_from_generated: 0\n- extra_in_generated: 0\n\n## Hashes\n\n- generated_edge_set_sha256: fe7f38ee8d67b78447f14aa9c8902f2bdd18444fa58e4004732c2b5859349cf5\n- recorded_edge_set_sha256: fe7f38ee8d67b78447f14aa9c8902f2bdd18444fa58e4004732c2b5859349",
+      "interesting": true,
+      "path": "certificates/002_exact_edge_set_identity.md",
+      "suffix": ".md"
+    },
+    {
+      "bytes": 813,
+      "head": "# Connectedness certificate\n\n- verification_ok: True\n- claim: X_sigma is connected.\n- method: BFS spanning tree from root vertex 0.\n- source_edge_file: source/kernel_payload/x_sigma_edges.csv\n\n## Counts\n\n- vertex_count: 900\n- edge_count: 3600\n- reached_vertex_count: 900\n- tree_edge_count: 899\n- max_bfs_depth_from_root: 7\n\n## Checks\n\n- connected: True\n- all_vertices_present: True\n- tree_edge_count_ok: True\n- parent_edge_ok: True\n- bad_parent_edge_count: 0\n\n## Hashes\n\n- source_edge_id_set_sha256: ",
+      "interesting": true,
+      "path": "certificates/003_connectedness.md",
+      "suffix": ".md"
+    },
+    {
+      "bytes": 1337,
+      "head": "# Diameter and radius certificate\n\n- verification_ok: True\n- claim: X_sigma has diameter 8 and radius 6.\n- method: all-source BFS over source/kernel_payload/x_sigma_edges.csv\n\n## Metric result\n\n- vertex_count: 900\n- edge_count: 3600\n- diameter: 8\n- radius: 6\n- center_count: 349\n- first_center_vertex: 1\n- diameter_vertex_count: 10\n- first_diameter_witness_pair: [198, 623]\n\n## Eccentricity counts\n\n- eccentricity_6: 349\n- eccentricity_7: 541\n- eccentricity_8: 10\n\n## Distance distribution\n\n- distanc",
+      "interesting": true,
+      "path": "certificates/004_diameter_radius.md",
+      "suffix": ".md"
+    },
+    {
+      "bytes": 1679,
+      "head": "# Baseline separation certificate\n\n- verification_ok: True\n- claim: X_sigma is separated from the untwisted product baseline by exact metric invariants.\n\n## Source counts\n\n- vertex_count: 900\n- g15_slot_edges: 30\n- g60_local_edges: 120\n- baseline_edges: 3600\n\n## Metric comparison\n\n- x_sigma_diameter: 8\n- x_sigma_radius: 6\n- baseline_diameter: 9\n- baseline_radius: 9\n- diameter_separates: True\n- radius_separates: True\n\n## Baseline details\n\n- baseline_center_count: 900\n- baseline_first_center_verte",
+      "interesting": true,
+      "path": "certificates/005_baseline_separation.md",
+      "suffix": ".md"
+    },
+    {
+      "bytes": 1665,
+      "head": "# Sibling non-switching certificate\n\n- verification_ok: True\n- claim: the sibling signing delta is not a switching coboundary over G15.\n- interpretation: the sibling signing is not switching-equivalent to the canonical signing.\n\n## Support\n\n- support_edges: [[5, 10], [5, 14], [9, 11], [9, 12], [10, 14], [11, 12]]\n- support_triangles: [[5, 10, 14], [9, 11, 12]]\n- support_component_count: 2\n- support_component_sizes: [3, 3]\n- support_cycle_rank: 2\n\n## F2 obstruction\n\n- switching_equation_solvable:",
+      "interesting": true,
+      "path": "certificates/006_sibling_non_switching.md",
+      "suffix": ".md"
+    },
+    {
+      "bytes": 2171,
+      "head": "# Sibling full graph separation certificate\n\n- verification_ok: True\n- claim: the sibling graph is separated from canonical X_sigma by an exact graph invariant.\n\n## Edge-set comparison\n\n- canonical_edges: 3600\n- sibling_edges: 3600\n- intersection_edges: 3240\n- canonical_only_edges: 360\n- sibling_only_edges: 360\n- symmetric_difference_edges: 720\n\n## Canonical metric\n\n- diameter: 8\n- radius: 6\n- eccentricity_counts: {'6': 349, '7': 541, '8': 10}\n- distance_distribution: {'1': 3600, '2': 17710, '3'",
+      "interesting": true,
+      "path": "certificates/007_sibling_full_graph_separation.md",
+      "suffix": ".md"
+    },
+    {
+      "bytes": 476,
+      "head": "# Certificates\n\nThis directory will hold finite certificates used by the proof kernel.\n\nPlanned certificates:\n\n- connectedness certificate\n- diameter certificate\n- radius certificate\n- edge-set equality certificate\n- sibling coboundary certificate\n- sibling invariant separation certificate\n- baseline separation certificate\n\nThe first phase may use pointers to project-17 artifacts. Final admission should either copy, regenerate, or independently verify the necessary data.\n",
+      "interesting": true,
+      "path": "certificates/README.md",
+      "suffix": ".md"
+    },
+    {
+      "bytes": 12511335,
+      "interesting": true,
+      "path": "dist/g900_kernel_admission_bounded_qed_overleaf.zip",
+      "suffix": ".zip"
+    },
+    {
+      "bytes": 1102,
+      "head": "# Construction kernel\n\n## Definition\n\nThe G900 construction kernel is\n\n    K_900 = (G15, G60, sigma, h)\n\nwhere:\n\n- G15 is the 15-vertex slot graph.\n- G60 is the 60-vertex thalion fiber.\n- sigma: E(G15) -> F2 is the carrier signing.\n- h is the half-flip involution on local states:\n\n    h(x) = x + 30 mod 60\n\n## Generated object\n\nThe generated graph is\n\n    X_sigma = Gen(K_900)\n\nwith vertex set\n\n    V(X_sigma) = V(G15) x V(G60)\n\nand edge set\n\n    E(X_sigma) = E_int union E_car\n\n## Internal edges\n\nF",
+      "interesting": true,
+      "path": "kernel/001_construction_kernel.md",
+      "suffix": ".md"
+    },
+    {
+      "bytes": 1089,
+      "head": "# Proof kernel\n\n## Definition\n\nThe G900 proof kernel is\n\n    P_900 = (K_900, C)\n\nwhere:\n\n- K_900 is the construction kernel.\n- C is the finite certificate bundle required for admission.\n\n## Certificate bundle C\n\nThe certificate bundle should include finite witnesses for:\n\n1. connectedness of X_sigma,\n2. diameter 8,\n3. radius 6,\n4. exact equality with the recorded canonical candidate edge set,\n5. separation from the untwisted product baseline,\n6. sibling non-coboundary / non-switching-equivalence",
+      "interesting": true,
+      "path": "kernel/002_proof_kernel.md",
+      "suffix": ".md"
+    },
+    {
+      "bytes": 2427,
+      "head": "# Generation operator\n\n## Purpose\n\nThis note defines the operator that turns the construction kernel into the generated graph.\n\nThe construction kernel is\n\n    K_900 = (G15, G60, sigma, h)\n\nwhere:\n\n- G15 is the slot graph.\n- G60 is the thalion fiber.\n- sigma is the F2-valued signing on E(G15).\n- h is the half-flip involution h(x) = x + 30 mod 60.\n\nThe generation operator is written:\n\n    Gen(K_900) = X_sigma\n\n## Input data\n\nThe operator requires exactly four finite inputs:\n\n1. G15 slot edges.\n2.",
+      "interesting": true,
+      "path": "kernel/003_generation_operator.md",
+      "suffix": ".md"
+    },
+    {
+      "bytes": 2843,
+      "head": "# Algebraic kernel\n\nThis note defines the algebraic form of the G900 construction kernel.\n\nThe set-theoretic construction gives the graph. The algebraic kernel gives the matrix language for QED admission.\n\n## Matrices\n\nLet:\n\n    A15 = adjacency matrix of G15\n    A60 = adjacency matrix of G60\n    I15 = 15 x 15 identity matrix\n    I60 = 60 x 60 identity matrix\n    H   = 60 x 60 half-flip permutation matrix\n\nThe half-flip matrix H is defined by:\n\n    H[x, y] = 1 if y = x + 30 mod 60\n    H[x, y] = 0",
+      "interesting": true,
+      "path": "kernel/004_algebraic_kernel.md",
+      "suffix": ".md"
+    },
+    {
+      "bytes": 1083,
+      "head": "# From 17 to 18\n\nProject 17 is frozen as the current theorem-package checkpoint.\n\nProject 18 starts because the next task is no longer drafting the note. The next task is defining the kernel and the admission standard.\n\n## 17 result\n\nProject 17 established a clean release-candidate note for the signed half-flip G900 construction:\n\n- 900 vertices\n- 3600 edges\n- 8-regular\n- 4 internal and 4 external neighbors per vertex\n- connected\n- diameter 8\n- radius 6\n- exact match to Aletheos P900 candidate[0",
+      "interesting": true,
+      "path": "notes/001_from_17_to_18.md",
+      "suffix": ".md"
+    },
+    {
+      "bytes": 1604,
+      "head": "# Construction independence\n\nProject 18 now contains the finite construction payload required to regenerate the canonical G900 candidate without reading Project 17 at runtime.\n\n## Status\n\nProject 18 is construction-independent of Project 17.\n\nProject 17 remains the frozen provenance checkpoint:\n\n    17-g900-theorem-proof\n    tag: g900-theorem-proof-v1.0.0-rc1\n\nProject 18 now contains its own kernel payload:\n\n    source/kernel_payload/g15_slot_edges.csv\n    source/kernel_payload/g60_local_edges.c",
+      "interesting": true,
+      "path": "notes/002_construction_independence.md",
+      "suffix": ".md"
+    },
+    {
+      "bytes": 1734,
+      "head": "# Finite set-theoretic floor\n\nProject 18 is rooted in finite set theory.\n\nThe G900 construction does not require infinite choice, visual geometry, a graph census, or physical interpretation.\n\nIt requires only finite sets, finite relations, and finite verification.\n\n## Basic graph form\n\nA graph is treated as an ordered pair:\n\n    G = (V, E)\n\nwhere:\n\n- V is a finite set,\n- E is a finite set of unordered pairs from V.\n\n## Source sets\n\nThe slot graph is:\n\n    G15 = (V15, E15)\n\nwith:\n\n    |V15| = 15\n",
+      "interesting": true,
+      "path": "notes/003_finite_set_theoretic_floor.md",
+      "suffix": ".md"
+    },
+    {
+      "bytes": 323,
+      "head": "# G900 kernel admission manuscript\n\nThis manuscript is built from the Project 18 bounded-QED certificate ledger.\n\nOverleaf entry point:\n\n    main.tex\n\nBounded-QED tag:\n\n    g900-kernel-admission-bounded-qed-v1.0.0\n\nThe manuscript does not claim uniqueness, census identity, physical interpretation, or sibling invalidity.\n\n",
+      "interesting": true,
+      "path": "paper/README.md",
+      "suffix": ".md"
+    },
+    {
+      "bytes": 12590709,
+      "interesting": true,
+      "path": "paper/figures/g900_scaffold_vs_spring.png",
+      "suffix": ".png"
+    },
+    {
+      "bytes": 1221,
+      "interesting": true,
+      "path": "paper/main.tex",
+      "suffix": ".tex"
+    },
+    {
+      "bytes": 420,
+      "interesting": true,
+      "path": "paper/refs.bib",
+      "suffix": ".bib"
+    },
+    {
+      "bytes": 1001,
+      "interesting": true,
+      "path": "paper/sections/00_abstract.tex",
+      "suffix": ".tex"
+    },
+    {
+      "bytes": 1433,
+      "interesting": true,
+      "path": "paper/sections/01_introduction.tex",
+      "suffix": ".tex"
+    },
+    {
+      "bytes": 1323,
+      "interesting": true,
+      "path": "paper/sections/02_kernel.tex",
+      "suffix": ".tex"
+    },
+    {
+      "bytes": 1760,
+      "interesting": true,
+      "path": "paper/sections/03_main_theorem.tex",
+      "suffix": ".tex"
+    },
+    {
+      "bytes": 1606,
+      "interesting": true,
+      "path": "paper/sections/04_certificates.tex",
+      "suffix": ".tex"
+    },
+    {
+      "bytes": 1030,
+      "interesting": true,
+      "path": "paper/sections/05_baseline.tex",
+      "suffix": ".tex"
+    },
+    {
+      "bytes": 2833,
+      "interesting": true,
+      "path": "paper/sections/06_sibling.tex",
+      "suffix": ".tex"
+    },
+    {
+      "bytes": 685,
+      "interesting": true,
+      "path": "paper/sections/07_boundaries.tex",
+      "suffix": ".tex"
+    },
+    {
+      "bytes": 696,
+      "interesting": true,
+      "path": "paper/sections/08_conclusion.tex",
+      "suffix": ".tex"
+    },
+    {
+      "bytes": 10727,
+      "head": "#!/usr/bin/env python3\nimport csv\nimport hashlib\nimport json\nimport re\nfrom collections import Counter, deque\nfrom pathlib import Path\n\nROOT = Path(__file__).resolve().parents[1]\nPAYLOAD = ROOT / \"source/kernel_payload\"\n\nG15 = PAYLOAD / \"g15_slot_edges.csv\"\nG60 = PAYLOAD / \"g60_local_edges.csv\"\nX_METRIC = ROOT / \"artifacts/json/metric_certificate.json\"\n\nOUT_JSON = ROOT / \"artifacts/json/baseline_separation_certificate.json\"\nOUT_MD = ROOT / \"certificates/005_baseline_separation.md\"\n\nINT_RE = re.c",
+      "interesting": true,
+      "path": "scripts/build_baseline_separation_certificate.py",
+      "suffix": ".py"
+    },
+    {
+      "bytes": 5970,
+      "head": "#!/usr/bin/env python3\nimport csv\nimport hashlib\nimport json\nimport re\nfrom collections import deque\nfrom pathlib import Path\n\nROOT = Path(__file__).resolve().parents[1]\nEDGE_FILE = ROOT / \"source/kernel_payload/x_sigma_edges.csv\"\n\nOUT_JSON = ROOT / \"artifacts/json/connectedness_certificate.json\"\nOUT_MD = ROOT / \"certificates/003_connectedness.md\"\n\nINT_RE = re.compile(r\"-?\\d+\")\n\ndef read_rows(path):\n    with path.open(newline=\"\") as f:\n        return list(csv.DictReader(f))\n\ndef ints_from_row(ro",
+      "interesting": true,
+      "path": "scripts/build_connectedness_certificate.py",
+      "suffix": ".py"
+    },
+    {
+      "bytes": 7326,
+      "head": "#!/usr/bin/env python3\nimport csv\nimport hashlib\nimport json\nimport re\nfrom pathlib import Path\n\nROOT = Path(__file__).resolve().parents[1]\nPAYLOAD = ROOT / \"source/kernel_payload\"\n\nG15 = PAYLOAD / \"g15_slot_edges.csv\"\nG60 = PAYLOAD / \"g60_local_edges.csv\"\nCARRIER = PAYLOAD / \"carrier_signing_table.csv\"\nRECORDED = PAYLOAD / \"x_sigma_edges.csv\"\n\nOUT_JSON = ROOT / \"artifacts/json/exact_edge_set_identity_certificate.json\"\nOUT_MD = ROOT / \"certificates/002_exact_edge_set_identity.md\"\n\nINT_RE = re.co",
+      "interesting": true,
+      "path": "scripts/build_exact_edge_set_identity_certificate.py",
+      "suffix": ".py"
+    },
+    {
+      "bytes": 8444,
+      "head": "#!/usr/bin/env python3\nimport csv\nimport hashlib\nimport json\nimport re\nfrom collections import Counter, deque\nfrom pathlib import Path\n\nROOT = Path(__file__).resolve().parents[1]\nEDGE_FILE = ROOT / \"source/kernel_payload/x_sigma_edges.csv\"\n\nOUT_JSON = ROOT / \"artifacts/json/metric_certificate.json\"\nOUT_MD = ROOT / \"certificates/004_diameter_radius.md\"\n\nINT_RE = re.compile(r\"-?\\d+\")\nN = 900\n\ndef read_rows(path):\n    with path.open(newline=\"\") as f:\n        return list(csv.DictReader(f))\n\ndef ints",
+      "interesting": true,
+      "path": "scripts/build_metric_certificate.py",
+      "suffix": ".py"
+    },
+    {
+      "bytes": 10150,
+      "head": "#!/usr/bin/env python3\nimport json\nfrom pathlib import Path\n\nROOT = Path(__file__).resolve().parents[1]\n\nEXACT = ROOT / \"artifacts/json/exact_edge_set_identity_certificate.json\"\nCONN = ROOT / \"artifacts/json/connectedness_certificate.json\"\nMETRIC = ROOT / \"artifacts/json/metric_certificate.json\"\nBASELINE = ROOT / \"artifacts/json/baseline_separation_certificate.json\"\nSIB_NON = ROOT / \"artifacts/json/sibling_non_switching_certificate.json\"\nSIB_FULL = ROOT / \"artifacts/json/sibling_full_graph_separ",
+      "interesting": true,
+      "path": "scripts/build_qed_status_ledger.py",
+      "suffix": ".py"
+    },
+    {
+      "bytes": 16329,
+      "head": "#!/usr/bin/env python3\nimport csv\nimport hashlib\nimport json\nimport re\nfrom collections import Counter, deque\nfrom pathlib import Path\n\nROOT = Path(__file__).resolve().parents[1]\nPAYLOAD = ROOT / \"source/kernel_payload\"\n\nG15 = PAYLOAD / \"g15_slot_edges.csv\"\nG60 = PAYLOAD / \"g60_local_edges.csv\"\nCANONICAL_EDGES = PAYLOAD / \"x_sigma_edges.csv\"\nSIBLING_SIGNING = PAYLOAD / \"sibling_candidate_signing_table.csv\"\nCANONICAL_METRIC = ROOT / \"artifacts/json/metric_certificate.json\"\n\nOUT_SIBLING_EDGES = PA",
+      "interesting": true,
+      "path": "scripts/build_sibling_full_graph_separation_certificate.py",
+      "suffix": ".py"
+    },
+    {
+      "bytes": 13513,
+      "head": "#!/usr/bin/env python3\nimport csv\nimport json\nimport re\nfrom collections import Counter, defaultdict, deque\nfrom pathlib import Path\n\nROOT = Path(__file__).resolve().parents[1]\nPAYLOAD = ROOT / \"source/kernel_payload\"\n\nG15 = PAYLOAD / \"g15_slot_edges.csv\"\nCARRIER = PAYLOAD / \"carrier_signing_table.csv\"\n\nOUT_DELTA = PAYLOAD / \"sibling_signing_delta.csv\"\nOUT_SIBLING = PAYLOAD / \"sibling_candidate_signing_table.csv\"\nOUT_JSON = ROOT / \"artifacts/json/sibling_non_switching_certificate.json\"\nOUT_MD = ",
+      "interesting": true,
+      "path": "scripts/build_sibling_non_switching_certificate.py",
+      "suffix": ".py"
+    },
+    {
+      "bytes": 4617,
+      "head": "#!/usr/bin/env python3\nimport csv\nimport hashlib\nimport json\nimport shutil\nfrom pathlib import Path\n\nROOT = Path(__file__).resolve().parents[1]\nSRC = ROOT.parent / \"17-g900-theorem-proof\"\n\nOUT_DIR = ROOT / \"source/kernel_payload\"\nOUT_JSON = ROOT / \"artifacts/json/kernel_payload_manifest.json\"\nOUT_MD = ROOT / \"artifacts/md/kernel_payload_manifest.md\"\n\nFILES = [\n    {\n        \"role\": \"G15 slot edge list\",\n        \"src\": \"support/admission/admitted_g15_slot_edges.csv\",\n        \"dst\": \"g15_slot_edge",
+      "interesting": true,
+      "path": "scripts/import_kernel_payload_from_17.py",
+      "suffix": ".py"
+    },
+    {
+      "bytes": 4582,
+      "head": "#!/usr/bin/env python3\nimport hashlib\nimport json\nimport subprocess\nfrom pathlib import Path\n\nROOT = Path(__file__).resolve().parents[1]\nSRC = ROOT.parent / \"17-g900-theorem-proof\"\n\nOUT_JSON = ROOT / \"source/project17_checkpoint_manifest.json\"\nOUT_MD = ROOT / \"source/project17_checkpoint_manifest.md\"\n\nTRACKED_FILES = [\n    \"README.md\",\n    \"paper/main.tex\",\n    \"paper/sections/04_finite_lemmas.tex\",\n    \"paper/sections/05_main_theorem.tex\",\n    \"paper/sections/10_admission_reproducibility_summar",
+      "interesting": true,
+      "path": "scripts/import_project17_checkpoint.py",
+      "suffix": ".py"
+    },
+    {
+      "bytes": 2183,
+      "head": "#!/usr/bin/env python3\nimport json\nfrom pathlib import Path\n\nROOT = Path(__file__).resolve().parents[1]\n\nSET_NOTE = ROOT / \"notes/003_finite_set_theoretic_floor.md\"\nALG_NOTE = ROOT / \"kernel/004_algebraic_kernel.md\"\nSPEC = ROOT / \"artifacts/json/algebraic_kernel_spec.json\"\nOUT = ROOT / \"artifacts/md/algebraic_kernel_verification.md\"\n\ndef main():\n    data = json.loads(SPEC.read_text())\n\n    checks = {\n        \"set_note_exists\": SET_NOTE.exists(),\n        \"algebraic_note_exists\": ALG_NOTE.exists()",
+      "interesting": true,
+      "path": "scripts/verify_algebraic_kernel_spec.py",
+      "suffix": ".py"
+    },
+    {
+      "bytes": 1830,
+      "head": "#!/usr/bin/env python3\nimport json\nfrom pathlib import Path\n\nROOT = Path(__file__).resolve().parents[1]\nPLAN = ROOT / \"artifacts/json/certificate_plan.json\"\nNOTE = ROOT / \"certificates/001_certificate_plan.md\"\nOUT = ROOT / \"artifacts/md/certificate_plan_verification.md\"\n\nEXPECTED = [\n    \"connectedness\",\n    \"diameter\",\n    \"radius\",\n    \"exact_edge_set_identity\",\n    \"sibling_non_switching\",\n    \"sibling_full_graph_separation\",\n    \"baseline_separation\",\n]\n\ndef main():\n    data = json.loads(PLA",
+      "interesting": true,
+      "path": "scripts/verify_certificate_plan.py",
+      "suffix": ".py"
+    },
+    {
+      "bytes": 2540,
+      "head": "#!/usr/bin/env python3\nimport json\nfrom pathlib import Path\n\nROOT = Path(__file__).resolve().parents[1]\n\nSTATUS = ROOT / \"artifacts/json/construction_independence_status.json\"\nNOTE = ROOT / \"notes/002_construction_independence.md\"\nOUT = ROOT / \"artifacts/md/construction_independence_verification.md\"\n\ndef csv_row_count(path):\n    with path.open() as f:\n        return max(0, sum(1 for _ in f) - 1)\n\ndef main():\n    data = json.loads(STATUS.read_text())\n\n    payload_paths = [ROOT / p for p in data[\"",
+      "interesting": true,
+      "path": "scripts/verify_construction_independence.py",
+      "suffix": ".py"
+    },
+    {
+      "bytes": 2060,
+      "head": "#!/usr/bin/env python3\nimport json\nfrom pathlib import Path\n\nROOT = Path(__file__).resolve().parents[1]\nSPEC = ROOT / \"artifacts/json/generation_operator_spec.json\"\nMD = ROOT / \"kernel/003_generation_operator.md\"\nOUT = ROOT / \"artifacts/md/generation_operator_verification.md\"\n\ndef main():\n    spec = json.loads(SPEC.read_text())\n\n    checks = {\n        \"spec_exists\": SPEC.exists(),\n        \"markdown_exists\": MD.exists(),\n        \"operator_is_Gen\": spec.get(\"operator\") == \"Gen\",\n        \"input_ker",
+      "interesting": true,
+      "path": "scripts/verify_generation_operator_spec.py",
+      "suffix": ".py"
+    },
+    {
+      "bytes": 2884,
+      "head": "#!/usr/bin/env python3\nimport json\nfrom pathlib import Path\n\nROOT = Path(__file__).resolve().parents[1]\nLEDGER = ROOT / \"artifacts/json/kernel_claim_ledger.json\"\nNOTE = ROOT / \"admission/002_kernel_claim_ledger.md\"\nOUT = ROOT / \"artifacts/md/kernel_claim_ledger_verification.md\"\n\nREQUIRED_CLASSES = [\n    \"direct_proof\",\n    \"certificate_required\",\n    \"external_boundary\",\n    \"not_claimed\",\n]\n\nREQUIRED_DIRECT = [\n    \"product_register_size\",\n    \"internal_edge_count\",\n    \"external_edge_count\",\n ",
+      "interesting": true,
+      "path": "scripts/verify_kernel_claim_ledger.py",
+      "suffix": ".py"
+    },
+    {
+      "bytes": 672,
+      "head": "#!/usr/bin/env python3\nfrom pathlib import Path\n\nROOT = Path(__file__).resolve().parents[1]\n\nrequired = [\n    \"README.md\",\n    \"notes/001_from_17_to_18.md\",\n    \"kernel/001_construction_kernel.md\",\n    \"kernel/002_proof_kernel.md\",\n    \"admission/001_admission_standard.md\",\n    \"certificates/README.md\",\n]\n\nmissing = []\nfor rel in required:\n    if not (ROOT / rel).exists():\n        missing.append(rel)\n\nok = not missing\n\nprint(\"kernel_project_ok=\" + str(ok))\nprint(\"required_count=\" + str(len(requi",
+      "interesting": true,
+      "path": "scripts/verify_kernel_project.py",
+      "suffix": ".py"
+    },
+    {
+      "bytes": 942,
+      "interesting": true,
+      "path": "source/kernel_payload/carrier_signing_table.csv",
+      "suffix": ".csv",
+      "summary": {
+        "header": [
+          "slot_u",
+          "slot_v",
+          "sign",
+          "carrier_law",
+          "external_edge_count"
+        ],
+        "ok": true,
+        "rows": 31,
+        "sample": [
+          [
+            "0",
+            "1",
+            "1",
+            "half_flip_x_plus_30_mod_60",
+            "60"
+          ],
+          [
+            "0",
+            "4",
+            "1",
+            "half_flip_x_plus_30_mod_60",
+            "60"
+          ],
+          [
+            "0",
+            "5",
+            "1",
+            "half_flip_x_plus_30_mod_60",
+            "60"
+          ],
+          [
+            "0",
+            "6",
+            "1",
+            "half_flip_x_plus_30_mod_60",
+            "60"
+          ],
+          [
+            "1",
+            "2",
+            "1",
+            "half_flip_x_plus_30_mod_60",
+            "60"
+          ]
+        ]
+      }
+    },
+    {
+      "bytes": 185,
+      "interesting": true,
+      "path": "source/kernel_payload/g15_slot_edges.csv",
+      "suffix": ".csv",
+      "summary": {
+        "header": [
+          "slot_u",
+          "slot_v"
+        ],
+        "ok": true,
+        "rows": 31,
+        "sample": [
+          [
+            "0",
+            "1"
+          ],
+          [
+            "0",
+            "4"
+          ],
+          [
+            "0",
+            "5"
+          ],
+          [
+            "0",
+            "6"
+          ],
+          [
+            "1",
+            "2"
+          ]
+        ]
+      }
+    },
+    {
+      "bytes": 817,
+      "interesting": true,
+      "path": "source/kernel_payload/g60_local_edges.csv",
+      "suffix": ".csv",
+      "summary": {
+        "header": [
+          "local_u",
+          "local_v"
+        ],
+        "ok": true,
+        "rows": 121,
+        "sample": [
+          [
+            "0",
+            "16"
+          ],
+          [
+            "0",
+            "19"
+          ],
+          [
+            "0",
+            "25"
+          ],
+          [
+            "0",
+            "55"
+          ],
+          [
+            "1",
+            "15"
+          ]
+        ]
+      }
+    },
+    {
+      "bytes": 399,
+      "interesting": true,
+      "path": "source/kernel_payload/sibling_candidate_signing_table.csv",
+      "suffix": ".csv",
+      "summary": {
+        "header": [
+          "slot_a",
+          "slot_b",
+          "canonical_sign",
+          "delta",
+          "sibling_sign"
+        ],
+        "ok": true,
+        "rows": 31,
+        "sample": [
+          [
+            "0",
+            "1",
+            "1",
+            "0",
+            "1"
+          ],
+          [
+            "0",
+            "4",
+            "1",
+            "0",
+            "1"
+          ],
+          [
+            "0",
+            "5",
+            "1",
+            "0",
+            "1"
+          ],
+          [
+            "0",
+            "6",
+            "1",
+            "0",
+            "1"
+          ],
+          [
+            "1",
+            "2",
+            "1",
+            "0",
+            "1"
+          ]
+        ]
+      }
+    },
+    {
+      "bytes": 636,
+      "interesting": true,
+      "path": "source/kernel_payload/sibling_signing_delta.csv",
+      "suffix": ".csv",
+      "summary": {
+        "header": [
+          "slot_a",
+          "slot_b",
+          "delta",
+          "support_role"
+        ],
+        "ok": true,
+        "rows": 31,
+        "sample": [
+          [
+            "0",
+            "1",
+            "0",
+            "unchanged"
+          ],
+          [
+            "0",
+            "4",
+            "0",
+            "unchanged"
+          ],
+          [
+            "0",
+            "5",
+            "0",
+            "unchanged"
+          ],
+          [
+            "0",
+            "6",
+            "0",
+            "unchanged"
+          ],
+          [
+            "1",
+            "2",
+            "0",
+            "unchanged"
+          ]
+        ]
+      }
+    },
+    {
+      "bytes": 40831,
+      "interesting": true,
+      "path": "source/kernel_payload/sibling_x_sigma_edges.csv",
+      "suffix": ".csv",
+      "summary": {
+        "header": [
+          "slot_a",
+          "local_a",
+          "slot_b",
+          "local_b"
+        ],
+        "ok": true,
+        "rows": 3601,
+        "sample": [
+          [
+            "0",
+            "0",
+            "0",
+            "16"
+          ],
+          [
+            "0",
+            "0",
+            "0",
+            "19"
+          ],
+          [
+            "0",
+            "0",
+            "0",
+            "25"
+          ],
+          [
+            "0",
+            "0",
+            "0",
+            "55"
+          ],
+          [
+            "0",
+            "0",
+            "1",
+            "30"
+          ]
+        ]
+      }
+    },
+    {
+      "bytes": 151574,
+      "interesting": true,
+      "path": "source/kernel_payload/x_sigma_edges.csv",
+      "suffix": ".csv",
+      "summary": {
+        "header": [
+          "u_vertex",
+          "v_vertex",
+          "u_slot",
+          "u_local",
+          "v_slot",
+          "v_local",
+          "kind"
+        ],
+        "ok": true,
+        "rows": 3601,
+        "sample": [
+          [
+            "0",
+            "16",
+            "0",
+            "0",
+            "0",
+            "16",
+            "internal_thalion_copy"
+          ],
+          [
+            "0",
+            "19",
+            "0",
+            "0",
+            "0",
+            "19",
+            "internal_thalion_copy"
+          ],
+          [
+            "0",
+            "25",
+            "0",
+            "0",
+            "0",
+            "25",
+            "internal_thalion_copy"
+          ],
+          [
+            "0",
+            "55",
+            "0",
+            "0",
+            "0",
+            "55",
+            "internal_thalion_copy"
+          ],
+          [
+            "0",
+            "90",
+            "0",
+            "0",
+            "1",
+            "30",
+            "external_signed_carrier"
+          ]
+        ]
+      }
+    },
+    {
+      "bytes": 3081,
+      "interesting": true,
+      "path": "source/project17_checkpoint_manifest.json",
+      "suffix": ".json",
+      "summary": {
+        "keys": [
+          "admission_use",
+          "boundary",
+          "missing_file_count",
+          "missing_files",
+          "source_branch",
+          "source_commit",
+          "source_path",
+          "source_project",
+          "source_status_short",
+          "source_tags_at_head",
+          "source_worktree_clean",
+          "tracked_file_count",
+          "tracked_files"
+        ],
+        "ok": true,
+        "size": 13,
+        "type": "dict"
+      }
+    },
+    {
+      "bytes": 2370,
+      "head": "# Project 17 checkpoint manifest\n\n- source_project: 17-g900-theorem-proof\n- source_commit: b675be4628da1688b60770c3599ade74bbfa0a7d\n- source_branch: main\n- source_worktree_clean: True\n- source_tags_at_head: g900-theorem-proof-v1.0.0-rc1\n- tracked_file_count: 13\n- missing_file_count: 0\n\n## Admission use\n\nFrozen source checkpoint for Project 18 kernel admission.\n\n## Boundary\n\n- Project 18 does not modify Project 17.\n- Project 18 studies kernel admission for the object frozen in Project 17.\n- This ",
+      "interesting": true,
+      "path": "source/project17_checkpoint_manifest.md",
+      "suffix": ".md"
+    }
+  ],
+  "json_files": [
+    {
+      "bytes": 1221,
+      "interesting": true,
+      "path": "artifacts/json/algebraic_kernel_spec.json",
+      "suffix": ".json",
+      "summary": {
+        "keys": [
+          "boolean_reachability_claims",
+          "carrier_adjacency",
+          "direct_algebraic_claims",
+          "exact_comparison_claims",
+          "f2_claims",
+          "foundation",
+          "generated_adjacency",
+          "half_flip_rule",
+          "internal_adjacency",
+          "matrices",
+          "non_foundational_inputs",
+          "project",
+          "spec"
+        ],
+        "ok": true,
+        "size": 13,
+        "type": "dict"
+      }
+    },
+    {
+      "bytes": 2142,
+      "interesting": true,
+      "path": "artifacts/json/baseline_separation_certificate.json",
+      "suffix": ".json",
+      "summary": {
+        "keys": [
+          "boundary",
+          "certificate",
+          "checks",
+          "claim",
+          "counts",
+          "hashes",
+          "method",
+          "source_files",
+          "untwisted_baseline",
+          "verification_ok",
+          "x_sigma"
+        ],
+        "ok": true,
+        "size": 11,
+        "type": "dict"
+      }
+    },
+    {
+      "bytes": 2060,
+      "interesting": true,
+      "path": "artifacts/json/certificate_plan.json",
+      "suffix": ".json",
+      "summary": {
+        "keys": [
+          "admission_rule",
+          "certificate_plan",
+          "certificates",
+          "minimal_bounded_qed_package",
+          "project"
+        ],
+        "ok": true,
+        "size": 5,
+        "type": "dict"
+      }
+    },
+    {
+      "bytes": 98048,
+      "interesting": true,
+      "path": "artifacts/json/connectedness_certificate.json",
+      "suffix": ".json",
+      "summary": {
+        "keys": [
+          "bfs_parent_certificate",
+          "boundary",
+          "certificate",
+          "checks",
+          "claim",
+          "edge_count",
+          "hashes",
+          "max_bfs_depth_from_root",
+          "method",
+          "reached_vertex_count",
+          "root",
+          "source_edge_file",
+          "tree_edge_count",
+          "verification_ok",
+          "vertex_count"
+        ],
+        "ok": true,
+        "size": 15,
+        "type": "dict"
+      }
+    },
+    {
+      "bytes": 881,
+      "interesting": true,
+      "path": "artifacts/json/construction_independence_status.json",
+      "suffix": ".json",
+      "summary": {
+        "keys": [
+          "construction_independent_of_project17",
+          "kernel_payload",
+          "not_claimed",
+          "project",
+          "qed_independent",
+          "remaining_certificate_targets",
+          "source_project",
+          "source_role",
+          "source_tag",
+          "status"
+        ],
+        "ok": true,
+        "size": 10,
+        "type": "dict"
+      }
+    },
+    {
+      "bytes": 1168,
+      "interesting": true,
+      "path": "artifacts/json/exact_edge_set_identity_certificate.json",
+      "suffix": ".json",
+      "summary": {
+        "keys": [
+          "boundary",
+          "certificate",
+          "claim",
+          "counts",
+          "hashes",
+          "source_files",
+          "verification_ok"
+        ],
+        "ok": true,
+        "size": 7,
+        "type": "dict"
+      }
+    },
+    {
+      "bytes": 1357,
+      "interesting": true,
+      "path": "artifacts/json/generation_operator_spec.json",
+      "suffix": ".json",
+      "summary": {
+        "keys": [
+          "boundary",
+          "deterministic",
+          "edge_layers",
+          "generated_edge_count",
+          "generated_vertex_count",
+          "generated_vertex_set",
+          "input_kernel",
+          "inputs",
+          "kernel_components",
+          "non_inputs",
+          "operator",
+          "output_graph"
+        ],
+        "ok": true,
+        "size": 12,
+        "type": "dict"
+      }
+    },
+    {
+      "bytes": 3476,
+      "interesting": true,
+      "path": "artifacts/json/kernel_claim_ledger.json",
+      "suffix": ".json",
+      "summary": {
+        "keys": [
+          "admission_principle",
+          "certificate_required",
+          "claim_classes",
+          "direct_proof",
+          "external_boundary",
+          "ledger",
+          "not_claimed",
+          "project"
+        ],
+        "ok": true,
+        "size": 8,
+        "type": "dict"
+      }
+    },
+    {
+      "bytes": 2010,
+      "interesting": true,
+      "path": "artifacts/json/kernel_payload_manifest.json",
+      "suffix": ".json",
+      "summary": {
+        "keys": [
+          "boundary",
+          "kernel_payload_independent_of_project17",
+          "missing",
+          "project",
+          "purpose",
+          "records",
+          "source_project"
+        ],
+        "ok": true,
+        "size": 7,
+        "type": "dict"
+      }
+    },
+    {
+      "bytes": 307,
+      "interesting": true,
+      "path": "artifacts/json/manuscript_manifest.json",
+      "suffix": ".json",
+      "summary": {
+        "keys": [
+          "certificate_claims_certified",
+          "direct_kernel_claims_proved",
+          "entrypoint",
+          "not_certified_claims",
+          "qed_complete",
+          "remaining_planned_claims",
+          "tag",
+          "zip"
+        ],
+        "ok": true,
+        "size": 8,
+        "type": "dict"
+      }
+    },
+    {
+      "bytes": 89745,
+      "interesting": true,
+      "path": "artifacts/json/metric_certificate.json",
+      "suffix": ".json",
+      "summary": {
+        "keys": [
+          "boundary",
+          "center_count",
+          "center_vertices",
+          "certificate",
+          "checks",
+          "claim",
+          "diameter",
+          "diameter_vertex_count",
+          "diameter_vertices",
+          "distance_distribution",
+          "eccentricity_counts",
+          "eccentricity_table",
+          "edge_count",
+          "first_diameter_witness_pair",
+          "hashes",
+          "method",
+          "radius",
+          "sample_diameter_witness_pairs",
+          "source_edge_file",
+          "verification_ok",
+          "vertex_count"
+        ],
+        "ok": true,
+        "size": 21,
+        "type": "dict"
+      }
+    },
+    {
+      "bytes": 3873,
+      "interesting": true,
+      "path": "artifacts/json/qed_status_ledger.json",
+      "suffix": ".json",
+      "summary": {
+        "keys": [
+          "boundary",
+          "certified",
+          "claims",
+          "current_summary",
+          "ledger",
+          "ledger_ok",
+          "not_certified",
+          "planned",
+          "project",
+          "proved_by_kernel",
+          "status_counts",
+          "verification_checks"
+        ],
+        "ok": true,
+        "size": 12,
+        "type": "dict"
+      }
+    },
+    {
+      "bytes": 3244,
+      "interesting": true,
+      "path": "artifacts/json/sibling_full_graph_separation_certificate.json",
+      "suffix": ".json",
+      "summary": {
+        "keys": [
+          "boundary",
+          "canonical_metric",
+          "certificate",
+          "checks",
+          "claim",
+          "edge_set_comparison",
+          "hashes",
+          "method",
+          "separation_flags",
+          "sibling_metric",
+          "source_files",
+          "verification_ok"
+        ],
+        "ok": true,
+        "size": 12,
+        "type": "dict"
+      }
+    },
+    {
+      "bytes": 5087,
+      "interesting": true,
+      "path": "artifacts/json/sibling_non_switching_certificate.json",
+      "suffix": ".json",
+      "summary": {
+        "keys": [
+          "assignment_contradictions_sample",
+          "boundary",
+          "certificate",
+          "checks",
+          "claim",
+          "counts",
+          "interpretation",
+          "linear_obstruction",
+          "method",
+          "source_files",
+          "support",
+          "verification_ok"
+        ],
+        "ok": true,
+        "size": 12,
+        "type": "dict"
+      }
+    },
+    {
+      "bytes": 3081,
+      "interesting": true,
+      "path": "source/project17_checkpoint_manifest.json",
+      "suffix": ".json",
+      "summary": {
+        "keys": [
+          "admission_use",
+          "boundary",
+          "missing_file_count",
+          "missing_files",
+          "source_branch",
+          "source_commit",
+          "source_path",
+          "source_project",
+          "source_status_short",
+          "source_tags_at_head",
+          "source_worktree_clean",
+          "tracked_file_count",
+          "tracked_files"
+        ],
+        "ok": true,
+        "size": 13,
+        "type": "dict"
+      }
+    }
+  ],
+  "md_files": [
+    {
+      "bytes": 1576,
+      "head": "# 18-g900-kernel-admission\n\nThis project begins the kernel-admission phase for the G900 theorem program.\n\nProject 17 produced the release-candidate theorem proof package:\n\n- finite construction note\n- signed half-flip carrier construction\n- reproducibility spine\n- admission boundary\n- no census claim\n- no uniqueness claim\n- no physical interpretation claim\n\nProject 18 does not change the object.\n\nProject 18 asks:\n\nWhat is the smallest finite kernel that generates the candidate, and what certific",
+      "interesting": true,
+      "path": "README.md",
+      "suffix": ".md"
+    },
+    {
+      "bytes": 1317,
+      "head": "# Kernel admission standard\n\nA G900 kernel admission must satisfy the following requirements.\n\n## 1. Source admission\n\nThe source objects must be explicit:\n\n- G15 slot edge list,\n- G60 local edge list,\n- carrier signing table,\n- half-flip rule.\n\n## 2. Construction admission\n\nThe graph X_sigma must be regenerated from the kernel only:\n\n    X_sigma = Gen(G15, G60, sigma, h)\n\nNo renderer data may be required.\n\n## 3. Invariant admission\n\nEvery claimed invariant must be either:\n\n- proved directly fro",
+      "interesting": true,
+      "path": "admission/001_admission_standard.md",
+      "suffix": ".md"
+    },
+    {
+      "bytes": 3420,
+      "head": "# Kernel claim ledger\n\nThis ledger classifies the claims attached to the G900 kernel-admission project.\n\nThe purpose is to prevent hidden cheating.\n\nEvery claim must be one of:\n\n- direct_proof\n- certificate_required\n- external_boundary\n- not_claimed\n\n## Direct proof claims\n\nThese claims follow directly from the construction kernel once the source counts are admitted.\n\n### product_register_size\n\nClaim:\n\n    |V(G15) x V(G60)| = 15 * 60 = 900\n\nStatus:\n\n    direct_proof\n\n### internal_edge_count\n\nCla",
+      "interesting": true,
+      "path": "admission/002_kernel_claim_ledger.md",
+      "suffix": ".md"
+    },
+    {
+      "bytes": 2229,
+      "head": "# QED status ledger\n\n- ledger_ok: True\n- direct_kernel_claims_proved: 6\n- certificate_claims_certified: 7\n- remaining_planned_claims: 0\n- not_certified_claims: 0\n- qed_complete: True\n\n## Proved by kernel\n\n- product_register_size\n- internal_edge_count\n- external_edge_count\n- total_edge_count\n- degree_split\n- regularity\n\n## Certified\n\n- exact_edge_set_identity\n- connectedness\n- diameter\n- radius\n- baseline_separation\n- sibling_non_switching\n- sibling_full_graph_separation\n\n## Planned\n\n- none\n\n## N",
+      "interesting": true,
+      "path": "admission/003_qed_status_ledger.md",
+      "suffix": ".md"
+    },
+    {
+      "bytes": 429,
+      "head": "# Instantiation record\n\nProject: 18-g900-kernel-admission\n\nPurpose:\n\nDefine the construction kernel and proof kernel for bounded G900 theorem admission.\n\nSource checkpoint:\n\nProject 17: g900-theorem-proof-v1.0.0-rc1\n\nInitial kernel language:\n\n    K_900 = (G15, G60, sigma, h)\n\nInitial proof-kernel language:\n\n    P_900 = (K_900, C)\n\nStatus:\n\nInstantiated as a fresh project. No new theorem claims are made by this instantiation.\n",
+      "interesting": true,
+      "path": "artifacts/md/001_instantiation.md",
+      "suffix": ".md"
+    },
+    {
+      "bytes": 628,
+      "head": "# Algebraic kernel verification\n\n- verification_ok: True\n- checked_set_note: notes/003_finite_set_theoretic_floor.md\n- checked_algebraic_note: kernel/004_algebraic_kernel.md\n- checked_spec: artifacts/json/algebraic_kernel_spec.json\n\n## Checks\n\n- set_note_exists: True\n- algebraic_note_exists: True\n- spec_exists: True\n- foundation_is_finite_set_theory: True\n- has_A15: True\n- has_A60: True\n- has_H: True\n- half_flip_rule_ok: True\n- generated_adjacency_defined: True\n- direct_claim_count_ok: True\n- bo",
+      "interesting": true,
+      "path": "artifacts/md/algebraic_kernel_verification.md",
+      "suffix": ".md"
+    },
+    {
+      "bytes": 440,
+      "head": "# Certificate plan verification\n\n- verification_ok: True\n- certificate_count: 7\n\n## Certificates\n\n- connectedness\n- diameter\n- radius\n- exact_edge_set_identity\n- sibling_non_switching\n- sibling_full_graph_separation\n- baseline_separation\n\n## Checks\n\n- plan_exists: True\n- note_exists: True\n- certificate_ids_ok: True\n- certificate_count_ok: True\n- all_status_planned: True\n- has_admission_rule: True\n- has_minimal_bounded_qed_package: True\n",
+      "interesting": true,
+      "path": "artifacts/md/certificate_plan_verification.md",
+      "suffix": ".md"
+    },
+    {
+      "bytes": 631,
+      "head": "# Construction independence verification\n\n- verification_ok: True\n- construction_independent_of_project17: True\n- qed_independent: False\n\n## Payload row checks\n\n- source/kernel_payload/g15_slot_edges.csv: True\n- source/kernel_payload/g60_local_edges.csv: True\n- source/kernel_payload/carrier_signing_table.csv: True\n- source/kernel_payload/x_sigma_edges.csv: True\n\n## Checks\n\n- status_exists: True\n- note_exists: True\n- construction_independent_flag: True\n- qed_independent_flag_false: True\n- all_pay",
+      "interesting": true,
+      "path": "artifacts/md/construction_independence_verification.md",
+      "suffix": ".md"
+    },
+    {
+      "bytes": 541,
+      "head": "# Generation operator verification\n\n- verification_ok: True\n- checked_spec: artifacts/json/generation_operator_spec.json\n- checked_note: kernel/003_generation_operator.md\n\n## Checks\n\n- spec_exists: True\n- markdown_exists: True\n- operator_is_Gen: True\n- input_kernel_is_K_900: True\n- output_graph_is_X_sigma: True\n- has_four_kernel_components: True\n- G15_counts_ok: True\n- G60_counts_ok: True\n- generated_vertex_count_ok: True\n- internal_edge_count_ok: True\n- carrier_edge_count_ok: True\n- generated_e",
+      "interesting": true,
+      "path": "artifacts/md/generation_operator_verification.md",
+      "suffix": ".md"
+    },
+    {
+      "bytes": 531,
+      "head": "# Kernel claim ledger verification\n\n- verification_ok: True\n- checked_ledger: artifacts/json/kernel_claim_ledger.json\n- checked_note: admission/002_kernel_claim_ledger.md\n\n## Checks\n\n- ledger_exists: True\n- note_exists: True\n- claim_classes_ok: True\n- direct_claims_complete: True\n- certificate_claims_complete: True\n- boundary_claims_complete: True\n- has_not_claimed_list: True\n- has_admission_principle: True\n\n## Counts\n\n- direct_proof_count: 6\n- certificate_required_count: 6\n- external_boundary_c",
+      "interesting": true,
+      "path": "artifacts/md/kernel_claim_ledger_verification.md",
+      "suffix": ".md"
+    },
+    {
+      "bytes": 1653,
+      "head": "# Kernel payload manifest\n\n- project: 18-g900-kernel-admission\n- source_project: 17-g900-theorem-proof\n- kernel_payload_independent_of_project17: True\n- missing_count: 0\n\n## Boundary\n\n- This payload makes the construction kernel data available inside Project 18.\n- Project 17 remains provenance, not a runtime dependency, after this import.\n- This does not yet create the full proof-kernel certificate bundle.\n\n## Payload files\n\n- G15 slot edge list\n  - payload_path: source/kernel_payload/g15_slot_e",
+      "interesting": true,
+      "path": "artifacts/md/kernel_payload_manifest.md",
+      "suffix": ".md"
+    },
+    {
+      "bytes": 537,
+      "head": "# QED status ledger verification\n\n- verification_ok: True\n- qed_complete: True\n\n## Checks\n\n- exact_edge_set_identity_certified: True\n- connectedness_certified: True\n- diameter_certified: True\n- radius_certified: True\n- baseline_separation_certified: True\n- sibling_non_switching_certified: True\n- sibling_full_graph_separation_certified: True\n- direct_kernel_proof_count_is_6: True\n- certified_count_is_7: True\n- planned_remaining_count_is_0: True\n- not_certified_count_is_0: True\n\n## Status counts\n\n",
+      "interesting": true,
+      "path": "artifacts/md/qed_status_ledger_verification.md",
+      "suffix": ".md"
+    },
+    {
+      "bytes": 3684,
+      "head": "# Certificate plan\n\nThis plan defines the finite certificates needed to promote Project 18 from kernel definition to bounded theorem admission.\n\nNo heavy certificate is created here. This file only defines the target shape of each certificate.\n\n## Certificate 1: connectedness\n\nClaim:\n\n    X_sigma is connected.\n\nCertificate target:\n\n    A spanning tree or BFS parent map on all 900 vertices.\n\nVerifier requirements:\n\n- all 900 vertices appear,\n- root has no parent,\n- every non-root vertex has exact",
+      "interesting": true,
+      "path": "certificates/001_certificate_plan.md",
+      "suffix": ".md"
+    },
+    {
+      "bytes": 759,
+      "head": "# Exact edge-set identity certificate\n\n- verification_ok: True\n- claim: Gen(K_900) equals the recorded canonical X_sigma edge set.\n\n## Counts\n\n- g15_slot_edges: 30\n- g60_local_edges: 120\n- carrier_rows: 30\n- generated_edges: 3600\n- recorded_edges: 3600\n- missing_from_generated: 0\n- extra_in_generated: 0\n\n## Hashes\n\n- generated_edge_set_sha256: fe7f38ee8d67b78447f14aa9c8902f2bdd18444fa58e4004732c2b5859349cf5\n- recorded_edge_set_sha256: fe7f38ee8d67b78447f14aa9c8902f2bdd18444fa58e4004732c2b5859349",
+      "interesting": true,
+      "path": "certificates/002_exact_edge_set_identity.md",
+      "suffix": ".md"
+    },
+    {
+      "bytes": 813,
+      "head": "# Connectedness certificate\n\n- verification_ok: True\n- claim: X_sigma is connected.\n- method: BFS spanning tree from root vertex 0.\n- source_edge_file: source/kernel_payload/x_sigma_edges.csv\n\n## Counts\n\n- vertex_count: 900\n- edge_count: 3600\n- reached_vertex_count: 900\n- tree_edge_count: 899\n- max_bfs_depth_from_root: 7\n\n## Checks\n\n- connected: True\n- all_vertices_present: True\n- tree_edge_count_ok: True\n- parent_edge_ok: True\n- bad_parent_edge_count: 0\n\n## Hashes\n\n- source_edge_id_set_sha256: ",
+      "interesting": true,
+      "path": "certificates/003_connectedness.md",
+      "suffix": ".md"
+    },
+    {
+      "bytes": 1337,
+      "head": "# Diameter and radius certificate\n\n- verification_ok: True\n- claim: X_sigma has diameter 8 and radius 6.\n- method: all-source BFS over source/kernel_payload/x_sigma_edges.csv\n\n## Metric result\n\n- vertex_count: 900\n- edge_count: 3600\n- diameter: 8\n- radius: 6\n- center_count: 349\n- first_center_vertex: 1\n- diameter_vertex_count: 10\n- first_diameter_witness_pair: [198, 623]\n\n## Eccentricity counts\n\n- eccentricity_6: 349\n- eccentricity_7: 541\n- eccentricity_8: 10\n\n## Distance distribution\n\n- distanc",
+      "interesting": true,
+      "path": "certificates/004_diameter_radius.md",
+      "suffix": ".md"
+    },
+    {
+      "bytes": 1679,
+      "head": "# Baseline separation certificate\n\n- verification_ok: True\n- claim: X_sigma is separated from the untwisted product baseline by exact metric invariants.\n\n## Source counts\n\n- vertex_count: 900\n- g15_slot_edges: 30\n- g60_local_edges: 120\n- baseline_edges: 3600\n\n## Metric comparison\n\n- x_sigma_diameter: 8\n- x_sigma_radius: 6\n- baseline_diameter: 9\n- baseline_radius: 9\n- diameter_separates: True\n- radius_separates: True\n\n## Baseline details\n\n- baseline_center_count: 900\n- baseline_first_center_verte",
+      "interesting": true,
+      "path": "certificates/005_baseline_separation.md",
+      "suffix": ".md"
+    },
+    {
+      "bytes": 1665,
+      "head": "# Sibling non-switching certificate\n\n- verification_ok: True\n- claim: the sibling signing delta is not a switching coboundary over G15.\n- interpretation: the sibling signing is not switching-equivalent to the canonical signing.\n\n## Support\n\n- support_edges: [[5, 10], [5, 14], [9, 11], [9, 12], [10, 14], [11, 12]]\n- support_triangles: [[5, 10, 14], [9, 11, 12]]\n- support_component_count: 2\n- support_component_sizes: [3, 3]\n- support_cycle_rank: 2\n\n## F2 obstruction\n\n- switching_equation_solvable:",
+      "interesting": true,
+      "path": "certificates/006_sibling_non_switching.md",
+      "suffix": ".md"
+    },
+    {
+      "bytes": 2171,
+      "head": "# Sibling full graph separation certificate\n\n- verification_ok: True\n- claim: the sibling graph is separated from canonical X_sigma by an exact graph invariant.\n\n## Edge-set comparison\n\n- canonical_edges: 3600\n- sibling_edges: 3600\n- intersection_edges: 3240\n- canonical_only_edges: 360\n- sibling_only_edges: 360\n- symmetric_difference_edges: 720\n\n## Canonical metric\n\n- diameter: 8\n- radius: 6\n- eccentricity_counts: {'6': 349, '7': 541, '8': 10}\n- distance_distribution: {'1': 3600, '2': 17710, '3'",
+      "interesting": true,
+      "path": "certificates/007_sibling_full_graph_separation.md",
+      "suffix": ".md"
+    },
+    {
+      "bytes": 476,
+      "head": "# Certificates\n\nThis directory will hold finite certificates used by the proof kernel.\n\nPlanned certificates:\n\n- connectedness certificate\n- diameter certificate\n- radius certificate\n- edge-set equality certificate\n- sibling coboundary certificate\n- sibling invariant separation certificate\n- baseline separation certificate\n\nThe first phase may use pointers to project-17 artifacts. Final admission should either copy, regenerate, or independently verify the necessary data.\n",
+      "interesting": true,
+      "path": "certificates/README.md",
+      "suffix": ".md"
+    },
+    {
+      "bytes": 1102,
+      "head": "# Construction kernel\n\n## Definition\n\nThe G900 construction kernel is\n\n    K_900 = (G15, G60, sigma, h)\n\nwhere:\n\n- G15 is the 15-vertex slot graph.\n- G60 is the 60-vertex thalion fiber.\n- sigma: E(G15) -> F2 is the carrier signing.\n- h is the half-flip involution on local states:\n\n    h(x) = x + 30 mod 60\n\n## Generated object\n\nThe generated graph is\n\n    X_sigma = Gen(K_900)\n\nwith vertex set\n\n    V(X_sigma) = V(G15) x V(G60)\n\nand edge set\n\n    E(X_sigma) = E_int union E_car\n\n## Internal edges\n\nF",
+      "interesting": true,
+      "path": "kernel/001_construction_kernel.md",
+      "suffix": ".md"
+    },
+    {
+      "bytes": 1089,
+      "head": "# Proof kernel\n\n## Definition\n\nThe G900 proof kernel is\n\n    P_900 = (K_900, C)\n\nwhere:\n\n- K_900 is the construction kernel.\n- C is the finite certificate bundle required for admission.\n\n## Certificate bundle C\n\nThe certificate bundle should include finite witnesses for:\n\n1. connectedness of X_sigma,\n2. diameter 8,\n3. radius 6,\n4. exact equality with the recorded canonical candidate edge set,\n5. separation from the untwisted product baseline,\n6. sibling non-coboundary / non-switching-equivalence",
+      "interesting": true,
+      "path": "kernel/002_proof_kernel.md",
+      "suffix": ".md"
+    },
+    {
+      "bytes": 2427,
+      "head": "# Generation operator\n\n## Purpose\n\nThis note defines the operator that turns the construction kernel into the generated graph.\n\nThe construction kernel is\n\n    K_900 = (G15, G60, sigma, h)\n\nwhere:\n\n- G15 is the slot graph.\n- G60 is the thalion fiber.\n- sigma is the F2-valued signing on E(G15).\n- h is the half-flip involution h(x) = x + 30 mod 60.\n\nThe generation operator is written:\n\n    Gen(K_900) = X_sigma\n\n## Input data\n\nThe operator requires exactly four finite inputs:\n\n1. G15 slot edges.\n2.",
+      "interesting": true,
+      "path": "kernel/003_generation_operator.md",
+      "suffix": ".md"
+    },
+    {
+      "bytes": 2843,
+      "head": "# Algebraic kernel\n\nThis note defines the algebraic form of the G900 construction kernel.\n\nThe set-theoretic construction gives the graph. The algebraic kernel gives the matrix language for QED admission.\n\n## Matrices\n\nLet:\n\n    A15 = adjacency matrix of G15\n    A60 = adjacency matrix of G60\n    I15 = 15 x 15 identity matrix\n    I60 = 60 x 60 identity matrix\n    H   = 60 x 60 half-flip permutation matrix\n\nThe half-flip matrix H is defined by:\n\n    H[x, y] = 1 if y = x + 30 mod 60\n    H[x, y] = 0",
+      "interesting": true,
+      "path": "kernel/004_algebraic_kernel.md",
+      "suffix": ".md"
+    },
+    {
+      "bytes": 1083,
+      "head": "# From 17 to 18\n\nProject 17 is frozen as the current theorem-package checkpoint.\n\nProject 18 starts because the next task is no longer drafting the note. The next task is defining the kernel and the admission standard.\n\n## 17 result\n\nProject 17 established a clean release-candidate note for the signed half-flip G900 construction:\n\n- 900 vertices\n- 3600 edges\n- 8-regular\n- 4 internal and 4 external neighbors per vertex\n- connected\n- diameter 8\n- radius 6\n- exact match to Aletheos P900 candidate[0",
+      "interesting": true,
+      "path": "notes/001_from_17_to_18.md",
+      "suffix": ".md"
+    },
+    {
+      "bytes": 1604,
+      "head": "# Construction independence\n\nProject 18 now contains the finite construction payload required to regenerate the canonical G900 candidate without reading Project 17 at runtime.\n\n## Status\n\nProject 18 is construction-independent of Project 17.\n\nProject 17 remains the frozen provenance checkpoint:\n\n    17-g900-theorem-proof\n    tag: g900-theorem-proof-v1.0.0-rc1\n\nProject 18 now contains its own kernel payload:\n\n    source/kernel_payload/g15_slot_edges.csv\n    source/kernel_payload/g60_local_edges.c",
+      "interesting": true,
+      "path": "notes/002_construction_independence.md",
+      "suffix": ".md"
+    },
+    {
+      "bytes": 1734,
+      "head": "# Finite set-theoretic floor\n\nProject 18 is rooted in finite set theory.\n\nThe G900 construction does not require infinite choice, visual geometry, a graph census, or physical interpretation.\n\nIt requires only finite sets, finite relations, and finite verification.\n\n## Basic graph form\n\nA graph is treated as an ordered pair:\n\n    G = (V, E)\n\nwhere:\n\n- V is a finite set,\n- E is a finite set of unordered pairs from V.\n\n## Source sets\n\nThe slot graph is:\n\n    G15 = (V15, E15)\n\nwith:\n\n    |V15| = 15\n",
+      "interesting": true,
+      "path": "notes/003_finite_set_theoretic_floor.md",
+      "suffix": ".md"
+    },
+    {
+      "bytes": 323,
+      "head": "# G900 kernel admission manuscript\n\nThis manuscript is built from the Project 18 bounded-QED certificate ledger.\n\nOverleaf entry point:\n\n    main.tex\n\nBounded-QED tag:\n\n    g900-kernel-admission-bounded-qed-v1.0.0\n\nThe manuscript does not claim uniqueness, census identity, physical interpretation, or sibling invalidity.\n\n",
+      "interesting": true,
+      "path": "paper/README.md",
+      "suffix": ".md"
+    },
+    {
+      "bytes": 2370,
+      "head": "# Project 17 checkpoint manifest\n\n- source_project: 17-g900-theorem-proof\n- source_commit: b675be4628da1688b60770c3599ade74bbfa0a7d\n- source_branch: main\n- source_worktree_clean: True\n- source_tags_at_head: g900-theorem-proof-v1.0.0-rc1\n- tracked_file_count: 13\n- missing_file_count: 0\n\n## Admission use\n\nFrozen source checkpoint for Project 18 kernel admission.\n\n## Boundary\n\n- Project 18 does not modify Project 17.\n- Project 18 studies kernel admission for the object frozen in Project 17.\n- This ",
+      "interesting": true,
+      "path": "source/project17_checkpoint_manifest.md",
+      "suffix": ".md"
+    }
+  ],
+  "py_files": [
+    {
+      "bytes": 10727,
+      "head": "#!/usr/bin/env python3\nimport csv\nimport hashlib\nimport json\nimport re\nfrom collections import Counter, deque\nfrom pathlib import Path\n\nROOT = Path(__file__).resolve().parents[1]\nPAYLOAD = ROOT / \"source/kernel_payload\"\n\nG15 = PAYLOAD / \"g15_slot_edges.csv\"\nG60 = PAYLOAD / \"g60_local_edges.csv\"\nX_METRIC = ROOT / \"artifacts/json/metric_certificate.json\"\n\nOUT_JSON = ROOT / \"artifacts/json/baseline_separation_certificate.json\"\nOUT_MD = ROOT / \"certificates/005_baseline_separation.md\"\n\nINT_RE = re.c",
+      "interesting": true,
+      "path": "scripts/build_baseline_separation_certificate.py",
+      "suffix": ".py"
+    },
+    {
+      "bytes": 5970,
+      "head": "#!/usr/bin/env python3\nimport csv\nimport hashlib\nimport json\nimport re\nfrom collections import deque\nfrom pathlib import Path\n\nROOT = Path(__file__).resolve().parents[1]\nEDGE_FILE = ROOT / \"source/kernel_payload/x_sigma_edges.csv\"\n\nOUT_JSON = ROOT / \"artifacts/json/connectedness_certificate.json\"\nOUT_MD = ROOT / \"certificates/003_connectedness.md\"\n\nINT_RE = re.compile(r\"-?\\d+\")\n\ndef read_rows(path):\n    with path.open(newline=\"\") as f:\n        return list(csv.DictReader(f))\n\ndef ints_from_row(ro",
+      "interesting": true,
+      "path": "scripts/build_connectedness_certificate.py",
+      "suffix": ".py"
+    },
+    {
+      "bytes": 7326,
+      "head": "#!/usr/bin/env python3\nimport csv\nimport hashlib\nimport json\nimport re\nfrom pathlib import Path\n\nROOT = Path(__file__).resolve().parents[1]\nPAYLOAD = ROOT / \"source/kernel_payload\"\n\nG15 = PAYLOAD / \"g15_slot_edges.csv\"\nG60 = PAYLOAD / \"g60_local_edges.csv\"\nCARRIER = PAYLOAD / \"carrier_signing_table.csv\"\nRECORDED = PAYLOAD / \"x_sigma_edges.csv\"\n\nOUT_JSON = ROOT / \"artifacts/json/exact_edge_set_identity_certificate.json\"\nOUT_MD = ROOT / \"certificates/002_exact_edge_set_identity.md\"\n\nINT_RE = re.co",
+      "interesting": true,
+      "path": "scripts/build_exact_edge_set_identity_certificate.py",
+      "suffix": ".py"
+    },
+    {
+      "bytes": 8444,
+      "head": "#!/usr/bin/env python3\nimport csv\nimport hashlib\nimport json\nimport re\nfrom collections import Counter, deque\nfrom pathlib import Path\n\nROOT = Path(__file__).resolve().parents[1]\nEDGE_FILE = ROOT / \"source/kernel_payload/x_sigma_edges.csv\"\n\nOUT_JSON = ROOT / \"artifacts/json/metric_certificate.json\"\nOUT_MD = ROOT / \"certificates/004_diameter_radius.md\"\n\nINT_RE = re.compile(r\"-?\\d+\")\nN = 900\n\ndef read_rows(path):\n    with path.open(newline=\"\") as f:\n        return list(csv.DictReader(f))\n\ndef ints",
+      "interesting": true,
+      "path": "scripts/build_metric_certificate.py",
+      "suffix": ".py"
+    },
+    {
+      "bytes": 10150,
+      "head": "#!/usr/bin/env python3\nimport json\nfrom pathlib import Path\n\nROOT = Path(__file__).resolve().parents[1]\n\nEXACT = ROOT / \"artifacts/json/exact_edge_set_identity_certificate.json\"\nCONN = ROOT / \"artifacts/json/connectedness_certificate.json\"\nMETRIC = ROOT / \"artifacts/json/metric_certificate.json\"\nBASELINE = ROOT / \"artifacts/json/baseline_separation_certificate.json\"\nSIB_NON = ROOT / \"artifacts/json/sibling_non_switching_certificate.json\"\nSIB_FULL = ROOT / \"artifacts/json/sibling_full_graph_separ",
+      "interesting": true,
+      "path": "scripts/build_qed_status_ledger.py",
+      "suffix": ".py"
+    },
+    {
+      "bytes": 16329,
+      "head": "#!/usr/bin/env python3\nimport csv\nimport hashlib\nimport json\nimport re\nfrom collections import Counter, deque\nfrom pathlib import Path\n\nROOT = Path(__file__).resolve().parents[1]\nPAYLOAD = ROOT / \"source/kernel_payload\"\n\nG15 = PAYLOAD / \"g15_slot_edges.csv\"\nG60 = PAYLOAD / \"g60_local_edges.csv\"\nCANONICAL_EDGES = PAYLOAD / \"x_sigma_edges.csv\"\nSIBLING_SIGNING = PAYLOAD / \"sibling_candidate_signing_table.csv\"\nCANONICAL_METRIC = ROOT / \"artifacts/json/metric_certificate.json\"\n\nOUT_SIBLING_EDGES = PA",
+      "interesting": true,
+      "path": "scripts/build_sibling_full_graph_separation_certificate.py",
+      "suffix": ".py"
+    },
+    {
+      "bytes": 13513,
+      "head": "#!/usr/bin/env python3\nimport csv\nimport json\nimport re\nfrom collections import Counter, defaultdict, deque\nfrom pathlib import Path\n\nROOT = Path(__file__).resolve().parents[1]\nPAYLOAD = ROOT / \"source/kernel_payload\"\n\nG15 = PAYLOAD / \"g15_slot_edges.csv\"\nCARRIER = PAYLOAD / \"carrier_signing_table.csv\"\n\nOUT_DELTA = PAYLOAD / \"sibling_signing_delta.csv\"\nOUT_SIBLING = PAYLOAD / \"sibling_candidate_signing_table.csv\"\nOUT_JSON = ROOT / \"artifacts/json/sibling_non_switching_certificate.json\"\nOUT_MD = ",
+      "interesting": true,
+      "path": "scripts/build_sibling_non_switching_certificate.py",
+      "suffix": ".py"
+    },
+    {
+      "bytes": 4617,
+      "head": "#!/usr/bin/env python3\nimport csv\nimport hashlib\nimport json\nimport shutil\nfrom pathlib import Path\n\nROOT = Path(__file__).resolve().parents[1]\nSRC = ROOT.parent / \"17-g900-theorem-proof\"\n\nOUT_DIR = ROOT / \"source/kernel_payload\"\nOUT_JSON = ROOT / \"artifacts/json/kernel_payload_manifest.json\"\nOUT_MD = ROOT / \"artifacts/md/kernel_payload_manifest.md\"\n\nFILES = [\n    {\n        \"role\": \"G15 slot edge list\",\n        \"src\": \"support/admission/admitted_g15_slot_edges.csv\",\n        \"dst\": \"g15_slot_edge",
+      "interesting": true,
+      "path": "scripts/import_kernel_payload_from_17.py",
+      "suffix": ".py"
+    },
+    {
+      "bytes": 4582,
+      "head": "#!/usr/bin/env python3\nimport hashlib\nimport json\nimport subprocess\nfrom pathlib import Path\n\nROOT = Path(__file__).resolve().parents[1]\nSRC = ROOT.parent / \"17-g900-theorem-proof\"\n\nOUT_JSON = ROOT / \"source/project17_checkpoint_manifest.json\"\nOUT_MD = ROOT / \"source/project17_checkpoint_manifest.md\"\n\nTRACKED_FILES = [\n    \"README.md\",\n    \"paper/main.tex\",\n    \"paper/sections/04_finite_lemmas.tex\",\n    \"paper/sections/05_main_theorem.tex\",\n    \"paper/sections/10_admission_reproducibility_summar",
+      "interesting": true,
+      "path": "scripts/import_project17_checkpoint.py",
+      "suffix": ".py"
+    },
+    {
+      "bytes": 2183,
+      "head": "#!/usr/bin/env python3\nimport json\nfrom pathlib import Path\n\nROOT = Path(__file__).resolve().parents[1]\n\nSET_NOTE = ROOT / \"notes/003_finite_set_theoretic_floor.md\"\nALG_NOTE = ROOT / \"kernel/004_algebraic_kernel.md\"\nSPEC = ROOT / \"artifacts/json/algebraic_kernel_spec.json\"\nOUT = ROOT / \"artifacts/md/algebraic_kernel_verification.md\"\n\ndef main():\n    data = json.loads(SPEC.read_text())\n\n    checks = {\n        \"set_note_exists\": SET_NOTE.exists(),\n        \"algebraic_note_exists\": ALG_NOTE.exists()",
+      "interesting": true,
+      "path": "scripts/verify_algebraic_kernel_spec.py",
+      "suffix": ".py"
+    },
+    {
+      "bytes": 1830,
+      "head": "#!/usr/bin/env python3\nimport json\nfrom pathlib import Path\n\nROOT = Path(__file__).resolve().parents[1]\nPLAN = ROOT / \"artifacts/json/certificate_plan.json\"\nNOTE = ROOT / \"certificates/001_certificate_plan.md\"\nOUT = ROOT / \"artifacts/md/certificate_plan_verification.md\"\n\nEXPECTED = [\n    \"connectedness\",\n    \"diameter\",\n    \"radius\",\n    \"exact_edge_set_identity\",\n    \"sibling_non_switching\",\n    \"sibling_full_graph_separation\",\n    \"baseline_separation\",\n]\n\ndef main():\n    data = json.loads(PLA",
+      "interesting": true,
+      "path": "scripts/verify_certificate_plan.py",
+      "suffix": ".py"
+    },
+    {
+      "bytes": 2540,
+      "head": "#!/usr/bin/env python3\nimport json\nfrom pathlib import Path\n\nROOT = Path(__file__).resolve().parents[1]\n\nSTATUS = ROOT / \"artifacts/json/construction_independence_status.json\"\nNOTE = ROOT / \"notes/002_construction_independence.md\"\nOUT = ROOT / \"artifacts/md/construction_independence_verification.md\"\n\ndef csv_row_count(path):\n    with path.open() as f:\n        return max(0, sum(1 for _ in f) - 1)\n\ndef main():\n    data = json.loads(STATUS.read_text())\n\n    payload_paths = [ROOT / p for p in data[\"",
+      "interesting": true,
+      "path": "scripts/verify_construction_independence.py",
+      "suffix": ".py"
+    },
+    {
+      "bytes": 2060,
+      "head": "#!/usr/bin/env python3\nimport json\nfrom pathlib import Path\n\nROOT = Path(__file__).resolve().parents[1]\nSPEC = ROOT / \"artifacts/json/generation_operator_spec.json\"\nMD = ROOT / \"kernel/003_generation_operator.md\"\nOUT = ROOT / \"artifacts/md/generation_operator_verification.md\"\n\ndef main():\n    spec = json.loads(SPEC.read_text())\n\n    checks = {\n        \"spec_exists\": SPEC.exists(),\n        \"markdown_exists\": MD.exists(),\n        \"operator_is_Gen\": spec.get(\"operator\") == \"Gen\",\n        \"input_ker",
+      "interesting": true,
+      "path": "scripts/verify_generation_operator_spec.py",
+      "suffix": ".py"
+    },
+    {
+      "bytes": 2884,
+      "head": "#!/usr/bin/env python3\nimport json\nfrom pathlib import Path\n\nROOT = Path(__file__).resolve().parents[1]\nLEDGER = ROOT / \"artifacts/json/kernel_claim_ledger.json\"\nNOTE = ROOT / \"admission/002_kernel_claim_ledger.md\"\nOUT = ROOT / \"artifacts/md/kernel_claim_ledger_verification.md\"\n\nREQUIRED_CLASSES = [\n    \"direct_proof\",\n    \"certificate_required\",\n    \"external_boundary\",\n    \"not_claimed\",\n]\n\nREQUIRED_DIRECT = [\n    \"product_register_size\",\n    \"internal_edge_count\",\n    \"external_edge_count\",\n ",
+      "interesting": true,
+      "path": "scripts/verify_kernel_claim_ledger.py",
+      "suffix": ".py"
+    },
+    {
+      "bytes": 672,
+      "head": "#!/usr/bin/env python3\nfrom pathlib import Path\n\nROOT = Path(__file__).resolve().parents[1]\n\nrequired = [\n    \"README.md\",\n    \"notes/001_from_17_to_18.md\",\n    \"kernel/001_construction_kernel.md\",\n    \"kernel/002_proof_kernel.md\",\n    \"admission/001_admission_standard.md\",\n    \"certificates/README.md\",\n]\n\nmissing = []\nfor rel in required:\n    if not (ROOT / rel).exists():\n        missing.append(rel)\n\nok = not missing\n\nprint(\"kernel_project_ok=\" + str(ok))\nprint(\"required_count=\" + str(len(requi",
+      "interesting": true,
+      "path": "scripts/verify_kernel_project.py",
+      "suffix": ".py"
+    }
+  ],
+  "source": "/data/data/com.termux/files/home/dev/cori/research/thalean-graph-theory/18-g900-kernel-admission",
+  "source_exists": true
+}

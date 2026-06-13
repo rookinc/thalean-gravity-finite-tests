@@ -1,0 +1,790 @@
+{
+  "certificates": {
+    "artifacts/json/baseline_separation_certificate.json": {
+      "hash_source_file_entries": [
+        {
+          "path": "$.hashes",
+          "value": {
+            "baseline_edge_id_set_sha256": "c347b81a3e663db7104b277a148802b67049e041dd80b153d45c8052f24dba66"
+          }
+        },
+        {
+          "path": "$.source_files",
+          "value": {
+            "g15_slot_edges": "source/kernel_payload/g15_slot_edges.csv",
+            "g60_local_edges": "source/kernel_payload/g60_local_edges.csv",
+            "x_sigma_metric_certificate": "artifacts/json/metric_certificate.json"
+          }
+        }
+      ],
+      "top_keys": [
+        "boundary",
+        "certificate",
+        "checks",
+        "claim",
+        "counts",
+        "hashes",
+        "method",
+        "source_files",
+        "untwisted_baseline",
+        "verification_ok",
+        "x_sigma"
+      ]
+    },
+    "artifacts/json/exact_edge_set_identity_certificate.json": {
+      "hash_source_file_entries": [
+        {
+          "path": "$.hashes",
+          "value": {
+            "generated_edge_set_sha256": "fe7f38ee8d67b78447f14aa9c8902f2bdd18444fa58e4004732c2b5859349cf5",
+            "recorded_edge_set_sha256": "fe7f38ee8d67b78447f14aa9c8902f2bdd18444fa58e4004732c2b5859349cf5"
+          }
+        },
+        {
+          "path": "$.source_files",
+          "value": {
+            "carrier_signing_table": "source/kernel_payload/carrier_signing_table.csv",
+            "g15_slot_edges": "source/kernel_payload/g15_slot_edges.csv",
+            "g60_local_edges": "source/kernel_payload/g60_local_edges.csv",
+            "recorded_x_sigma_edges": "source/kernel_payload/x_sigma_edges.csv"
+          }
+        }
+      ],
+      "top_keys": [
+        "boundary",
+        "certificate",
+        "claim",
+        "counts",
+        "hashes",
+        "source_files",
+        "verification_ok"
+      ]
+    },
+    "artifacts/json/metric_certificate.json": {
+      "hash_source_file_entries": [
+        {
+          "path": "$.checks.all_vertices_reached_from_every_source",
+          "value": true
+        },
+        {
+          "path": "$.hashes",
+          "value": {
+            "source_edge_id_set_sha256": "982fa358aa4a6d76000e62a3abde3ff3e2ce06af179ab131030eec923d05877d"
+          }
+        },
+        {
+          "path": "$.hashes.source_edge_id_set_sha256",
+          "value": "982fa358aa4a6d76000e62a3abde3ff3e2ce06af179ab131030eec923d05877d"
+        },
+        {
+          "path": "$.source_edge_file",
+          "value": "source/kernel_payload/x_sigma_edges.csv"
+        }
+      ],
+      "top_keys": [
+        "boundary",
+        "center_count",
+        "center_vertices",
+        "certificate",
+        "checks",
+        "claim",
+        "diameter",
+        "diameter_vertex_count",
+        "diameter_vertices",
+        "distance_distribution",
+        "eccentricity_counts",
+        "eccentricity_table",
+        "edge_count",
+        "first_diameter_witness_pair",
+        "hashes",
+        "method",
+        "radius",
+        "sample_diameter_witness_pairs",
+        "source_edge_file",
+        "verification_ok",
+        "vertex_count"
+      ]
+    },
+    "artifacts/json/sibling_full_graph_separation_certificate.json": {
+      "hash_source_file_entries": [
+        {
+          "path": "$.hashes",
+          "value": {
+            "canonical_edge_id_set_sha256": "e261704922e6aa218126561bbf0d0b488d9eecd79b34fbeb08e66311e42bbd60",
+            "sibling_edge_id_set_sha256": "b7951eac5c82e49faeed6f3be342e2f0d546ae1bca90a22b4fc73edb79ed983c"
+          }
+        },
+        {
+          "path": "$.source_files",
+          "value": {
+            "canonical_metric_certificate": "artifacts/json/metric_certificate.json",
+            "canonical_x_sigma_edges": "source/kernel_payload/x_sigma_edges.csv",
+            "g15_slot_edges": "source/kernel_payload/g15_slot_edges.csv",
+            "g60_local_edges": "source/kernel_payload/g60_local_edges.csv",
+            "sibling_signing_table": "source/kernel_payload/sibling_candidate_signing_table.csv",
+            "sibling_x_sigma_edges": "source/kernel_payload/sibling_x_sigma_edges.csv"
+          }
+        }
+      ],
+      "top_keys": [
+        "boundary",
+        "canonical_metric",
+        "certificate",
+        "checks",
+        "claim",
+        "edge_set_comparison",
+        "hashes",
+        "method",
+        "separation_flags",
+        "sibling_metric",
+        "source_files",
+        "verification_ok"
+      ]
+    }
+  },
+  "csv_heads": {
+    "source/kernel_payload/carrier_signing_table.csv": {
+      "exists": true,
+      "header": [
+        "slot_u",
+        "slot_v",
+        "sign",
+        "carrier_law",
+        "external_edge_count"
+      ],
+      "rows": [
+        [
+          "0",
+          "1",
+          "1",
+          "half_flip_x_plus_30_mod_60",
+          "60"
+        ],
+        [
+          "0",
+          "4",
+          "1",
+          "half_flip_x_plus_30_mod_60",
+          "60"
+        ],
+        [
+          "0",
+          "5",
+          "1",
+          "half_flip_x_plus_30_mod_60",
+          "60"
+        ],
+        [
+          "0",
+          "6",
+          "1",
+          "half_flip_x_plus_30_mod_60",
+          "60"
+        ],
+        [
+          "1",
+          "2",
+          "1",
+          "half_flip_x_plus_30_mod_60",
+          "60"
+        ],
+        [
+          "1",
+          "6",
+          "1",
+          "half_flip_x_plus_30_mod_60",
+          "60"
+        ],
+        [
+          "1",
+          "7",
+          "1",
+          "half_flip_x_plus_30_mod_60",
+          "60"
+        ],
+        [
+          "2",
+          "3",
+          "1",
+          "half_flip_x_plus_30_mod_60",
+          "60"
+        ]
+      ]
+    },
+    "source/kernel_payload/g15_slot_edges.csv": {
+      "exists": true,
+      "header": [
+        "slot_u",
+        "slot_v"
+      ],
+      "rows": [
+        [
+          "0",
+          "1"
+        ],
+        [
+          "0",
+          "4"
+        ],
+        [
+          "0",
+          "5"
+        ],
+        [
+          "0",
+          "6"
+        ],
+        [
+          "1",
+          "2"
+        ],
+        [
+          "1",
+          "6"
+        ],
+        [
+          "1",
+          "7"
+        ],
+        [
+          "2",
+          "3"
+        ]
+      ]
+    },
+    "source/kernel_payload/g60_local_edges.csv": {
+      "exists": true,
+      "header": [
+        "local_u",
+        "local_v"
+      ],
+      "rows": [
+        [
+          "0",
+          "16"
+        ],
+        [
+          "0",
+          "19"
+        ],
+        [
+          "0",
+          "25"
+        ],
+        [
+          "0",
+          "55"
+        ],
+        [
+          "1",
+          "15"
+        ],
+        [
+          "1",
+          "26"
+        ],
+        [
+          "1",
+          "29"
+        ],
+        [
+          "1",
+          "35"
+        ]
+      ]
+    },
+    "source/kernel_payload/x_sigma_edges.csv": {
+      "exists": true,
+      "header": [
+        "u_vertex",
+        "v_vertex",
+        "u_slot",
+        "u_local",
+        "v_slot",
+        "v_local",
+        "kind"
+      ],
+      "rows": [
+        [
+          "0",
+          "16",
+          "0",
+          "0",
+          "0",
+          "16",
+          "internal_thalion_copy"
+        ],
+        [
+          "0",
+          "19",
+          "0",
+          "0",
+          "0",
+          "19",
+          "internal_thalion_copy"
+        ],
+        [
+          "0",
+          "25",
+          "0",
+          "0",
+          "0",
+          "25",
+          "internal_thalion_copy"
+        ],
+        [
+          "0",
+          "55",
+          "0",
+          "0",
+          "0",
+          "55",
+          "internal_thalion_copy"
+        ],
+        [
+          "0",
+          "90",
+          "0",
+          "0",
+          "1",
+          "30",
+          "external_signed_carrier"
+        ],
+        [
+          "0",
+          "270",
+          "0",
+          "0",
+          "4",
+          "30",
+          "external_signed_carrier"
+        ],
+        [
+          "0",
+          "330",
+          "0",
+          "0",
+          "5",
+          "30",
+          "external_signed_carrier"
+        ],
+        [
+          "0",
+          "390",
+          "0",
+          "0",
+          "6",
+          "30",
+          "external_signed_carrier"
+        ]
+      ]
+    }
+  },
+  "files": [
+    {
+      "bytes": 151574,
+      "exists": true,
+      "path": "source/kernel_payload/x_sigma_edges.csv",
+      "sha256": "ea2679662f4322a9ea021fba1143c804ef73b1fae95f50c77ba76b7fe1092230"
+    },
+    {
+      "bytes": 942,
+      "exists": true,
+      "path": "source/kernel_payload/carrier_signing_table.csv",
+      "sha256": "9b3cf812cc0f6d7b065666c81fa6d16fd3e3b8a98955c264709337c7f3e7efb7"
+    },
+    {
+      "bytes": 185,
+      "exists": true,
+      "path": "source/kernel_payload/g15_slot_edges.csv",
+      "sha256": "7b94834d507cf2995ec6faf73e2e227a685d831894aa98f2647556d8b922b8f6"
+    },
+    {
+      "bytes": 817,
+      "exists": true,
+      "path": "source/kernel_payload/g60_local_edges.csv",
+      "sha256": "c700a185fab6a5f434da09b7acb716b96c76170774bee946af8ea907e4fe7f9f"
+    },
+    {
+      "bytes": 89745,
+      "exists": true,
+      "path": "artifacts/json/metric_certificate.json",
+      "sha256": "953dd183fad92293bcb9b712925b0d2e3b10460a89a0a64d609770d944e52135"
+    },
+    {
+      "bytes": 1168,
+      "exists": true,
+      "path": "artifacts/json/exact_edge_set_identity_certificate.json",
+      "sha256": "65509fb164b58562cc5a79bc66a464d12ca0f0a32ccb6600a9d983fdc5a6ce2c"
+    },
+    {
+      "bytes": 2142,
+      "exists": true,
+      "path": "artifacts/json/baseline_separation_certificate.json",
+      "sha256": "f48603d522a6bab09a1218e2d9557e277c84e5424bb2f566d525740c7773e469"
+    }
+  ],
+  "git": {
+    "branch": {
+      "ok": true,
+      "returncode": 0,
+      "stderr": "",
+      "stdout": "main"
+    },
+    "head": {
+      "ok": true,
+      "returncode": 0,
+      "stderr": "",
+      "stdout": "f69f6e0"
+    },
+    "status_short": {
+      "ok": true,
+      "returncode": 0,
+      "stderr": "",
+      "stdout": "?? artifacts/png/g900_spring_graph_dark.png\n?? artifacts/png/g900_spring_graph_noscipy.png"
+    },
+    "tags_at_head": {
+      "ok": true,
+      "returncode": 0,
+      "stderr": "",
+      "stdout": "g900-kernel-admission-manuscript-v1.0.0"
+    }
+  },
+  "script_hits": {
+    "scripts/build_baseline_separation_certificate.py": [
+      {
+        "line": 2,
+        "text": "import csv"
+      },
+      {
+        "line": 3,
+        "text": "import hashlib"
+      },
+      {
+        "line": 12,
+        "text": "G15 = PAYLOAD / \"g15_slot_edges.csv\""
+      },
+      {
+        "line": 13,
+        "text": "G60 = PAYLOAD / \"g60_local_edges.csv\""
+      },
+      {
+        "line": 14,
+        "text": "X_METRIC = ROOT / \"artifacts/json/metric_certificate.json\""
+      },
+      {
+        "line": 24,
+        "text": "        return list(csv.DictReader(f))"
+      },
+      {
+        "line": 50,
+        "text": "def vid(slot, local):"
+      },
+      {
+        "line": 51,
+        "text": "    return slot * 60 + local"
+      },
+      {
+        "line": 58,
+        "text": "    return hashlib.sha256(text.encode(\"utf-8\")).hexdigest()"
+      },
+      {
+        "line": 86,
+        "text": "    distance_distribution = Counter()"
+      },
+      {
+        "line": 113,
+        "text": "            distance_distribution[dist[t]] += 1"
+      },
+      {
+        "line": 127,
+        "text": "        \"distance_distribution\": {str(k): distance_distribution[k] for k in sorted(distance_distribution)},"
+      },
+      {
+        "line": 128,
+        "text": "        \"distance_pair_count\": sum(distance_distribution.values())"
+      },
+      {
+        "line": 170,
+        "text": "        \"distance_distribution_pair_count_ok\": metrics[\"distance_pair_count\"] == (N * (N - 1)) // 2"
+      },
+      {
+        "line": 181,
+        "text": "            \"g15_slot_edges\": str(G15.relative_to(ROOT)),"
+      },
+      {
+        "line": 182,
+        "text": "            \"g60_local_edges\": str(G60.relative_to(ROOT)),"
+      },
+      {
+        "line": 183,
+        "text": "            \"x_sigma_metric_certificate\": str(X_METRIC.relative_to(ROOT))"
+      },
+      {
+        "line": 187,
+        "text": "            \"g15_slot_edges\": len(g15_edges),"
+      },
+      {
+        "line": 188,
+        "text": "            \"g60_local_edges\": len(g60_edges),"
+      },
+      {
+        "line": 203,
+        "text": "            \"distance_distribution\": metrics[\"distance_distribution\"]"
+      },
+      {
+        "line": 206,
+        "text": "        \"hashes\": {"
+      },
+      {
+        "line": 228,
+        "text": "    lines.append(\"- g15_slot_edges: \" + str(len(g15_edges)))"
+      },
+      {
+        "line": 229,
+        "text": "    lines.append(\"- g60_local_edges: \" + str(len(g60_edges)))"
+      },
+      {
+        "line": 255,
+        "text": "    for k, v in metrics[\"distance_distribution\"].items():"
+      },
+      {
+        "line": 263,
+        "text": "    lines.append(\"## Hashes\")"
+      },
+      {
+        "line": 265,
+        "text": "    lines.append(\"- baseline_edge_id_set_sha256: \" + cert[\"hashes\"][\"baseline_edge_id_set_sha256\"])"
+      },
+      {
+        "line": 284,
+        "text": "    print(\"baseline_distance_distribution=\" + json.dumps(metrics[\"distance_distribution\"], sort_keys=True))"
+      }
+    ],
+    "scripts/build_exact_edge_set_identity_certificate.py": [
+      {
+        "line": 2,
+        "text": "import csv"
+      },
+      {
+        "line": 3,
+        "text": "import hashlib"
+      },
+      {
+        "line": 11,
+        "text": "G15 = PAYLOAD / \"g15_slot_edges.csv\""
+      },
+      {
+        "line": 12,
+        "text": "G60 = PAYLOAD / \"g60_local_edges.csv\""
+      },
+      {
+        "line": 13,
+        "text": "CARRIER = PAYLOAD / \"carrier_signing_table.csv\""
+      },
+      {
+        "line": 14,
+        "text": "RECORDED = PAYLOAD / \"x_sigma_edges.csv\""
+      },
+      {
+        "line": 23,
+        "text": "        return list(csv.DictReader(f))"
+      },
+      {
+        "line": 79,
+        "text": "        \"slot_a\": a[0],"
+      },
+      {
+        "line": 80,
+        "text": "        \"local_a\": a[1],"
+      },
+      {
+        "line": 81,
+        "text": "        \"slot_b\": b[0],"
+      },
+      {
+        "line": 82,
+        "text": "        \"local_b\": b[1],"
+      },
+      {
+        "line": 89,
+        "text": "        (\"slot_a\", \"local_a\", \"slot_b\", \"local_b\"),"
+      },
+      {
+        "line": 90,
+        "text": "        (\"slot_u\", \"local_u\", \"slot_v\", \"local_v\"),"
+      },
+      {
+        "line": 91,
+        "text": "        (\"a_slot\", \"a_local\", \"b_slot\", \"b_local\"),"
+      },
+      {
+        "line": 92,
+        "text": "        (\"u_slot\", \"u_local\", \"v_slot\", \"v_local\"),"
+      },
+      {
+        "line": 128,
+        "text": "    return hashlib.sha256(text.encode(\"utf-8\")).hexdigest()"
+      },
+      {
+        "line": 165,
+        "text": "            \"g15_slot_edges\": str(G15.relative_to(ROOT)),"
+      },
+      {
+        "line": 166,
+        "text": "            \"g60_local_edges\": str(G60.relative_to(ROOT)),"
+      },
+      {
+        "line": 168,
+        "text": "            \"recorded_x_sigma_edges\": str(RECORDED.relative_to(ROOT)),"
+      },
+      {
+        "line": 171,
+        "text": "            \"g15_slot_edges\": len(g15_edges),"
+      },
+      {
+        "line": 172,
+        "text": "            \"g60_local_edges\": len(g60_edges),"
+      },
+      {
+        "line": 179,
+        "text": "        \"hashes\": {"
+      },
+      {
+        "line": 203,
+        "text": "    lines.append(\"## Hashes\")"
+      },
+      {
+        "line": 205,
+        "text": "    for k, v in cert[\"hashes\"].items():"
+      },
+      {
+        "line": 221,
+        "text": "    print(\"generated_edge_set_sha256=\" + cert[\"hashes\"][\"generated_edge_set_sha256\"])"
+      },
+      {
+        "line": 222,
+        "text": "    print(\"recorded_edge_set_sha256=\" + cert[\"hashes\"][\"recorded_edge_set_sha256\"])"
+      }
+    ],
+    "scripts/build_metric_certificate.py": [
+      {
+        "line": 2,
+        "text": "import csv"
+      },
+      {
+        "line": 3,
+        "text": "import hashlib"
+      },
+      {
+        "line": 10,
+        "text": "EDGE_FILE = ROOT / \"source/kernel_payload/x_sigma_edges.csv\""
+      },
+      {
+        "line": 12,
+        "text": "OUT_JSON = ROOT / \"artifacts/json/metric_certificate.json\""
+      },
+      {
+        "line": 20,
+        "text": "        return list(csv.DictReader(f))"
+      },
+      {
+        "line": 35,
+        "text": "        a_slot, a_local, b_slot, b_local = xs[:4]"
+      },
+      {
+        "line": 36,
+        "text": "        if 0 <= a_slot < 15 and 0 <= b_slot < 15 and 0 <= a_local < 60 and 0 <= b_local < 60:"
+      },
+      {
+        "line": 37,
+        "text": "            a = a_slot * 60 + a_local"
+      },
+      {
+        "line": 38,
+        "text": "            b = b_slot * 60 + b_local"
+      },
+      {
+        "line": 50,
+        "text": "    return hashlib.sha256(text.encode(\"utf-8\")).hexdigest()"
+      },
+      {
+        "line": 85,
+        "text": "    distance_distribution = Counter()"
+      },
+      {
+        "line": 121,
+        "text": "            distance_distribution[dist[t]] += 1"
+      },
+      {
+        "line": 127,
+        "text": "    distance_distribution_json = {"
+      },
+      {
+        "line": 128,
+        "text": "        str(k): distance_distribution[k]"
+      },
+      {
+        "line": 129,
+        "text": "        for k in sorted(distance_distribution)"
+      },
+      {
+        "line": 145,
+        "text": "        \"distance_distribution_pair_count_ok\": sum(distance_distribution.values()) == (N * (N - 1)) // 2"
+      },
+      {
+        "line": 151,
+        "text": "        \"certificate\": \"diameter_radius_metric_certificate\","
+      },
+      {
+        "line": 154,
+        "text": "        \"method\": \"All-source BFS over source/kernel_payload/x_sigma_edges.csv\","
+      },
+      {
+        "line": 155,
+        "text": "        \"source_edge_file\": str(EDGE_FILE.relative_to(ROOT)),"
+      },
+      {
+        "line": 167,
+        "text": "        \"distance_distribution\": distance_distribution_json,"
+      },
+      {
+        "line": 169,
+        "text": "        \"hashes\": {"
+      },
+      {
+        "line": 175,
+        "text": "                \"slot\": v // 60,"
+      },
+      {
+        "line": 176,
+        "text": "                \"local\": v % 60,"
+      },
+      {
+        "line": 196,
+        "text": "    lines.append(\"- method: all-source BFS over source/kernel_payload/x_sigma_edges.csv\")"
+      },
+      {
+        "line": 216,
+        "text": "    for k, v in distance_distribution_json.items():"
+      },
+      {
+        "line": 224,
+        "text": "    lines.append(\"## Hashes\")"
+      },
+      {
+        "line": 226,
+        "text": "    lines.append(\"- source_edge_id_set_sha256: \" + cert[\"hashes\"][\"source_edge_id_set_sha256\"])"
+      },
+      {
+        "line": 236,
+        "text": "    print(\"metric_certificate_ok=\" + str(verification_ok))"
+      },
+      {
+        "line": 245,
+        "text": "    print(\"distance_distribution=\" + json.dumps(distance_distribution_json, sort_keys=True))"
+      }
+    ]
+  },
+  "source_project": "/data/data/com.termux/files/home/dev/cori/research/thalean-graph-theory/18-g900-kernel-admission"
+}

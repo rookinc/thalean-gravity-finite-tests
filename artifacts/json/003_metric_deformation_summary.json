@@ -1,0 +1,635 @@
+{
+  "baseline_metric": {
+    "center_count": 900,
+    "diameter": 9,
+    "distance_distribution": {
+      "1": 3600,
+      "2": 14400,
+      "3": 36900,
+      "4": 72000,
+      "5": 110700,
+      "6": 112050,
+      "7": 45000,
+      "8": 9000,
+      "9": 900
+    },
+    "eccentricity_counts": {
+      "9": 900
+    },
+    "radius": 9,
+    "sample_centers": [
+      0,
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9,
+      10,
+      11,
+      12,
+      13,
+      14,
+      15,
+      16,
+      17,
+      18,
+      19,
+      20,
+      21,
+      22,
+      23,
+      24,
+      25,
+      26,
+      27,
+      28,
+      29
+    ]
+  },
+  "boundary": {
+    "finite_graph_metric_claim": true,
+    "gr_claim": false,
+    "newtonian_claim": false,
+    "physical_gravity_claim": false
+  },
+  "claim": "finite carrier-induced metric deformation",
+  "deformation": {
+    "by_baseline_distance": {
+      "1": {
+        "0": 2700,
+        "1": 900
+      },
+      "2": {
+        "0": 9540,
+        "1": 4860
+      },
+      "3": {
+        "-2": 210,
+        "-1": 900,
+        "0": 25834,
+        "1": 9956
+      },
+      "4": {
+        "-3": 300,
+        "-2": 2252,
+        "-1": 7536,
+        "0": 53238,
+        "1": 8674
+      },
+      "5": {
+        "-4": 360,
+        "-3": 2600,
+        "-2": 12590,
+        "-1": 27656,
+        "0": 65304,
+        "1": 2190
+      },
+      "6": {
+        "-4": 1452,
+        "-3": 6663,
+        "-2": 29841,
+        "-1": 45030,
+        "0": 29008,
+        "1": 56
+      },
+      "7": {
+        "-6": 30,
+        "-4": 2318,
+        "-3": 7392,
+        "-2": 20294,
+        "-1": 12680,
+        "0": 2286
+      },
+      "8": {
+        "-6": 56,
+        "-5": 112,
+        "-4": 1732,
+        "-3": 3000,
+        "-2": 3382,
+        "-1": 698,
+        "0": 20
+      },
+      "9": {
+        "-6": 28,
+        "-5": 62,
+        "-4": 410,
+        "-3": 340,
+        "-2": 60
+      }
+    },
+    "compressed_pair_count": 189984,
+    "delta_counts": {
+      "-6": 114,
+      "-5": 174,
+      "-4": 6272,
+      "-3": 20295,
+      "-2": 68629,
+      "-1": 94500,
+      "0": 187930,
+      "1": 26636
+    },
+    "expanded_pair_count": 26636,
+    "max_delta": 1,
+    "mean_delta": -0.7233938944506242,
+    "min_delta": -6,
+    "pair_count": 404550,
+    "top_compressed_pairs": [
+      {
+        "baseline_d": 7,
+        "delta": -6,
+        "signed_d": 1,
+        "u": 5,
+        "v": 95
+      },
+      {
+        "baseline_d": 8,
+        "delta": -6,
+        "signed_d": 2,
+        "u": 5,
+        "v": 215
+      },
+      {
+        "baseline_d": 7,
+        "delta": -6,
+        "signed_d": 1,
+        "u": 5,
+        "v": 275
+      },
+      {
+        "baseline_d": 7,
+        "delta": -6,
+        "signed_d": 1,
+        "u": 5,
+        "v": 335
+      },
+      {
+        "baseline_d": 7,
+        "delta": -6,
+        "signed_d": 1,
+        "u": 5,
+        "v": 395
+      },
+      {
+        "baseline_d": 9,
+        "delta": -6,
+        "signed_d": 3,
+        "u": 5,
+        "v": 515
+      },
+      {
+        "baseline_d": 8,
+        "delta": -6,
+        "signed_d": 2,
+        "u": 5,
+        "v": 575
+      },
+      {
+        "baseline_d": 9,
+        "delta": -6,
+        "signed_d": 3,
+        "u": 5,
+        "v": 695
+      },
+      {
+        "baseline_d": 8,
+        "delta": -6,
+        "signed_d": 2,
+        "u": 5,
+        "v": 755
+      },
+      {
+        "baseline_d": 8,
+        "delta": -6,
+        "signed_d": 2,
+        "u": 5,
+        "v": 815
+      },
+      {
+        "baseline_d": 7,
+        "delta": -6,
+        "signed_d": 1,
+        "u": 35,
+        "v": 65
+      },
+      {
+        "baseline_d": 8,
+        "delta": -6,
+        "signed_d": 2,
+        "u": 35,
+        "v": 185
+      },
+      {
+        "baseline_d": 7,
+        "delta": -6,
+        "signed_d": 1,
+        "u": 35,
+        "v": 245
+      },
+      {
+        "baseline_d": 7,
+        "delta": -6,
+        "signed_d": 1,
+        "u": 35,
+        "v": 305
+      },
+      {
+        "baseline_d": 7,
+        "delta": -6,
+        "signed_d": 1,
+        "u": 35,
+        "v": 365
+      },
+      {
+        "baseline_d": 9,
+        "delta": -6,
+        "signed_d": 3,
+        "u": 35,
+        "v": 485
+      },
+      {
+        "baseline_d": 8,
+        "delta": -6,
+        "signed_d": 2,
+        "u": 35,
+        "v": 545
+      },
+      {
+        "baseline_d": 9,
+        "delta": -6,
+        "signed_d": 3,
+        "u": 35,
+        "v": 665
+      },
+      {
+        "baseline_d": 8,
+        "delta": -6,
+        "signed_d": 2,
+        "u": 35,
+        "v": 725
+      },
+      {
+        "baseline_d": 8,
+        "delta": -6,
+        "signed_d": 2,
+        "u": 35,
+        "v": 785
+      },
+      {
+        "baseline_d": 7,
+        "delta": -6,
+        "signed_d": 1,
+        "u": 65,
+        "v": 155
+      },
+      {
+        "baseline_d": 7,
+        "delta": -6,
+        "signed_d": 1,
+        "u": 65,
+        "v": 395
+      },
+      {
+        "baseline_d": 7,
+        "delta": -6,
+        "signed_d": 1,
+        "u": 65,
+        "v": 455
+      },
+      {
+        "baseline_d": 9,
+        "delta": -6,
+        "signed_d": 3,
+        "u": 65,
+        "v": 575
+      },
+      {
+        "baseline_d": 8,
+        "delta": -6,
+        "signed_d": 2,
+        "u": 65,
+        "v": 635
+      },
+      {
+        "baseline_d": 8,
+        "delta": -6,
+        "signed_d": 2,
+        "u": 65,
+        "v": 695
+      },
+      {
+        "baseline_d": 8,
+        "delta": -6,
+        "signed_d": 2,
+        "u": 65,
+        "v": 755
+      },
+      {
+        "baseline_d": 8,
+        "delta": -6,
+        "signed_d": 2,
+        "u": 65,
+        "v": 815
+      },
+      {
+        "baseline_d": 9,
+        "delta": -6,
+        "signed_d": 3,
+        "u": 65,
+        "v": 875
+      },
+      {
+        "baseline_d": 7,
+        "delta": -6,
+        "signed_d": 1,
+        "u": 95,
+        "v": 125
+      }
+    ],
+    "top_expanded_pairs": [
+      {
+        "baseline_d": 2,
+        "delta": 1,
+        "signed_d": 3,
+        "u": 719,
+        "v": 899
+      },
+      {
+        "baseline_d": 4,
+        "delta": 1,
+        "signed_d": 5,
+        "u": 719,
+        "v": 897
+      },
+      {
+        "baseline_d": 4,
+        "delta": 1,
+        "signed_d": 5,
+        "u": 719,
+        "v": 891
+      },
+      {
+        "baseline_d": 4,
+        "delta": 1,
+        "signed_d": 5,
+        "u": 719,
+        "v": 863
+      },
+      {
+        "baseline_d": 3,
+        "delta": 1,
+        "signed_d": 4,
+        "u": 719,
+        "v": 857
+      },
+      {
+        "baseline_d": 3,
+        "delta": 1,
+        "signed_d": 4,
+        "u": 719,
+        "v": 855
+      },
+      {
+        "baseline_d": 3,
+        "delta": 1,
+        "signed_d": 4,
+        "u": 719,
+        "v": 853
+      },
+      {
+        "baseline_d": 4,
+        "delta": 1,
+        "signed_d": 5,
+        "u": 719,
+        "v": 851
+      },
+      {
+        "baseline_d": 5,
+        "delta": 1,
+        "signed_d": 6,
+        "u": 719,
+        "v": 850
+      },
+      {
+        "baseline_d": 3,
+        "delta": 1,
+        "signed_d": 4,
+        "u": 719,
+        "v": 844
+      },
+      {
+        "baseline_d": 2,
+        "delta": 1,
+        "signed_d": 3,
+        "u": 718,
+        "v": 898
+      },
+      {
+        "baseline_d": 4,
+        "delta": 1,
+        "signed_d": 5,
+        "u": 718,
+        "v": 896
+      },
+      {
+        "baseline_d": 4,
+        "delta": 1,
+        "signed_d": 5,
+        "u": 718,
+        "v": 895
+      },
+      {
+        "baseline_d": 3,
+        "delta": 1,
+        "signed_d": 4,
+        "u": 718,
+        "v": 892
+      },
+      {
+        "baseline_d": 4,
+        "delta": 1,
+        "signed_d": 5,
+        "u": 718,
+        "v": 890
+      },
+      {
+        "baseline_d": 4,
+        "delta": 1,
+        "signed_d": 5,
+        "u": 718,
+        "v": 864
+      },
+      {
+        "baseline_d": 3,
+        "delta": 1,
+        "signed_d": 4,
+        "u": 718,
+        "v": 856
+      },
+      {
+        "baseline_d": 3,
+        "delta": 1,
+        "signed_d": 4,
+        "u": 718,
+        "v": 854
+      },
+      {
+        "baseline_d": 3,
+        "delta": 1,
+        "signed_d": 4,
+        "u": 718,
+        "v": 852
+      },
+      {
+        "baseline_d": 4,
+        "delta": 1,
+        "signed_d": 5,
+        "u": 718,
+        "v": 845
+      },
+      {
+        "baseline_d": 4,
+        "delta": 1,
+        "signed_d": 5,
+        "u": 718,
+        "v": 840
+      },
+      {
+        "baseline_d": 4,
+        "delta": 1,
+        "signed_d": 5,
+        "u": 717,
+        "v": 899
+      },
+      {
+        "baseline_d": 2,
+        "delta": 1,
+        "signed_d": 3,
+        "u": 717,
+        "v": 897
+      },
+      {
+        "baseline_d": 4,
+        "delta": 1,
+        "signed_d": 5,
+        "u": 717,
+        "v": 895
+      },
+      {
+        "baseline_d": 3,
+        "delta": 1,
+        "signed_d": 4,
+        "u": 717,
+        "v": 893
+      },
+      {
+        "baseline_d": 3,
+        "delta": 1,
+        "signed_d": 4,
+        "u": 717,
+        "v": 891
+      },
+      {
+        "baseline_d": 5,
+        "delta": 1,
+        "signed_d": 6,
+        "u": 717,
+        "v": 890
+      },
+      {
+        "baseline_d": 3,
+        "delta": 1,
+        "signed_d": 4,
+        "u": 717,
+        "v": 889
+      },
+      {
+        "baseline_d": 4,
+        "delta": 1,
+        "signed_d": 5,
+        "u": 717,
+        "v": 881
+      },
+      {
+        "baseline_d": 5,
+        "delta": 1,
+        "signed_d": 6,
+        "u": 717,
+        "v": 855
+      }
+    ],
+    "unchanged_pair_count": 187930
+  },
+  "edge_checks": {
+    "baseline_degree_counts": {
+      "8": 900
+    },
+    "baseline_edges": 3600,
+    "generated_matches_source": true,
+    "generated_signed_edges": 3600,
+    "signed_degree_counts": {
+      "8": 900
+    },
+    "signed_only_edge_count": 0,
+    "source_only_edge_count": 0,
+    "source_parse_mode": "numeric_pair:u_vertex,v_vertex",
+    "source_signed_edges": 3600
+  },
+  "project": "19-thalean-gravity-finite-tests",
+  "signed_metric": {
+    "center_count": 342,
+    "diameter": 8,
+    "distance_distribution": {
+      "1": 3600,
+      "2": 17700,
+      "3": 59941,
+      "4": 129877,
+      "5": 142712,
+      "6": 47600,
+      "7": 3100,
+      "8": 20
+    },
+    "eccentricity_counts": {
+      "6": 342,
+      "7": 526,
+      "8": 32
+    },
+    "radius": 6,
+    "sample_centers": [
+      1,
+      2,
+      3,
+      5,
+      6,
+      7,
+      8,
+      9,
+      10,
+      14,
+      15,
+      16,
+      20,
+      25,
+      29,
+      30,
+      31,
+      32,
+      33,
+      35,
+      36,
+      37,
+      38,
+      39,
+      40,
+      41,
+      42,
+      43,
+      44,
+      45
+    ]
+  },
+  "source": "/data/data/com.termux/files/home/dev/cori/research/thalean-graph-theory/18-g900-kernel-admission/source/kernel_payload"
+}

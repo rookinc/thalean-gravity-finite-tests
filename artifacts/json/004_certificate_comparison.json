@@ -1,0 +1,125 @@
+{
+  "baseline_all_match": true,
+  "baseline_certificate": "/data/data/com.termux/files/home/dev/cori/research/thalean-graph-theory/18-g900-kernel-admission/artifacts/json/baseline_separation_certificate.json",
+  "baseline_comparison": [
+    {
+      "certificate": 900,
+      "field": "center_count",
+      "match": true,
+      "ours": 900
+    },
+    {
+      "certificate": 9,
+      "field": "diameter",
+      "match": true,
+      "ours": 9
+    },
+    {
+      "certificate": {
+        "1": 3600,
+        "2": 14400,
+        "3": 36900,
+        "4": 72000,
+        "5": 110700,
+        "6": 112050,
+        "7": 45000,
+        "8": 9000,
+        "9": 900
+      },
+      "field": "distance_distribution",
+      "match": true,
+      "ours": {
+        "1": 3600,
+        "2": 14400,
+        "3": 36900,
+        "4": 72000,
+        "5": 110700,
+        "6": 112050,
+        "7": 45000,
+        "8": 9000,
+        "9": 900
+      }
+    },
+    {
+      "certificate": {
+        "9": 900
+      },
+      "field": "eccentricity_counts",
+      "match": true,
+      "ours": {
+        "9": 900
+      }
+    },
+    {
+      "certificate": 9,
+      "field": "radius",
+      "match": true,
+      "ours": 9
+    }
+  ],
+  "interpretation": {
+    "headline_baseline_diameter_radius_match": true,
+    "headline_signed_diameter_radius_match": true
+  },
+  "metric_certificate": "/data/data/com.termux/files/home/dev/cori/research/thalean-graph-theory/18-g900-kernel-admission/artifacts/json/metric_certificate.json",
+  "ours_file": "/data/data/com.termux/files/home/dev/cori/research/thalean-graph-theory/19-thalean-gravity-finite-tests/artifacts/json/003_metric_deformation_summary.json",
+  "signed_all_match": false,
+  "signed_comparison": [
+    {
+      "certificate": 349,
+      "field": "center_count",
+      "match": false,
+      "ours": 342
+    },
+    {
+      "certificate": 8,
+      "field": "diameter",
+      "match": true,
+      "ours": 8
+    },
+    {
+      "certificate": {
+        "1": 3600,
+        "2": 17710,
+        "3": 60345,
+        "4": 131446,
+        "5": 143177,
+        "6": 45600,
+        "7": 2667,
+        "8": 5
+      },
+      "field": "distance_distribution",
+      "match": false,
+      "ours": {
+        "1": 3600,
+        "2": 17700,
+        "3": 59941,
+        "4": 129877,
+        "5": 142712,
+        "6": 47600,
+        "7": 3100,
+        "8": 20
+      }
+    },
+    {
+      "certificate": {
+        "6": 349,
+        "7": 541,
+        "8": 10
+      },
+      "field": "eccentricity_counts",
+      "match": false,
+      "ours": {
+        "6": 342,
+        "7": 526,
+        "8": 32
+      }
+    },
+    {
+      "certificate": 6,
+      "field": "radius",
+      "match": true,
+      "ours": 6
+    }
+  ]
+}
