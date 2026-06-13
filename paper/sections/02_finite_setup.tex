@@ -9,6 +9,8 @@ Let the carrier system have 15 slots and 60 local states per slot. Vertices are 
 
 The graph \(X_\sigma\) is the signed carrier graph. The baseline \(X_0\) is the corresponding untwisted graph with the same local fibers and the same slot adjacency, but without signed half-turn transport.
 
+The carrier-slot graph is the 15-slot graph supplied by the repaired payload. A carrier triangle is a length-three cycle in this slot graph: three distinct slots \(s,t,u\) for which the carrier edges \((s,t)\), \((t,u)\), and \((u,s)\) are present.
+
 A carrier edge between slots \(s\) and \(t\) has sign \(\sigma(s,t)\in\{0,1\}\). If \(\sigma(s,t)=0\), the carrier transport preserves the local coordinate. If \(\sigma(s,t)=1\), it applies the half-turn
 \[
     x \mapsto x+30 \pmod{60}.
@@ -18,3 +20,5 @@ All claims below are computed from the repaired Project 18 payload tagged
 \[
     \texttt{g900-kernel-admission-metric-repair-v1.0.1}.
 \]
+
+Here ``repaired'' refers to an upstream correction in the metric-certificate parsing path. It does not mean that the compression result was modified after the census; the Project 19 census and verifier are computed from the tagged repaired payload named above.
