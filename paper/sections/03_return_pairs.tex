@@ -1,0 +1,26 @@
+\section{Half-flip return pairs}
+
+\begin{definition}[Half-flip return pair]
+For each slot \(s\) and local coordinate \(x\), the corresponding half-flip return pair is
+\[
+    (s,x) \longrightarrow (s,x+30).
+\]
+There are \(15\cdot 60=900\) such test pairs.
+\end{definition}
+
+For each return pair, define
+\[
+    \Delta(s,x)
+    =
+    d_{X_\sigma}((s,x),(s,x+30))
+    -
+    d_{X_0}((s,x),(s,x+30)).
+\]
+
+Negative \(\Delta\) means the signed carrier graph shortens the return pair relative to the untwisted baseline.
+
+In the repaired graph, the observed distribution is
+\[
+    \{-3:22,\,-1:272,\,0:606\}.
+\]
+Thus 294 return pairs are compressed, 606 are unchanged, and none are expanded.

@@ -1,0 +1,31 @@
+\section{Ablation and controls}
+
+A five-edge carrier-sign toggle set was found that neutralizes all odd carrier triangles:
+\[
+    [0,1],\ [0,4],\ [1,2],\ [2,3],\ [5,10].
+\]
+
+In the original graph, the return-pair profile is
+\[
+    \{-3:22,\,-1:272,\,0:606\},
+\]
+with 294 compressed pairs and mean delta
+\[
+    -0.37555555555555553.
+\]
+
+After neutralizing all odd carrier triangles, the profile becomes
+\[
+    \{-2:22,\,-1:8,\,0:870\},
+\]
+with 30 compressed pairs and mean delta
+\[
+    -0.057777777777777775.
+\]
+
+A same-size toggle control showed that this collapse is not generic five-edge sign damage. Among all five-edge toggle sets, only 243 of 142506 erase all odd carrier triangles, a fraction of approximately
+\[
+    0.0017051913603637742.
+\]
+
+A full metric sweep over all 243 zero-odd toggle sets showed that every zero-odd member is weaker than the original.

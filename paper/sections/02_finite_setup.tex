@@ -1,0 +1,20 @@
+\section{Finite setup}
+
+Let the carrier system have 15 slots and 60 local states per slot. Vertices are written as
+\[
+    (s,x),
+    \qquad
+    s\in\{0,\dots,14\},\quad x\in\mathbb{Z}/60\mathbb{Z}.
+\]
+
+The graph \(X_\sigma\) is the signed carrier graph. The baseline \(X_0\) is the corresponding untwisted graph with the same local fibers and the same slot adjacency, but without signed half-turn transport.
+
+A carrier edge between slots \(s\) and \(t\) has sign \(\sigma(s,t)\in\{0,1\}\). If \(\sigma(s,t)=0\), the carrier transport preserves the local coordinate. If \(\sigma(s,t)=1\), it applies the half-turn
+\[
+    x \mapsto x+30 \pmod{60}.
+\]
+
+All claims below are computed from the repaired Project 18 payload tagged
+\[
+    \texttt{g900-kernel-admission-metric-repair-v1.0.1}.
+\]

@@ -1,0 +1,25 @@
+\section{Reproducibility and certificates}
+
+The census was computed from the repaired Project 18 payload tagged
+\[
+    \texttt{g900-kernel-admission-metric-repair-v1.0.1}.
+\]
+
+The Project 19 audit script
+\[
+    \texttt{scripts/017\_full\_same\_size\_metric\_sweep.py}
+\]
+enumerates all \(\binom{30}{5}=142506\) same-size carrier-sign toggles and emits JSON, Markdown, and CSV artifacts.
+
+The primary certificate artifacts are:
+\[
+\begin{array}{l}
+\texttt{artifacts/json/017\_full\_same\_size\_metric\_sweep.json},\\
+\texttt{artifacts/md/017\_full\_same\_size\_metric\_sweep.md},\\
+\texttt{artifacts/csv/017\_full\_same\_size\_metric\_sweep.csv}.
+\end{array}
+\]
+
+Earlier supporting audits are preserved as numbered scripts and artifacts \(010\) through \(016\). These include the holonomy return compression audit, odd triangle localization audit, ablation audit, same-size toggle controls, zero-odd metric sweep, and balanced odd-triangle-count gradient audit.
+
+The result should therefore be read as a finite computational theorem with an explicit input payload, explicit enumeration rule, explicit distance rule, and preserved output certificates.

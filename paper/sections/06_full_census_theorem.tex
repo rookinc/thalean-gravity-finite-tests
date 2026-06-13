@@ -1,0 +1,49 @@
+\section{Full same-size census theorem}
+
+\begin{theorem}[Full same-size toggle compression gradient]
+For the repaired \(K900\) carrier graph, among all \(\binom{30}{5}=142506\) five-edge carrier-sign toggles, grouping variants by resulting odd carrier triangle count yields a monotone median half-flip return-compression gradient. The median compressed return-pair count increases
+\[
+    30,\ 174,\ 270,\ 342,\ 390,\ 390
+\]
+for odd carrier triangle counts
+\[
+    0,\ 2,\ 4,\ 6,\ 8,\ 10,
+\]
+respectively. The median mean delta decreases
+\[
+    -0.057777777777777775,\ 
+    -0.23333333333333334,\ 
+    -0.3511111111111111,\ 
+    -0.44,\ 
+    -0.5,\ 
+    -0.5.
+\]
+No same-size variant expands any half-flip return pair relative to the untwisted baseline.
+\end{theorem}
+
+\begin{proof}
+The theorem is established by exhaustive finite enumeration. The audit evaluates every one of the \(\binom{30}{5}=142506\) five-edge carrier-sign toggle sets. For each variant, it computes the resulting odd carrier triangle count, evaluates shortest-path distances for all 900 half-flip return pairs in both the signed variant and the untwisted baseline, and records the resulting delta distribution.
+
+The completed census verifies:
+\[
+\begin{array}{ll}
+\texttt{total\_matches\_expected} & = \texttt{True},\\
+\texttt{zero\_odd\_class\_weaker\_than\_all\_positive\_odd\_medians} & = \texttt{True},\\
+\texttt{compressed\_median\_strictly\_increases\_until\_saturation} & = \texttt{True},\\
+\texttt{mean\_delta\_median\_strictly\_decreases\_until\_saturation} & = \texttt{True},\\
+\texttt{no\_expansion\_in\_any\_same\_size\_variant} & = \texttt{True}.
+\end{array}
+\]
+
+The certificate artifacts are:
+
+\[
+\begin{array}{l}
+\texttt{artifacts/json/017\_full\_same\_size\_metric\_sweep.json},\\
+\texttt{artifacts/md/017\_full\_same\_size\_metric\_sweep.md},\\
+\texttt{artifacts/csv/017\_full\_same\_size\_metric\_sweep.csv}.
+\end{array}
+\]
+
+Since the search space is finite and fully enumerated, the stated result follows from the recorded computational certificate.
+\end{proof}
