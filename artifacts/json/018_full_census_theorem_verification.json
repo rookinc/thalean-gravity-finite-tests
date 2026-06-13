@@ -1,0 +1,95 @@
+{
+  "artifact": "018_full_census_theorem_verification",
+  "checks": {
+    "class_counts_match_expected": true,
+    "compressed_median_strictly_increases_until_saturation": true,
+    "csv_total_matches_expected": true,
+    "mean_delta_median_strictly_decreases_until_saturation": true,
+    "median_compressed_counts_match_theorem": true,
+    "median_mean_deltas_match_theorem": true,
+    "no_expansion_in_any_same_size_variant": true,
+    "no_unexpected_odd_triangle_classes": true,
+    "source_017_json_checks_all_true": true,
+    "source_017_json_checks_found": true,
+    "zero_odd_class_weaker_than_all_positive_odd_medians": true
+  },
+  "class_stats": {
+    "0": {
+      "count": 243,
+      "max_expanded_count": 0,
+      "median_compressed_count": 30,
+      "median_mean_actual_delta": -0.057777777777777775,
+      "min_expanded_count": 0
+    },
+    "10": {
+      "count": 243,
+      "max_expanded_count": 0,
+      "median_compressed_count": 390,
+      "median_mean_actual_delta": -0.5,
+      "min_expanded_count": 0
+    },
+    "2": {
+      "count": 12015,
+      "max_expanded_count": 0,
+      "median_compressed_count": 174,
+      "median_mean_actual_delta": -0.23333333333333334,
+      "min_expanded_count": 0
+    },
+    "4": {
+      "count": 58995,
+      "max_expanded_count": 0,
+      "median_compressed_count": 270,
+      "median_mean_actual_delta": -0.3511111111111111,
+      "min_expanded_count": 0
+    },
+    "6": {
+      "count": 58995,
+      "max_expanded_count": 0,
+      "median_compressed_count": 342,
+      "median_mean_actual_delta": -0.44,
+      "min_expanded_count": 0
+    },
+    "8": {
+      "count": 12015,
+      "max_expanded_count": 0,
+      "median_compressed_count": 390,
+      "median_mean_actual_delta": -0.5,
+      "min_expanded_count": 0
+    }
+  },
+  "expected_class_counts": {
+    "0": 243,
+    "2": 12015,
+    "4": 58995,
+    "6": 58995,
+    "8": 12015,
+    "10": 243
+  },
+  "expected_total": 142506,
+  "input_artifacts": {
+    "csv": "artifacts/csv/017_full_same_size_metric_sweep.csv",
+    "json": "artifacts/json/017_full_same_size_metric_sweep.json",
+    "md": "artifacts/md/017_full_same_size_metric_sweep.md",
+    "script": "scripts/017_full_same_size_metric_sweep.py"
+  },
+  "observed_class_counts": {
+    "0": 243,
+    "2": 12015,
+    "4": 58995,
+    "6": 58995,
+    "8": 12015,
+    "10": 243
+  },
+  "observed_total": 142506,
+  "sha256": {
+    "18-g900-kernel-admission/source/kernel_payload/carrier_signing_table.csv": "9b3cf812cc0f6d7b065666c81fa6d16fd3e3b8a98955c264709337c7f3e7efb7",
+    "18-g900-kernel-admission/source/kernel_payload/g15_slot_edges.csv": "7b94834d507cf2995ec6faf73e2e227a685d831894aa98f2647556d8b922b8f6",
+    "18-g900-kernel-admission/source/kernel_payload/g60_local_edges.csv": "c700a185fab6a5f434da09b7acb716b96c76170774bee946af8ea907e4fe7f9f",
+    "18-g900-kernel-admission/source/kernel_payload/x_sigma_edges.csv": "ea2679662f4322a9ea021fba1143c804ef73b1fae95f50c77ba76b7fe1092230",
+    "19-thalean-gravity-finite-tests/artifacts/csv/017_full_same_size_metric_sweep.csv": "408a56f2a14f7f06eba5a1f89487066aa19f50e4cc6a4772ca32d2c2acf3b9a7",
+    "19-thalean-gravity-finite-tests/artifacts/json/017_full_same_size_metric_sweep.json": "4d525a12c991480067858fe90016d0abd655ff1c8060cbe1f193e9a6dc78e155",
+    "19-thalean-gravity-finite-tests/artifacts/md/017_full_same_size_metric_sweep.md": "c170097980884d407e6dd70bef93bdaedd394694537901cac4ad8f8849c0306f",
+    "19-thalean-gravity-finite-tests/scripts/017_full_same_size_metric_sweep.py": "b4a957be8efbb91872aa6b9b0aaee7704d0e1e796a01f0251eb1eac8085a7191"
+  },
+  "verdict_ok": true
+}
