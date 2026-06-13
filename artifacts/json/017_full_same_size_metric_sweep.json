@@ -1,0 +1,273 @@
+{
+  "boundary": {
+    "finite_metric_census_claim": true,
+    "metric_compression_claim": true,
+    "physical_gravity_claim": false
+  },
+  "by_odd_triangle_count": {
+    "0": {
+      "compressed_count": {
+        "count": 243,
+        "max": 30,
+        "mean": 29.62962962962963,
+        "median": 30,
+        "min": 22
+      },
+      "count": 243,
+      "distinct_delta_patterns": 3,
+      "expanded_count": {
+        "count": 243,
+        "max": 0,
+        "mean": 0.0,
+        "median": 0,
+        "min": 0
+      },
+      "mean_actual_delta": {
+        "count": 243,
+        "max": -0.04888888888888889,
+        "mean": -0.05736625514403292,
+        "median": -0.057777777777777775,
+        "min": -0.057777777777777775
+      },
+      "odd_slot_count": {
+        "count": 243,
+        "max": 0,
+        "mean": 0.0,
+        "median": 0,
+        "min": 0
+      }
+    },
+    "10": {
+      "compressed_count": {
+        "count": 243,
+        "max": 390,
+        "mean": 390.0,
+        "median": 390,
+        "min": 390
+      },
+      "count": 243,
+      "distinct_delta_patterns": 1,
+      "expanded_count": {
+        "count": 243,
+        "max": 0,
+        "mean": 0.0,
+        "median": 0,
+        "min": 0
+      },
+      "mean_actual_delta": {
+        "count": 243,
+        "max": -0.5,
+        "mean": -0.5,
+        "median": -0.5,
+        "min": -0.5
+      },
+      "odd_slot_count": {
+        "count": 243,
+        "max": 15,
+        "mean": 15.0,
+        "median": 15,
+        "min": 15
+      }
+    },
+    "2": {
+      "compressed_count": {
+        "count": 12015,
+        "max": 174,
+        "mean": 165.77611319184354,
+        "median": 174,
+        "min": 146
+      },
+      "count": 12015,
+      "distinct_delta_patterns": 25,
+      "expanded_count": {
+        "count": 12015,
+        "max": 0,
+        "mean": 0.0,
+        "median": 0,
+        "min": 0
+      },
+      "mean_actual_delta": {
+        "count": 12015,
+        "max": -0.19333333333333333,
+        "mean": -0.22414574374624313,
+        "median": -0.23333333333333334,
+        "min": -0.23777777777777778
+      },
+      "odd_slot_count": {
+        "count": 12015,
+        "max": 6,
+        "mean": 5.6606741573033705,
+        "median": 6,
+        "min": 5
+      }
+    },
+    "4": {
+      "compressed_count": {
+        "count": 58995,
+        "max": 318,
+        "mean": 269.4908043054496,
+        "median": 270,
+        "min": 246
+      },
+      "count": 58995,
+      "distinct_delta_patterns": 24,
+      "expanded_count": {
+        "count": 58995,
+        "max": 0,
+        "mean": 0.0,
+        "median": 0,
+        "min": 0
+      },
+      "mean_actual_delta": {
+        "count": 58995,
+        "max": -0.31333333333333335,
+        "mean": -0.3514046199772109,
+        "median": -0.3511111111111111,
+        "min": -0.41333333333333333
+      },
+      "odd_slot_count": {
+        "count": 58995,
+        "max": 12,
+        "mean": 9.978947368421053,
+        "median": 10,
+        "min": 9
+      }
+    },
+    "6": {
+      "compressed_count": {
+        "count": 58995,
+        "max": 390,
+        "mean": 341.4947368421053,
+        "median": 342,
+        "min": 318
+      },
+      "count": 58995,
+      "distinct_delta_patterns": 10,
+      "expanded_count": {
+        "count": 58995,
+        "max": 0,
+        "mean": 0.0,
+        "median": 0,
+        "min": 0
+      },
+      "mean_actual_delta": {
+        "count": 58995,
+        "max": -0.4066666666666667,
+        "mean": -0.4399915247054835,
+        "median": -0.44,
+        "min": -0.5
+      },
+      "odd_slot_count": {
+        "count": 58995,
+        "max": 15,
+        "mean": 12.978947368421053,
+        "median": 13,
+        "min": 12
+      }
+    },
+    "8": {
+      "compressed_count": {
+        "count": 12015,
+        "max": 390,
+        "mean": 381.8561797752809,
+        "median": 390,
+        "min": 366
+      },
+      "count": 12015,
+      "distinct_delta_patterns": 3,
+      "expanded_count": {
+        "count": 12015,
+        "max": 0,
+        "mean": 0.0,
+        "median": 0,
+        "min": 0
+      },
+      "mean_actual_delta": {
+        "count": 12015,
+        "max": -0.4688888888888889,
+        "mean": -0.48987765293383273,
+        "median": -0.5,
+        "min": -0.5
+      },
+      "odd_slot_count": {
+        "count": 12015,
+        "max": 15,
+        "mean": 14.66067415730337,
+        "median": 15,
+        "min": 14
+      }
+    }
+  },
+  "checks": {
+    "compressed_median_strictly_increases_until_saturation": true,
+    "mean_delta_median_strictly_decreases_until_saturation": true,
+    "no_expansion_in_any_same_size_variant": true,
+    "total_matches_expected": true,
+    "zero_odd_class_weaker_than_all_positive_odd_medians": true
+  },
+  "chunk_size": 40,
+  "claim": "full exhaustive same-size metric sweep grouped by odd carrier triangle count",
+  "class_medians": [
+    [
+      0,
+      -0.057777777777777775,
+      30
+    ],
+    [
+      2,
+      -0.23333333333333334,
+      174
+    ],
+    [
+      4,
+      -0.3511111111111111,
+      270
+    ],
+    [
+      6,
+      -0.44,
+      342
+    ],
+    [
+      8,
+      -0.5,
+      390
+    ],
+    [
+      10,
+      -0.5,
+      390
+    ]
+  ],
+  "original": {
+    "compressed_count": 294,
+    "delta_counts": {
+      "-3": 22,
+      "-1": 272,
+      "0": 606
+    },
+    "expanded_count": 0,
+    "mean_actual_delta": -0.37555555555555553,
+    "odd_triangle_count": 5,
+    "odd_triangle_slots": [
+      0,
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      10,
+      14
+    ],
+    "unchanged_count": 606
+  },
+  "project": "19-thalean-gravity-finite-tests",
+  "runtime_seconds": 205.1774079799652,
+  "source_payload": "/Users/scottcave/dev/cori/research/thalean-graph-theory/18-g900-kernel-admission/source/kernel_payload",
+  "toggle_size": 5,
+  "total_variants": 142506,
+  "workers": 10
+}
