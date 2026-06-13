@@ -6,33 +6,29 @@ The census was computed from the repaired Project 18 payload tagged
 \]
 
 The Project 19 audit script
-\[
-    \texttt{scripts/017\_full\_same\_size\_metric\_sweep.py}
-\]
+\begin{quote}
+\path{scripts/017_full_same_size_metric_sweep.py}
+\end{quote}
 enumerates all \(\binom{30}{5}=142506\) same-size carrier-sign toggles and emits JSON, Markdown, and CSV artifacts.
 
 The primary census artifacts are:
-\[
-\begin{array}{l}
-\texttt{artifacts/json/017\_full\_same\_size\_metric\_sweep.json},\\
-\texttt{artifacts/md/017\_full\_same\_size\_metric\_sweep.md},\\
-\texttt{artifacts/csv/017\_full\_same\_size\_metric\_sweep.csv}.
-\end{array}
-\]
+\begin{quote}
+\path{artifacts/json/017_full_same_size_metric_sweep.json}\\
+\path{artifacts/md/017_full_same_size_metric_sweep.md}\\
+\path{artifacts/csv/017_full_same_size_metric_sweep.csv}
+\end{quote}
 
 The census theorem table is independently checked by
-\[
-    \texttt{scripts/018\_verify\_full\_census\_claims.py}.
-\]
+\begin{quote}
+\path{scripts/018_verify_full_census_claims.py}
+\end{quote}
 This verifier reads the \(017\) CSV and JSON artifacts, recomputes the odd-triangle class counts and medians, checks the no-expansion condition, verifies the monotone compression gradient, and records SHA-256 hashes of the census artifacts and repaired kernel payload.
 
 The primary verification artifacts are:
-\[
-\begin{array}{l}
-\texttt{artifacts/json/018\_full\_census\_theorem\_verification.json},\\
-\texttt{artifacts/md/018\_full\_census\_theorem\_verification.md}.
-\end{array}
-\]
+\begin{quote}
+\path{artifacts/json/018_full_census_theorem_verification.json}\\
+\path{artifacts/md/018_full_census_theorem_verification.md}
+\end{quote}
 
 Earlier supporting audits are preserved as numbered scripts and artifacts \(010\) through \(016\). These include the holonomy return compression audit, odd triangle localization audit, ablation audit, same-size toggle controls, zero-odd metric sweep, and balanced odd-triangle-count gradient audit.
 
